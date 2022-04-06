@@ -1,0 +1,60 @@
+{
+  "name": "flow-native-token-registry",
+  "version": "0.1.0",
+  "description": "Flow native token registry",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlowFans/flow-token-list.git"
+  },
+  "author": "",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/FlowFans/flow-token-list/issues"
+  },
+  "homepage": "https://github.com/FlowFans/flow-token-list#readme",
+  "engines": {
+    "node": ">=10"
+  },
+  "main": "dist/main/index.js",
+  "typings": "dist/main/index.d.ts",
+  "module": "dist/module/index.js",
+  "files": [
+    "dist/main",
+    "dist/module",
+    "!**/*.spec.*",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-functional": "^4.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "npx": "^10.2.2",
+    "prettier": "^2.6.2",
+    "standard-version": "^9.3.2",
+    "ts-node": "^10.7.0",
+    "typedoc": "^0.22.13",
+    "typescript": "^4.6.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "dependencies": {
+    "cross-fetch": "3.0.6"
+  }
+}
