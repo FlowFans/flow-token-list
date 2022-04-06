@@ -2,9 +2,17 @@
 
 The community maintained Flow native token registry.
 
-Following the JSON schema of <https://github.com/Uniswap/token-lists>
+Following the Uniswap Token List specification found here: <https://github.com/Uniswap/token-lists>
 
 ## Contents
+
+todo
+
+## Adding new token
+
+todo
+
+## Modifying existing token
 
 todo
 
