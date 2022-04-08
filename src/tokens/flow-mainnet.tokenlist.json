@@ -57,6 +57,7 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "flow",
         "website": "https://www.onflow.org",
         "twitter": "https://twitter.com/flow_blockchain",
         "discord": "http://discord.gg/flow"
@@ -97,7 +98,8 @@
         "utility-token"
       ],
       "extensions": {
-        "website": "https://blocto.app/"
+        "website": "https://blocto.app/",
+        "coingeckoId": "blocto-token"
       }
     },
     {
@@ -135,6 +137,7 @@
         "utility-token"
       ],
       "extensions": {
+        "coingeckoId": "starly",
         "website": "https://starly.io/"
       }
     },
@@ -197,7 +200,7 @@
       "extensions": {
         "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "assetContract": "https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "coingeckoId": "binance-coin"
+        "coingeckoId": "binancecoin"
       }
     },
     {
@@ -277,7 +280,7 @@
         "wrapped-celer"
       ],
       "extensions": {
-        "coingeckoId": "polygon"
+        "coingeckoId": "matic-network"
       }
     },
     {
