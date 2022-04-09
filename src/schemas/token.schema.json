@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "src/schemas/token.schema.json",
+  "type": "object",
+  "description": "Metadata for a single token in a token list",
+  "additionalProperties": false,
+  "examples": [
+    {
+      "address": "0x1654653399040a61",
+      "contractName": "FlowToken",
+      "path": {
+        "vault": "/storage/flowTokenVault",
+        "balance": "/public/flowTokenBalance",
+        "receiver": "/public/flowTokenReceiver"
+      },
+      "symbol": "FLOW",
+      "name": "Flow",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FLOW/logo.svg",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://www.onflow.org",
+        "twitter": "https://twitter.com/flow_blockchain",
+        "discord": "http://discord.gg/flow"
+      }
+    }
+  ],
+  "definitions": {
+    "TagIdentifier": {
+      "type": "string",
+      "description": "The unique identifier of a tag",
+      "minLength": 1,
+      "maxLength": 20,
+      "pattern": "^[\\-\\w]+$",
+      "examples": ["compound", "stablecoin"]
+    }
+  },
+  "properties": {
+    "address": {
+      "description": "The contract address",
+      "examples": ["0x1654653399040a61"],
+      "pattern": "^0x[0-9a-fA-F]{16}$",
+      "type": "string"
+    },
+    "contractName": {
+      "description": "The name of the token contract",
+      "examples": ["FlowToken"],
+      "minLength": 1,
+      "maxLength": 20,
+      "pattern": "^[a-zA-Z0-9+\\-%/$.]+$",
+      "type": "string"
+    },
+    "path": {
+      "type": "object",
+      "description": "The paths of the vault",
+      "examples": [
+        {
+          "vault": "/storage/flowTokenVault",
+          "balance": "/public/flowTokenBalance",
+          "receiver": "/public/flowTokenReceiver"
+        }
+      ],
+      "required": ["vault", "balance", "receiver"],
+      "properties": {
+        "vault": {
+          "type": "string",
+          "description": "The path of Provider",
+          "pattern": "^/storage/[a-zA-Z0-9+\\-%/$.]+$",
+          "examples": ["/storage/flowTokenVault"]
+        },
+        "balance": {
+          "type": "string",
+          "description": "The path of Balance",
+          "pattern": "^/public/[a-zA-Z0-9+\\-%/$.]+$",
+          "examples": ["/public/flowTokenBalance"]
+        },
+        "receiver": {
+          "type": "string",
+          "description": "The path of Receiver",
+          "pattern": "^/public/[a-zA-Z0-9+\\-%/$.]+$",
+          "examples": ["/public/flowTokenReceiver"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "symbol": {
+      "type": "string",
+      "description": "The symbol for the token; must be alphanumeric",
+      "pattern": "^[a-zA-Z0-9+\\-%/$.]+$",
+      "minLength": 1,
+      "maxLength": 20,
+      "examples": ["FLOW"]
+    },
+    "name": {
+      "type": "string",
+      "description": "The name of the token",
+      "minLength": 1,
+      "maxLength": 40,
+      "pattern": "^[ \\w.'+\\-%/À-ÖØ-öø-ÿ:&\\[\\]\\(\\)]+$",
+      "examples": ["Flow"]
+    },
+    "decimals": {
+      "type": "integer",
+      "description": "The number of decimals for the token balance",
+      "minimum": 0,
+      "maximum": 255,
+      "examples": [8]
+    },
+    "logoURI": {
+      "type": "string",
+      "description": "A URI to the token logo asset; if not set, interface will attempt to find a logo based on the token address; suggest SVG or PNG of size 64x64",
+      "format": "uri",
+      "examples": [
+        "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FLOW/logo.svg"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "An array of tag identifiers associated with the token; tags are defined at the list level",
+      "items": {
+        "$ref": "#/definitions/TagIdentifier"
+      },
+      "maxItems": 10,
+      "examples": ["stablecoin", "compound"]
+    },
+    "extensions": {
+      "type": "object",
+      "properties": {
+        "website": {
+          "type": "string",
+          "format": "uri"
+        },
+        "twitter": {
+          "type": "string",
+          "format": "uri"
+        },
+        "discord": {
+          "type": "string",
+          "format": "uri"
+        },
+        "explorer": {
+          "type": "string",
+          "format": "uri"
+        },
+        "github": {
+          "type": "string",
+          "format": "uri"
+        },
+        "medium": {
+          "type": "string",
+          "format": "uri"
+        },
+        "tgann": {
+          "type": "string",
+          "format": "uri"
+        },
+        "tggroup": {
+          "type": "string",
+          "format": "uri"
+        },
+        "coingeckoId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20,
+          "pattern": "^[\\-\\w]+$"
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  "required": ["address", "contractName", "path", "symbol", "name", "decimals"]
+}
