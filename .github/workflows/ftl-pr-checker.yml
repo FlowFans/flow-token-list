@@ -1,0 +1,39 @@
+name: FTL-PR-CHECKER
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, edited, ready_for_review]
+
+jobs:
+  label:
+    name: Add Label to PR
+    runs-on: ubuntu-latest
+    steps:
+      - uses: LanfordCai/ftl-labeler@v0.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  validate:
+    needs: label
+    name: Validate PR Files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: LanfordCai/ftl-file-checker@v0.0.1
+        with:
+          TOKEN_JSON_SCHEMA_PATH: 'src/schemas/token.schema.json'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  prettier:
+    needs: validate
+    name: Prettier files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.2
+        with:
+          prettier_options: --write **/*.json
+          dry: true
