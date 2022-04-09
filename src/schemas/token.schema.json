@@ -158,6 +158,21 @@
           "type": "string",
           "format": "uri"
         },
+        "address": {
+          "type": "string"
+        },
+        "bridgeContract": {
+          "type": "string"
+        },
+        "assetContract": {
+          "type": "string"
+        },
+        "imageUrl": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
         "coingeckoId": {
           "type": "string",
           "minLength": 1,
