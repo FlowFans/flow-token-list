@@ -20,7 +20,56 @@ testnet:
 
 ## using NPM package (working in progress)
 
-todo
+## Installation
+
+```bash
+npm install flow-native-token-registry
+```
+
+```bash
+yarn add flow-native-token-registry
+```
+
+## Examples
+
+### Query available tokens
+
+```typescript
+import { TokenListProvider } from 'flow-native-token-registry'
+
+new TokenListProvider().resolve().then((tokens) => {
+  const tokenList = tokens.filterByTag('nft').getList();
+  console.log(tokenList);
+});
+```
+
+### Render icon for token in React
+
+```typescript jsx
+import React, { useEffect, useState } from 'react';
+import { TokenListProvider, TokenInfo } from 'flow-native-token-registry';
+
+
+export const Icon = (props: { mint: string }) => {
+  const [tokenMap, setTokenMap] = useState<Map<string, TokenInfo>>(new Map());
+
+  useEffect(() => {
+    new TokenListProvider().resolve().then(tokens => {
+      const tokenList = tokens.getList();
+
+      setTokenMap(tokenList.reduce((map, item) => {
+        map.set(`${item.address}.${item.contractName}`, item);
+        return map;
+      },new Map()));
+    });
+  }, [setTokenMap]);
+
+  const token = tokenMap.get(props.mint);
+  if (!token || !token.logoURI) return null;
+
+  return (<img src={token.logoURI} />);
+
+```
 
 ## Adding new token
 
