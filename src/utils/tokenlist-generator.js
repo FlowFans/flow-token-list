@@ -53,7 +53,37 @@ function generateTokenList(tokenDirs, network) {
   }, baseList);
 
   if (JSON.stringify(newList) == JSON.stringify(originList)) {
+    // No change
     return null;
   }
+
+  const newTokens = newList.tokens.map((token) => {
+    return `${token.address}-${token.contractName}`;
+  });
+  const origTokens = originList.tokens.map((token) => {
+    return `${token.address}-${token.contractName}`;
+  });
+  const newTokensSet = new Set(newTokens);
+  const origTokensSet = new Set(origTokens);
+
+  const newTokenAdded = difference(newTokensSet, origTokensSet).size > 0;
+  const oldTokenDeleted = difference(origTokensSet, newTokensSet).size > 0;
+
+  if (oldTokenDeleted) {
+    newList.version.major = originList.version.major + 1;
+  } else if (newTokenAdded) {
+    newList.version.minor = originList.version.minor + 1;
+  } else {
+    newList.version.patch = originList.version.patch + 1;
+  }
+
   return newList;
+}
+
+function difference(setA, setB) {
+  let _difference = new Set(setA);
+  for (let elem of setB) {
+    _difference.delete(elem);
+  }
+  return _difference;
 }
