@@ -1,0 +1,34 @@
+name: FTL-LIST-GENERATOR
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate:
+    name: Generate Token List
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - run: yarn
+      - run: node src/utils/tokenlist-generator.js
+      - run: yarn prettier --write src/tokens/*.json
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: 'feat(TokenList): auto-generate tokenlist'
+          body: 'auto-generated tokenlist'
+          labels: TokenList
+          branch: 'feature/auto-generate'
+          branch-suffix: timestamp
+          delete-branch: true
+          base: main
