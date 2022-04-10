@@ -1,10 +1,7 @@
 {
   "name": "Flow Token List",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FLOW/logo.png",
-  "keywords": [
-    "flow",
-    "fnt"
-  ],
+  "keywords": ["flow", "fnt"],
   "tags": {
     "stablecoin": {
       "name": "stablecoin",
@@ -40,8 +37,7 @@
     }
   },
   "timestamp": "2021-04-04T12:00:00+0000",
-  "tokens": [
-  ],
+  "tokens": [],
   "version": {
     "major": 0,
     "minor": 1,

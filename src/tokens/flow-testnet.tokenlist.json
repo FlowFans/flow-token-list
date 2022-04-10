@@ -1,10 +1,7 @@
 {
   "name": "Flow Token List",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FLOW/logo.png",
-  "keywords": [
-    "flow",
-    "fnt"
-  ],
+  "keywords": ["flow", "fnt"],
   "tags": {
     "stablecoin": {
       "name": "stablecoin",
@@ -53,9 +50,7 @@
       "name": "Flow",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FLOW/logo.svg",
-      "tags": [
-        "utility-token"
-      ],
+      "tags": ["utility-token"],
       "extensions": {
         "website": "https://www.onflow.org",
         "twitter": "https://twitter.com/flow_blockchain",
@@ -74,9 +69,7 @@
       "name": "Flow USD",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FUSD/logo.svg",
-      "tags": [
-        "stablecoin"
-      ],
+      "tags": ["stablecoin"],
       "extensions": {
         "website": "https://docs.onflow.org/fusd/"
       }
@@ -85,17 +78,15 @@
       "address": "0x6e0797ac987005f5",
       "contractName": "BloctoToken",
       "path": {
-        "vault":"/storage/bloctoTokenVault",
-        "balance":"/public/bloctoTokenBalance",
-        "receiver":"/public/bloctoTokenReceiver"
+        "vault": "/storage/bloctoTokenVault",
+        "balance": "/public/bloctoTokenBalance",
+        "receiver": "/public/bloctoTokenReceiver"
       },
       "symbol": "BLT",
       "name": "Blocto Token",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/BLT/logo.png",
-      "tags": [
-        "utility-token"
-      ],
+      "tags": ["utility-token"],
       "extensions": {
         "website": "https://blocto.app/"
       }
@@ -104,17 +95,15 @@
       "address": "0x40212f3e288efd03",
       "contractName": "MyToken",
       "path": {
-        "vault":"/storage/mytokenVault",
-        "balance":"/public/mytokenBalance",
-        "receiver":"/public/mytokenReceiver"
+        "vault": "/storage/mytokenVault",
+        "balance": "/public/mytokenBalance",
+        "receiver": "/public/mytokenReceiver"
       },
       "symbol": "MY",
       "name": "My Token",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/MY/logo.svg",
-      "tags": [
-        "utility-token"
-      ],
+      "tags": ["utility-token"],
       "extensions": {
         "website": "https://mynft.io/"
       }
@@ -131,9 +120,7 @@
       "name": "Starly Token",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/STARLY/logo.png",
-      "tags": [
-        "utility-token"
-      ],
+      "tags": ["utility-token"],
       "extensions": {
         "website": "https://starly.io/"
       }
@@ -142,17 +129,15 @@
       "address": "0xa983fecbed621163",
       "contractName": "FiatToken",
       "path": {
-        "vault":"/storage/USDCVault",
-        "balance":"/public/USDCVaultBalance",
-        "receiver":"/public/USDCVaultReceiver"
+        "vault": "/storage/USDCVault",
+        "balance": "/public/USDCVaultBalance",
+        "receiver": "/public/USDCVaultReceiver"
       },
       "symbol": "USDC",
       "name": "USD Coin",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/USDC/logo.svg",
-      "tags": [
-        "stablecoin"
-      ],
+      "tags": ["stablecoin"],
       "extensions": {
         "website": "https://www.circle.com/"
       }
