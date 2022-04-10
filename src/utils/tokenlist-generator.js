@@ -15,7 +15,7 @@ if (mainnetTokenList) {
     JSON.stringify(mainnetTokenList, null, 2)
   );
 } else {
-  console.log('[mainnet] no changes');
+  console.log('[mainnet] no change');
 }
 
 const testnetTokenList = generateTokenList(tokenDirs, 'testnet');
@@ -26,7 +26,7 @@ if (testnetTokenList) {
     JSON.stringify(testnetTokenList, null, 2)
   );
 } else {
-  console.log('[testnet] no changes');
+  console.log('[testnet] no change');
 }
 
 function generateTokenList(tokenDirs, network) {
