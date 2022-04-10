@@ -1,10 +1,7 @@
 {
   "name": "Flow Token List",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FLOW/logo.png",
-  "keywords": [
-    "flow",
-    "fnt"
-  ],
+  "keywords": ["flow", "fnt"],
   "tags": {
     "stablecoin": {
       "name": "stablecoin",
@@ -53,9 +50,7 @@
       "name": "Flow",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FLOW/logo.svg",
-      "tags": [
-        "utility-token"
-      ],
+      "tags": ["utility-token"],
       "extensions": {
         "coingeckoId": "flow",
         "website": "https://www.onflow.org",
@@ -75,9 +70,7 @@
       "name": "Flow USD",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FUSD/logo.svg",
-      "tags": [
-        "stablecoin"
-      ],
+      "tags": ["stablecoin"],
       "extensions": {
         "website": "https://docs.onflow.org/fusd/"
       }
@@ -86,17 +79,15 @@
       "address": "0x0f9df91c9121c460",
       "contractName": "BloctoToken",
       "path": {
-        "vault":"/storage/bloctoTokenVault",
-        "balance":"/public/bloctoTokenBalance",
-        "receiver":"/public/bloctoTokenReceiver"
+        "vault": "/storage/bloctoTokenVault",
+        "balance": "/public/bloctoTokenBalance",
+        "receiver": "/public/bloctoTokenReceiver"
       },
       "symbol": "BLT",
       "name": "Blocto Token",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/BLT/logo.png",
-      "tags": [
-        "utility-token"
-      ],
+      "tags": ["utility-token"],
       "extensions": {
         "website": "https://blocto.app/",
         "coingeckoId": "blocto-token"
@@ -106,17 +97,15 @@
       "address": "0x348fe2042c8a70d8",
       "contractName": "MyToken",
       "path": {
-        "vault":"/storage/mytokenVault",
-        "balance":"/public/mytokenBalance",
-        "receiver":"/public/mytokenReceiver"
+        "vault": "/storage/mytokenVault",
+        "balance": "/public/mytokenBalance",
+        "receiver": "/public/mytokenReceiver"
       },
       "symbol": "MY",
       "name": "My Token",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/MY/logo.svg",
-      "tags": [
-        "utility-token"
-      ],
+      "tags": ["utility-token"],
       "extensions": {
         "website": "https://mynft.io/"
       }
@@ -133,9 +122,7 @@
       "name": "Starly Token",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/STARLY/logo.png",
-      "tags": [
-        "utility-token"
-      ],
+      "tags": ["utility-token"],
       "extensions": {
         "coingeckoId": "starly",
         "website": "https://starly.io/"
@@ -145,17 +132,15 @@
       "address": "0xb19436aae4d94622",
       "contractName": "FiatToken",
       "path": {
-        "vault":"/storage/USDCVault",
-        "balance":"/public/USDCVaultBalance",
-        "receiver":"/public/USDCVaultReceiver"
+        "vault": "/storage/USDCVault",
+        "balance": "/public/USDCVaultBalance",
+        "receiver": "/public/USDCVaultReceiver"
       },
       "symbol": "USDC",
       "name": "USD Coin",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/USDC/logo.svg",
-      "tags": [
-        "stablecoin"
-      ],
+      "tags": ["stablecoin"],
       "extensions": {
         "website": "https://www.circle.com/",
         "coingeckoId": "usd-coin"
@@ -165,17 +150,15 @@
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "ceAVAX",
       "path": {
-        "vault":"/storage/ceAVAXVault",
-        "balance":"/public/ceAVAXBalance",
-        "receiver":"/public/ceAVAXReceiver"
+        "vault": "/storage/ceAVAXVault",
+        "balance": "/public/ceAVAXBalance",
+        "receiver": "/public/ceAVAXReceiver"
       },
       "symbol": "AVAX",
       "name": "Avalanche",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/ceAVAX/logo.png",
-      "tags": [
-        "wrapped-celer"
-      ],
+      "tags": ["wrapped-celer"],
       "extensions": {
         "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
         "assetContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
@@ -186,17 +169,15 @@
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "ceBNB",
       "path": {
-        "vault":"/storage/ceBNBVault",
-        "balance":"/public/ceBNBBalance",
-        "receiver":"/public/ceBNBReceiver"
+        "vault": "/storage/ceBNBVault",
+        "balance": "/public/ceBNBBalance",
+        "receiver": "/public/ceBNBReceiver"
       },
       "symbol": "BNB",
       "name": "Binance Coin",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/ceBNB/logo.png",
-      "tags": [
-        "wrapped-celer"
-      ],
+      "tags": ["wrapped-celer"],
       "extensions": {
         "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "assetContract": "https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
@@ -207,17 +188,15 @@
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "ceBUSD",
       "path": {
-        "vault":"/storage/ceBUSDVault",
-        "balance":"/public/ceBUSDBalance",
-        "receiver":"/public/ceBUSDReceiver"
+        "vault": "/storage/ceBUSDVault",
+        "balance": "/public/ceBUSDBalance",
+        "receiver": "/public/ceBUSDReceiver"
       },
       "symbol": "BUSD",
       "name": "Binance USD",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/ceBUSD/logo.png",
-      "tags": [
-        "wrapped-celer"
-      ],
+      "tags": ["wrapped-celer"],
       "extensions": {
         "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
         "assetContract": "https://bscscan.com/address/0xe9e7cea3dedca5984780bafc599bd69add087d56",
@@ -228,17 +207,15 @@
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "ceDAI",
       "path": {
-        "vault":"/storage/ceDAIVault",
-        "balance":"/public/ceDAIBalance",
-        "receiver":"/public/ceDAIReceiver"
+        "vault": "/storage/ceDAIVault",
+        "balance": "/public/ceDAIBalance",
+        "receiver": "/public/ceDAIReceiver"
       },
       "symbol": "DAI",
       "name": "Dai Stablecoin",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/ceDAI/logo.png",
-      "tags": [
-        "wrapped-celer"
-      ],
+      "tags": ["wrapped-celer"],
       "extensions": {
         "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
         "assetContract": "https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f",
@@ -249,17 +226,15 @@
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "ceFTM",
       "path": {
-        "vault":"/storage/ceFTMVault",
-        "balance":"/public/ceFTMBalance",
-        "receiver":"/public/ceFTMReceiver"
+        "vault": "/storage/ceFTMVault",
+        "balance": "/public/ceFTMBalance",
+        "receiver": "/public/ceFTMReceiver"
       },
       "symbol": "FTM",
       "name": "Fantom",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/ceFTM/logo.png",
-      "tags": [
-        "wrapped-celer"
-      ],
+      "tags": ["wrapped-celer"],
       "extensions": {
         "coingeckoId": "fantom"
       }
@@ -268,17 +243,15 @@
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "ceMATIC",
       "path": {
-        "vault":"/storage/ceMATICVault",
-        "balance":"/public/ceMATICBalance",
-        "receiver":"/public/ceMATICReceiver"
+        "vault": "/storage/ceMATICVault",
+        "balance": "/public/ceMATICBalance",
+        "receiver": "/public/ceMATICReceiver"
       },
       "symbol": "MATIC",
       "name": "Matic Token",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/ceMATIC/logo.png",
-      "tags": [
-        "wrapped-celer"
-      ],
+      "tags": ["wrapped-celer"],
       "extensions": {
         "coingeckoId": "matic-network"
       }
@@ -287,17 +260,15 @@
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "ceUSDT",
       "path": {
-        "vault":"/storage/ceUSDTVault",
-        "balance":"/public/ceUSDTBalance",
-        "receiver":"/public/ceUSDTReceiver"
+        "vault": "/storage/ceUSDTVault",
+        "balance": "/public/ceUSDTBalance",
+        "receiver": "/public/ceUSDTReceiver"
       },
       "symbol": "USDT",
       "name": "Tether USD",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/ceUSDT/logo.png",
-      "tags": [
-        "wrapped-celer"
-      ],
+      "tags": ["wrapped-celer"],
       "extensions": {
         "coingeckoId": "tether",
         "website": "https://tether.to/"
@@ -307,17 +278,15 @@
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "ceWBTC",
       "path": {
-        "vault":"/storage/ceWBTCVault",
-        "balance":"/public/ceWBTCBalance",
-        "receiver":"/public/ceWBTCReceiver"
+        "vault": "/storage/ceWBTCVault",
+        "balance": "/public/ceWBTCBalance",
+        "receiver": "/public/ceWBTCReceiver"
       },
       "symbol": "WBTC",
       "name": "Wrapped BTC",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/ceWBTC/logo.png",
-      "tags": [
-        "wrapped-celer"
-      ],
+      "tags": ["wrapped-celer"],
       "extensions": {
         "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
         "assetContract": "https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
@@ -328,17 +297,15 @@
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "ceWETH",
       "path": {
-        "vault":"/storage/ceWETHVault",
-        "balance":"/public/ceWETHBalance",
-        "receiver":"/public/ceWETHReceiver"
+        "vault": "/storage/ceWETHVault",
+        "balance": "/public/ceWETHBalance",
+        "receiver": "/public/ceWETHReceiver"
       },
       "symbol": "WETH",
       "name": "Wrapped Ether",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/ceWETH/logo.png",
-      "tags": [
-        "wrapped-celer"
-      ],
+      "tags": ["wrapped-celer"],
       "extensions": {
         "coingeckoId": "weth"
       }

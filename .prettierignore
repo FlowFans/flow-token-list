@@ -1,2 +1,14 @@
-# package.json is formatted by package managers, so we ignore it here
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+*.html
+
 package.json
+package-lock.json
+yarn.lock
+tsconfig.module.json
+.eslintrc.json
+
+.github
