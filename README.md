@@ -35,7 +35,7 @@ yarn add flow-native-token-registry
 ### Query available tokens
 
 ```typescript
-import { TokenListProvider } from 'flow-native-token-registry'
+import { TokenListProvider } from 'flow-native-token-registry';
 
 new TokenListProvider().resolve().then((tokens) => {
   const tokenList = tokens.filterByTag('nft').getList();
@@ -73,11 +73,56 @@ export const Icon = (props: { mint: string }) => {
 
 ## Adding new token
 
-todo
+To submit a new token:
+
+- Make sure the title of your pull request starts with `feat(NewToken):`
+- Modifications are only allowed within the `token-registry` folder
+- You can only submit one token each time
+- You can only submit the files below:
+
+```
+logo.png (required)
+token.json (required)
+logo-large.png
+logo.svg
+testnet.token.json
+```
+
+- PNG files in your pull request should be smaller than 20KB
+- JSON files in your pull request should conform to the [schema](https://github.com/FlowFans/flow-token-list/blob/596f711e1798e358e118a0f223254b75088bd652/src/schemas/token.schema.json)
+  - `logoURI`
+    - Should be submitted to this repo, so that `logoURI` should point to `https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/${YOU_TOKEN_SYMBOL}/${YOUR_LOGO}`
+  - `tags`
+    - Valid tags are defined [here](https://github.com/FlowFans/flow-token-list/blob/596f711e1798e358e118a0f223254b75088bd652/token-registry/template.tokenlist.json#L5), don't use any other tag
+  - `extensions`
+    - the `extensions` block can contain links to your twitter, discord, etc. A list of allowed extensions is [here](https://github.com/FlowFans/flow-token-list/blob/596f711e1798e358e118a0f223254b75088bd652/src/lib/tokenlist.ts#L30)
+    - `coingeckoId` is the string that appears as 'API id' on the corresponding coingecko page
+- Make sure your JSON files are formatted by using prettier(it should be done automatically if you have installed dependencies of this project)
+- Please squash commits into a single commit for cleanliness
 
 ## Modifying existing token
 
-todo
+To modify an existing token:
+
+- Make sure the title of your pull request starts with `feat(UpdateToken):`
+- Modifications are only allowed within the `token-registry` folder
+- You can only modify one token each time
+- You can only modify the files below:
+
+```
+logo.png
+token.json
+logo-large.png
+logo.svg
+testnet.token.json
+```
+
+- PNG files in your pull request should be smaller than 20KB
+- JSON files in your pull request should conform to the [schema](https://github.com/FlowFans/flow-token-list/blob/596f711e1798e358e118a0f223254b75088bd652/src/schemas/token.schema.json)
+- Make sure your JSON files are formatted by using prettier(it should be done automatically if you have installed dependencies of this project)
+- Please check the 'Files changed' tab on your PR to ensure that your change is as expected
+- Please link the commit or PR where the token was originally added. If the token was added by someone else, they will be asked to confirm that this change is authorized
+- Please squash commits into a single commit for cleanliness
 
 ## Semantic versioning
 
