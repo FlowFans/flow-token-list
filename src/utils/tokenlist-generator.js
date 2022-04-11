@@ -71,8 +71,11 @@ function generateTokenList(tokenDirs, network) {
 
   if (oldTokenDeleted) {
     newList.version.major = originList.version.major + 1;
+    newList.version.minor = 0;
+    newList.version.patch = 0;
   } else if (newTokenAdded) {
     newList.version.minor = originList.version.minor + 1;
+    newList.version.patch = 0;
   } else {
     newList.version.patch = originList.version.patch + 1;
   }

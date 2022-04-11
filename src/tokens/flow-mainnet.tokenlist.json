@@ -36,7 +36,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2022-04-10T16:36:28.221Z",
+  "timestamp": "2022-04-11T03:54:52.117Z",
   "tokens": [
     {
       "address": "0x0f9df91c9121c460",
@@ -108,6 +108,23 @@
       "tags": ["utility-token"],
       "extensions": {
         "website": "https://mynft.io/"
+      }
+    },
+    {
+      "address": "0xd01e482eb680ec9f",
+      "contractName": "REVV",
+      "path": {
+        "vault": "/storage/revvVault",
+        "balance": "/public/revvBalance",
+        "receiver": "/public/revvReceiver"
+      },
+      "symbol": "REVV",
+      "name": "REVV",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/REVV/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://revvmotorsport.com/"
       }
     },
     {
@@ -309,11 +326,28 @@
       "extensions": {
         "coingeckoId": "weth"
       }
+    },
+    {
+      "address": "0xcfdd90d4a00f7b5b",
+      "contractName": "TeleportedTetherToken",
+      "path": {
+        "vault": "/storage/teleportedTetherTokenVault",
+        "balance": "/public/teleportedTetherTokenBalance",
+        "receiver": "/public/teleportedTetherTokenReceiver"
+      },
+      "symbol": "tUSDT",
+      "name": "Teleported Tether Token",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/tUSDT/logo.png",
+      "tags": ["stablecoin"],
+      "extensions": {
+        "website": "https://blocto.app/"
+      }
     }
   ],
   "version": {
     "major": 0,
-    "minor": 2,
-    "patch": 1
+    "minor": 3,
+    "patch": 0
   }
 }
