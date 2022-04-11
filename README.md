@@ -77,8 +77,8 @@ To submit a new token:
 
 - Make sure the title of your pull request starts with `feat(NewToken):`
 - Modifications are only allowed within the `token-registry` folder
-- You can only submit one token each time
-- You can only submit the files below:
+- You can only add one token each time
+- You can only add the files below:
 
 ```
 logo.png (required)
