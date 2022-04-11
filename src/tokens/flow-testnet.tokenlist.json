@@ -36,7 +36,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2021-04-04T12:00:00+0000",
+  "timestamp": "2022-04-11T03:54:52.118Z",
   "tokens": [
     {
       "address": "0x7e60df042a9c0868",
@@ -52,6 +52,7 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FLOW/logo.svg",
       "tags": ["utility-token"],
       "extensions": {
+        "coingeckoId": "flow",
         "website": "https://www.onflow.org",
         "twitter": "https://twitter.com/flow_blockchain",
         "discord": "http://discord.gg/flow"
@@ -73,79 +74,11 @@
       "extensions": {
         "website": "https://docs.onflow.org/fusd/"
       }
-    },
-    {
-      "address": "0x6e0797ac987005f5",
-      "contractName": "BloctoToken",
-      "path": {
-        "vault": "/storage/bloctoTokenVault",
-        "balance": "/public/bloctoTokenBalance",
-        "receiver": "/public/bloctoTokenReceiver"
-      },
-      "symbol": "BLT",
-      "name": "Blocto Token",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/BLT/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://blocto.app/"
-      }
-    },
-    {
-      "address": "0x40212f3e288efd03",
-      "contractName": "MyToken",
-      "path": {
-        "vault": "/storage/mytokenVault",
-        "balance": "/public/mytokenBalance",
-        "receiver": "/public/mytokenReceiver"
-      },
-      "symbol": "MY",
-      "name": "My Token",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/MY/logo.svg",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://mynft.io/"
-      }
-    },
-    {
-      "address": "0xf63219072aaddd50",
-      "contractName": "StarlyToken",
-      "path": {
-        "vault": "/storage/starlyTokenVault",
-        "balance": "/public/starlyTokenBalance",
-        "receiver": "/public/starlyTokenReceiver"
-      },
-      "symbol": "STARLY",
-      "name": "Starly Token",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/STARLY/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://starly.io/"
-      }
-    },
-    {
-      "address": "0xa983fecbed621163",
-      "contractName": "FiatToken",
-      "path": {
-        "vault": "/storage/USDCVault",
-        "balance": "/public/USDCVaultBalance",
-        "receiver": "/public/USDCVaultReceiver"
-      },
-      "symbol": "USDC",
-      "name": "USD Coin",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/USDC/logo.svg",
-      "tags": ["stablecoin"],
-      "extensions": {
-        "website": "https://www.circle.com/"
-      }
     }
   ],
   "version": {
-    "major": 0,
-    "minor": 1,
+    "major": 2,
+    "minor": 0,
     "patch": 0
   }
 }
