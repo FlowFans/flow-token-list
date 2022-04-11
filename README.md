@@ -4,23 +4,21 @@ The community maintained Flow native token registry.
 
 Following the Uniswap Token List specification found here: <https://github.com/Uniswap/token-lists>
 
-## How to use
+## How to fetch Flow native token list
 
-### Fetch Flow native token list from github
+Mainnet:
 
-mainnet:
+- From github: <https://raw.githubusercontent.com/FlowFans/flow-token-list/main/src/tokens/flow-mainnet.tokenlist.json>
+- From jsdelivr CDN: <https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/src/tokens/flow-mainnet.tokenlist.json>
 
-- <https://raw.githubusercontent.com/FlowFans/flow-token-list/main/src/tokens/flow-mainnet.tokenlist.json>
-- <https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/src/tokens/flow-mainnet.tokenlist.json>
+Testnet:
 
-testnet:
+- From github: <https://raw.githubusercontent.com/FlowFans/flow-token-list/main/src/tokens/flow-testnet.tokenlist.json>
+- From jsdelivr CDN: <https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/src/tokens/flow-testnet.tokenlist.json>
 
-- <https://raw.githubusercontent.com/FlowFans/flow-token-list/main/src/tokens/flow-testnet.tokenlist.json>
-- <https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/src/tokens/flow-testnet.tokenlist.json>
+## Using NPM package
 
-## using NPM package (working in progress)
-
-## Installation
+### Installation
 
 ```bash
 npm install flow-native-token-registry
@@ -30,9 +28,9 @@ npm install flow-native-token-registry
 yarn add flow-native-token-registry
 ```
 
-## Examples
+### Examples
 
-### Query available tokens
+#### Query available tokens
 
 ```typescript
 import { TokenListProvider } from 'flow-native-token-registry';
@@ -43,7 +41,7 @@ new TokenListProvider().resolve().then((tokens) => {
 });
 ```
 
-### Render icon for token in React
+#### Render icon for token in React
 
 ```typescript jsx
 import React, { useEffect, useState } from 'react';
