@@ -35,7 +35,7 @@ yarn add flow-native-token-registry
 ### Query available tokens
 
 ```typescript
-import { TokenListProvider } from 'flow-native-token-registry'
+import { TokenListProvider } from 'flow-native-token-registry';
 
 new TokenListProvider().resolve().then((tokens) => {
   const tokenList = tokens.filterByTag('nft').getList();
@@ -50,7 +50,7 @@ import React, { useEffect, useState } from 'react';
 import { TokenListProvider, TokenInfo } from 'flow-native-token-registry';
 
 
-export const Icon = (props: { mint: string }) => {
+export const Icon = () => {
   const [tokenMap, setTokenMap] = useState<Map<string, TokenInfo>>(new Map());
 
   useEffect(() => {
@@ -58,13 +58,13 @@ export const Icon = (props: { mint: string }) => {
       const tokenList = tokens.getList();
 
       setTokenMap(tokenList.reduce((map, item) => {
-        map.set(`${item.address}.${item.contractName}`, item);
+        map.set(`${item.symbol}`, item);
         return map;
-      },new Map()));
+      }, new Map()));
     });
   }, [setTokenMap]);
 
-  const token = tokenMap.get(props.mint);
+  const token = tokenMap.get('FLOW');
   if (!token || !token.logoURI) return null;
 
   return (<img src={token.logoURI} />);
