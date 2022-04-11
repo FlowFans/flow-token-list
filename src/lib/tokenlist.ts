@@ -39,8 +39,6 @@ export interface TokenExtensions {
   readonly tgann?: string;
   readonly tggroup?: string;
   readonly discord?: string;
-  readonly serumV3Usdt?: string;
-  readonly serumV3Usdc?: string;
   readonly coingeckoId?: string;
   readonly imageUrl?: string;
   readonly description?: string;
