@@ -1,3 +1,20 @@
 {
-  "address": "0x7e60df042a9c0868"
+  "address": "0x7e60df042a9c0868",
+  "contractName": "FlowToken",
+  "path": {
+    "vault": "/storage/flowTokenVault",
+    "balance": "/public/flowTokenBalance",
+    "receiver": "/public/flowTokenReceiver"
+  },
+  "symbol": "FLOW",
+  "name": "Flow",
+  "decimals": 8,
+  "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FLOW/logo.svg",
+  "tags": ["utility-token"],
+  "extensions": {
+    "coingeckoId": "flow",
+    "website": "https://www.onflow.org",
+    "twitter": "https://twitter.com/flow_blockchain",
+    "discord": "http://discord.gg/flow"
+  }
 }
