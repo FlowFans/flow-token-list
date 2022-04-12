@@ -92,8 +92,8 @@ testnet.token.json
 - JSON files in your pull request should conform to the [schema](https://github.com/FlowFans/flow-token-list/blob/596f711e1798e358e118a0f223254b75088bd652/src/schemas/token.schema.json)
   - `logoURI`
     - Should be submitted to this repo, so that `logoURI` should point to
-      - jsdelivr CDN: <https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/${YOUR_TOKEN_SYMBOL}/${YOUR_LOGO}> or
-      - github: <https://raw.githubusercontent.com/FlowFans/flow-token-list/main/token-registry/${YOUR_TOKEN_SYMBOL}/${YOUR_LOGO}>
+      - jsdelivr CDN: <https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/${YOUR_DIRECTORY_NAME}/${YOUR_LOGO}> or
+      - github: <https://raw.githubusercontent.com/FlowFans/flow-token-list/main/token-registry/${YOUR_DIRECTORY_NAME}/${YOUR_LOGO}>
   - `tags`
     - Valid tags are defined [here](https://github.com/FlowFans/flow-token-list/blob/596f711e1798e358e118a0f223254b75088bd652/token-registry/template.tokenlist.json#L5), don't use any other tag
   - `extensions`
