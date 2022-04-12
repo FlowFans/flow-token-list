@@ -75,6 +75,8 @@ To submit a new token:
 
 - Make sure the title of your pull request starts with `feat(NewToken):`
 - Modifications are only allowed within the `token-registry` folder
+- Make sure the directory name of your token is in this format: `A.{tokenMainnetAddress}.{tokenContractName}`
+- Make sure your token name is not the same as an exsiting one
 - You can only add one token each time
 - You can only add the files below:
 
