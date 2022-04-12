@@ -36,7 +36,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2022-04-11T03:54:52.117Z",
+  "timestamp": "2022-04-12T03:38:18.953Z",
   "tokens": [
     {
       "address": "0x0f9df91c9121c460",
@@ -54,77 +54,6 @@
       "extensions": {
         "website": "https://blocto.app/",
         "coingeckoId": "blocto-token"
-      }
-    },
-    {
-      "address": "0x1654653399040a61",
-      "contractName": "FlowToken",
-      "path": {
-        "vault": "/storage/flowTokenVault",
-        "balance": "/public/flowTokenBalance",
-        "receiver": "/public/flowTokenReceiver"
-      },
-      "symbol": "FLOW",
-      "name": "Flow",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FLOW/logo.svg",
-      "tags": ["utility-token"],
-      "extensions": {
-        "coingeckoId": "flow",
-        "website": "https://www.onflow.org",
-        "twitter": "https://twitter.com/flow_blockchain",
-        "discord": "http://discord.gg/flow"
-      }
-    },
-    {
-      "address": "0x3c5959b568896393",
-      "contractName": "FUSD",
-      "path": {
-        "vault": "/storage/fusdVault",
-        "balance": "/public/fusdBalance",
-        "receiver": "/public/fusdReceiver"
-      },
-      "symbol": "FUSD",
-      "name": "Flow USD",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FUSD/logo.svg",
-      "tags": ["stablecoin"],
-      "extensions": {
-        "website": "https://docs.onflow.org/fusd/"
-      }
-    },
-    {
-      "address": "0x348fe2042c8a70d8",
-      "contractName": "MyToken",
-      "path": {
-        "vault": "/storage/mytokenVault",
-        "balance": "/public/mytokenBalance",
-        "receiver": "/public/mytokenReceiver"
-      },
-      "symbol": "MY",
-      "name": "My Token",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/MY/logo.svg",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://mynft.io/"
-      }
-    },
-    {
-      "address": "0xd01e482eb680ec9f",
-      "contractName": "REVV",
-      "path": {
-        "vault": "/storage/revvVault",
-        "balance": "/public/revvBalance",
-        "receiver": "/public/revvReceiver"
-      },
-      "symbol": "REVV",
-      "name": "REVV",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/REVV/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://revvmotorsport.com/"
       }
     },
     {
@@ -146,21 +75,23 @@
       }
     },
     {
-      "address": "0xb19436aae4d94622",
-      "contractName": "FiatToken",
+      "address": "0x1654653399040a61",
+      "contractName": "FlowToken",
       "path": {
-        "vault": "/storage/USDCVault",
-        "balance": "/public/USDCVaultBalance",
-        "receiver": "/public/USDCVaultReceiver"
+        "vault": "/storage/flowTokenVault",
+        "balance": "/public/flowTokenBalance",
+        "receiver": "/public/flowTokenReceiver"
       },
-      "symbol": "USDC",
-      "name": "USD Coin",
+      "symbol": "FLOW",
+      "name": "Flow",
       "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/USDC/logo.svg",
-      "tags": ["stablecoin"],
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FLOW/logo.svg",
+      "tags": ["utility-token"],
       "extensions": {
-        "website": "https://www.circle.com/",
-        "coingeckoId": "usd-coin"
+        "coingeckoId": "flow",
+        "website": "https://www.onflow.org",
+        "twitter": "https://twitter.com/flow_blockchain",
+        "discord": "http://discord.gg/flow"
       }
     },
     {
@@ -328,6 +259,58 @@
       }
     },
     {
+      "address": "0x348fe2042c8a70d8",
+      "contractName": "MyToken",
+      "path": {
+        "vault": "/storage/mytokenVault",
+        "balance": "/public/mytokenBalance",
+        "receiver": "/public/mytokenReceiver"
+      },
+      "symbol": "MY",
+      "name": "My Token",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/MY/logo.svg",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://mynft.io/"
+      }
+    },
+    {
+      "address": "0x3c5959b568896393",
+      "contractName": "FUSD",
+      "path": {
+        "vault": "/storage/fusdVault",
+        "balance": "/public/fusdBalance",
+        "receiver": "/public/fusdReceiver"
+      },
+      "symbol": "FUSD",
+      "name": "Flow USD",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/FUSD/logo.svg",
+      "tags": ["stablecoin"],
+      "extensions": {
+        "website": "https://docs.onflow.org/fusd/"
+      }
+    },
+    {
+      "address": "0xb19436aae4d94622",
+      "contractName": "FiatToken",
+      "path": {
+        "vault": "/storage/USDCVault",
+        "balance": "/public/USDCVaultBalance",
+        "receiver": "/public/USDCVaultReceiver"
+      },
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/USDC/logo.svg",
+      "tags": ["stablecoin"],
+      "extensions": {
+        "website": "https://www.circle.com/",
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
       "address": "0xcfdd90d4a00f7b5b",
       "contractName": "TeleportedTetherToken",
       "path": {
@@ -343,11 +326,28 @@
       "extensions": {
         "website": "https://blocto.app/"
       }
+    },
+    {
+      "address": "0xd01e482eb680ec9f",
+      "contractName": "REVV",
+      "path": {
+        "vault": "/storage/revvVault",
+        "balance": "/public/revvBalance",
+        "receiver": "/public/revvReceiver"
+      },
+      "symbol": "REVV",
+      "name": "REVV",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/REVV/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://revvmotorsport.com/"
+      }
     }
   ],
   "version": {
     "major": 0,
     "minor": 3,
-    "patch": 0
+    "patch": 1
   }
 }
