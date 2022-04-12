@@ -39,7 +39,7 @@
     "address": {
       "description": "The contract address",
       "examples": ["0x1654653399040a61"],
-      "pattern": "^0x[0-9a-fA-F]{16}$",
+      "pattern": "^0x[0-9a-f]{16}$",
       "type": "string"
     },
     "contractName": {
