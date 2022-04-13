@@ -135,7 +135,7 @@ export class TokenListProvider {
   };
 
   resolve = async (
-    strategy: Strategy = Strategy.CDN,
+    strategy: Strategy = Strategy.GitHub,
     network: ENV = ENV.Mainnet
   ): Promise<TokenListContainer> => {
     return new TokenListContainer(

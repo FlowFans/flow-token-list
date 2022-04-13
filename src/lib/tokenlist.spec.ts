@@ -35,17 +35,19 @@ test('Token list is a valid json', async (t) => {
 
 test('Token list does not have duplicate entries', async (t) => {
   const list = await new TokenListProvider().resolve(
-    Strategy.Static,
+    Strategy.GitHub,
     ENV.Mainnet
   );
+
+  const map = new Map<string, TokenInfo>();
   list.getList().reduce((agg, item) => {
-    const key = `${item.address}${item.contractName}`;
+    const key = `${item.address}.${item.contractName}`;
+    console.log(key);
     if (agg.has(key)) {
       console.log(key);
     }
-
     t.false(agg.has(key));
     agg.set(key, item);
     return agg;
-  }, new Map<string, TokenInfo>());
+  }, map);
 });
