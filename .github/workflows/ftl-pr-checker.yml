@@ -17,9 +17,10 @@ jobs:
     name: Validate PR Files
     runs-on: ubuntu-latest
     steps:
-      - uses: LanfordCai/ftl-file-checker@v0.0.1
+      - uses: LanfordCai/ftl-file-checker@v0.0.2
         with:
           TOKEN_JSON_SCHEMA_PATH: 'src/schemas/token.schema.json'
+          REF: ${{ github.head_ref || github.ref_name }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
