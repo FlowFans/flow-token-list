@@ -66,10 +66,10 @@ export const CLUSTER_SLUGS: { [id: string]: ENV } = {
 export class GitHubTokenListResolutionStrategy {
   repositories = {
     [ENV.Mainnet]: [
-      'https://github.com/FlowFans/flow-token-list/blob/main/src/tokens/flow-mainnet.tokenlist.json',
+      'https://raw.githubusercontent.com/FlowFans/flow-token-list/main/src/tokens/flow-mainnet.tokenlist.json',
     ],
     [ENV.Testnet]: [
-      'https://github.com/FlowFans/flow-token-list/blob/main/src/tokens/flow-testnet.tokenlist.json',
+      'https://raw.githubusercontent.com/FlowFans/flow-token-list/main/src/tokens/flow-testnet.tokenlist.json',
     ],
   };
 
@@ -135,7 +135,7 @@ export class TokenListProvider {
   };
 
   resolve = async (
-    strategy: Strategy = Strategy.CDN,
+    strategy: Strategy = Strategy.GitHub,
     network: ENV = ENV.Mainnet
   ): Promise<TokenListContainer> => {
     return new TokenListContainer(
