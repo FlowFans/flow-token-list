@@ -36,7 +36,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2022-04-12T16:17:31.181Z",
+  "timestamp": "2022-04-18T09:08:10.883Z",
   "tokens": [
     {
       "address": "0x0f9df91c9121c460",
@@ -102,8 +102,8 @@
         "balance": "/public/ceAVAXBalance",
         "receiver": "/public/ceAVAXReceiver"
       },
-      "symbol": "AVAX",
-      "name": "Avalanche",
+      "symbol": "ceAVAX",
+      "name": "Avalanche (Celer)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0x231cc0dbbcffc4b7.ceAVAX/logo.png",
       "tags": ["wrapped-celer"],
@@ -121,8 +121,8 @@
         "balance": "/public/ceBNBBalance",
         "receiver": "/public/ceBNBReceiver"
       },
-      "symbol": "BNB",
-      "name": "Binance Coin",
+      "symbol": "ceBNB",
+      "name": "Binance Coin (Celer)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0x231cc0dbbcffc4b7.ceBNB/logo.png",
       "tags": ["wrapped-celer"],
@@ -140,8 +140,8 @@
         "balance": "/public/ceBUSDBalance",
         "receiver": "/public/ceBUSDReceiver"
       },
-      "symbol": "BUSD",
-      "name": "Binance USD",
+      "symbol": "ceBUSD",
+      "name": "Binance USD (Celer)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0x231cc0dbbcffc4b7.ceBUSD/logo.png",
       "tags": ["wrapped-celer"],
@@ -159,8 +159,8 @@
         "balance": "/public/ceDAIBalance",
         "receiver": "/public/ceDAIReceiver"
       },
-      "symbol": "DAI",
-      "name": "Dai Stablecoin",
+      "symbol": "ceDAI",
+      "name": "Dai Stablecoin (Celer)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0x231cc0dbbcffc4b7.ceDAI/logo.png",
       "tags": ["wrapped-celer"],
@@ -178,8 +178,8 @@
         "balance": "/public/ceFTMBalance",
         "receiver": "/public/ceFTMReceiver"
       },
-      "symbol": "FTM",
-      "name": "Fantom",
+      "symbol": "ceFTM",
+      "name": "Fantom (Celer)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0x231cc0dbbcffc4b7.ceFTM/logo.png",
       "tags": ["wrapped-celer"],
@@ -195,8 +195,8 @@
         "balance": "/public/ceMATICBalance",
         "receiver": "/public/ceMATICReceiver"
       },
-      "symbol": "MATIC",
-      "name": "Matic Token",
+      "symbol": "ceMATIC",
+      "name": "Matic Token (Celer)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0x231cc0dbbcffc4b7.ceMATIC/logo.png",
       "tags": ["wrapped-celer"],
@@ -212,8 +212,8 @@
         "balance": "/public/ceUSDTBalance",
         "receiver": "/public/ceUSDTReceiver"
       },
-      "symbol": "USDT",
-      "name": "Tether USD",
+      "symbol": "ceUSDT",
+      "name": "Tether USD (Celer)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0x231cc0dbbcffc4b7.ceUSDT/logo.png",
       "tags": ["wrapped-celer"],
@@ -230,8 +230,8 @@
         "balance": "/public/ceWBTCBalance",
         "receiver": "/public/ceWBTCReceiver"
       },
-      "symbol": "WBTC",
-      "name": "Wrapped BTC",
+      "symbol": "ceWBTC",
+      "name": "Wrapped BTC (Celer)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0x231cc0dbbcffc4b7.ceWBTC/logo.png",
       "tags": ["wrapped-celer"],
@@ -249,8 +249,8 @@
         "balance": "/public/ceWETHBalance",
         "receiver": "/public/ceWETHReceiver"
       },
-      "symbol": "WETH",
-      "name": "Wrapped Ether",
+      "symbol": "ceWETH",
+      "name": "Wrapped Ether (Celer)",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0x231cc0dbbcffc4b7.ceWETH/logo.png",
       "tags": ["wrapped-celer"],
@@ -348,6 +348,6 @@
   "version": {
     "major": 0,
     "minor": 3,
-    "patch": 2
+    "patch": 4
   }
 }
