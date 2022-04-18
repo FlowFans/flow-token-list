@@ -9,7 +9,7 @@
   "symbol": "FUSD",
   "name": "Flow USD",
   "decimals": 8,
-  "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0x3c5959b568896393.FUSD/logo.svg",
+  "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.3c5959b568896393.FUSD/logo.svg",
   "tags": ["stablecoin"],
   "extensions": { "website": "https://docs.onflow.org/fusd/" }
 }
