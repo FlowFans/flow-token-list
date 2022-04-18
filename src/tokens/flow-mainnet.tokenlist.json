@@ -259,6 +259,23 @@
       }
     },
     {
+      "address": "0x231cc0dbbcffc4b7",
+      "contractName": "RLY",
+      "path": {
+        "vault": "/storage/RLYVault",
+        "balance": "/public/RLYBalance",
+        "receiver": "/public/RLYReceiver"
+      },
+      "symbol": "RLY",
+      "name": "Rally",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0x231cc0dbbcffc4b7.RLY/logo.png",
+      "tags": ["wrapped-celer"],
+      "extensions": {
+        "coingeckoId": "rally-2"
+      }
+    },
+    {
       "address": "0x348fe2042c8a70d8",
       "contractName": "MyToken",
       "path": {
