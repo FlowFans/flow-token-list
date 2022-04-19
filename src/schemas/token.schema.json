@@ -30,7 +30,7 @@
       "type": "string",
       "description": "The unique identifier of a tag",
       "minLength": 1,
-      "maxLength": 20,
+      "maxLength": 50,
       "pattern": "^[\\-\\w]+$",
       "examples": ["compound", "stablecoin"]
     }
@@ -46,7 +46,7 @@
       "description": "The name of the token contract",
       "examples": ["FlowToken"],
       "minLength": 1,
-      "maxLength": 20,
+      "maxLength": 50,
       "pattern": "^[a-zA-Z0-9+\\-%/$.]+$",
       "type": "string"
     },
@@ -176,7 +176,7 @@
         "coingeckoId": {
           "type": "string",
           "minLength": 1,
-          "maxLength": 20,
+          "maxLength": 50,
           "pattern": "^[\\-\\w]+$"
         }
       },
