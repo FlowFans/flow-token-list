@@ -11,6 +11,10 @@
       "name": "ethereum",
       "description": "Asset bridged from ethereum"
     },
+    "teleported-token": {
+      "name": "teleported-token",
+      "description": "Asset teleported from other blockchains by Blocto"
+    },
     "wrapped-celer": {
       "name": "wrapped-celer",
       "description": "Asset wrapped using celer bridge"
@@ -36,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2022-04-18T15:29:30.058Z",
+  "timestamp": "2022-04-19T13:47:30.002Z",
   "tokens": [
     {
       "address": "0x0f9df91c9121c460",
@@ -310,6 +314,23 @@
       }
     },
     {
+      "address": "0x475755d2c9dccc3a",
+      "contractName": "TeleportedSportiumToken",
+      "path": {
+        "vault": "/storage/TeleportedSportiumTokenVault",
+        "balance": "/public/TeleportedSportiumTokenBalance",
+        "receiver": "/public/TeleportedSportiumTokenReceiver"
+      },
+      "symbol": "SPRT",
+      "name": "Teleported Sportium Token",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.475755d2c9dccc3a.TeleportedSportiumToken/logo.png",
+      "tags": ["teleported-token"],
+      "extensions": {
+        "coingeckoId": "sportium"
+      }
+    },
+    {
       "address": "0xb19436aae4d94622",
       "contractName": "FiatToken",
       "path": {
@@ -339,7 +360,7 @@
       "name": "Teleported Tether Token",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cfdd90d4a00f7b5b.TeleportedTetherToken/logo.png",
-      "tags": ["stablecoin"],
+      "tags": ["teleported-token", "stablecoin"],
       "extensions": {
         "website": "https://blocto.app/"
       }
@@ -364,7 +385,7 @@
   ],
   "version": {
     "major": 0,
-    "minor": 4,
+    "minor": 5,
     "patch": 0
   }
 }
