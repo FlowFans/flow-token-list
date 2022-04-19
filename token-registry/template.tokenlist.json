@@ -11,10 +11,6 @@
       "name": "ethereum",
       "description": "Asset bridged from ethereum"
     },
-    "teleported-token": {
-      "name": "teleported-token",
-      "description": "Asset teleported from other blockchains by Blocto"
-    },
     "wrapped-celer": {
       "name": "wrapped-celer",
       "description": "Asset wrapped using celer bridge"
