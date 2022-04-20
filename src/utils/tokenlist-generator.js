@@ -42,6 +42,7 @@ function generateTokenList(tokenDirs, network) {
   let originList = JSON.parse(fs.readFileSync(originListPath));
   baseList.tokens = [];
   baseList.version = originList.version;
+  baseList.timestamp = originList.timestamp;
 
   const newList = tokenDirs.sort().reduce((acc, file) => {
     const tokenPath = path.join(REGISTRY, file);
