@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2022-04-19T13:47:30.002Z",
+  "timestamp": "2022-04-20T01:18:27.471Z",
   "tokens": [
     {
       "address": "0x0f9df91c9121c460",
@@ -386,6 +386,6 @@
   "version": {
     "major": 0,
     "minor": 5,
-    "patch": 0
+    "patch": 1
   }
 }
