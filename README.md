@@ -45,11 +45,11 @@ new TokenListProvider().resolve().then((tokens) => {
 
 ```typescript jsx
 import React, { useEffect, useState } from 'react';
-import { TokenListProvider, TokenInfo } from 'flow-native-token-registry';
+import { TokenListProvider } from 'flow-native-token-registry';
 
 
 export const Icon = () => {
-  const [tokenMap, setTokenMap] = useState<Map<string, TokenInfo>>(new Map());
+  const [tokenMap, setTokenMap] = useState(new Map());
 
   useEffect(() => {
     new TokenListProvider().resolve().then(tokens => {
