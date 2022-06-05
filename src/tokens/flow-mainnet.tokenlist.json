@@ -381,6 +381,23 @@
       "extensions": {
         "website": "https://revvmotorsport.com/"
       }
+    },
+    {
+      "address": "0xd756450f386fb4ac",
+      "contractName": "OzoneToken",
+      "path": {
+        "vault": "/storage/ozonetokenVault",
+        "balance": "/public/ozonetokenBalance",
+        "receiver": "/public/ozonetokenReceiver"
+      },
+      "symbol": "Ozone",
+      "name": "Ozone Token",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d756450f386fb4ac.OzoneToken/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://ozoneuniverse.com/"
+      }
     }
   ],
   "version": {
