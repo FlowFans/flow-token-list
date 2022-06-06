@@ -7,6 +7,9 @@ jobs:
   label:
     name: Add Label to PR
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: LanfordCai/ftl-labeler@v0.0.1
         env:
@@ -16,6 +19,9 @@ jobs:
     needs: label
     name: Validate PR Files
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: LanfordCai/ftl-file-checker@v0.0.2
         with:
@@ -28,6 +34,9 @@ jobs:
     needs: validate
     name: Prettier files
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v2
