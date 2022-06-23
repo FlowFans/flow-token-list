@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2022-04-19T13:47:30.002Z",
+  "timestamp": "2022-06-23T01:08:55.103Z",
   "tokens": [
     {
       "address": "0x0f9df91c9121c460",
@@ -349,6 +349,23 @@
       }
     },
     {
+      "address": "0xc8c340cebd11f690",
+      "contractName": "SdmToken",
+      "path": {
+        "vault": "/storage/sdmTokenVault",
+        "balance": "/public/sdmTokenBalance",
+        "receiver": "/public/sdmTokenReceiver"
+      },
+      "symbol": "SDM",
+      "name": "Sdm Token",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.c8c340cebd11f690.SdmToken/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://flow.darkcountry.io/"
+      }
+    },
+    {
       "address": "0xcfdd90d4a00f7b5b",
       "contractName": "TeleportedTetherToken",
       "path": {
@@ -398,26 +415,11 @@
       "extensions": {
         "website": "https://ozoneuniverse.com/"
       }
-    },
-    {
-      "address": "0xc8c340cebd11f690",
-      "contractName": "SdmToken",
-      "path": {
-        "vault": "/storage/sdmTokenVault",
-        "balance": "/public/sdmTokenBalance",
-        "receiver": "/public/sdmTokenReceiver"
-      },
-      "symbol": "SDM",
-      "name": "Sdm Token",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.c8c340cebd11f690.SdmToken/logo.png",
-      "tags": ["utility-token"],
-      "extensions": { "website": "https://flow.darkcountry.io/" }
     }
   ],
   "version": {
     "major": 0,
     "minor": 5,
-    "patch": 0
+    "patch": 1
   }
 }
