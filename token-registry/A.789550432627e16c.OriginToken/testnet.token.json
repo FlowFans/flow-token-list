@@ -1,0 +1,17 @@
+{
+  "address": "0x789550432627e16c",
+  "contractName": "OriginToken",
+  "path": {
+    "vault": "/storage/originTicketVault",
+    "balance": "/public/originTicketBalance",
+    "receiver": "/public/originTicketReceiver"
+  },
+  "symbol": "OT",
+  "name": "Origin Token",
+  "decimals": 8,
+  "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.789550432627e16c.OriginToken/logo.svg",
+  "tags": ["utility-token"],
+  "extensions": {
+    "website": "http://testnet.origin30.com/"
+  }
+}
