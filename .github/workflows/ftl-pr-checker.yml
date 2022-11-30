@@ -2,6 +2,8 @@ name: FTL-PR-CHECKER
 on:
   pull_request:
     types: [opened, reopened, labeled, synchronize, edited, ready_for_review]
+  pull_request_target:
+    types: [opened, reopened, labeled, synchronize, edited, ready_for_review]
 
 jobs:
   label:
