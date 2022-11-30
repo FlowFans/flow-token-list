@@ -11,6 +11,10 @@
       "name": "ethereum",
       "description": "Asset bridged from ethereum"
     },
+    "teleported-token": {
+      "name": "teleported-token",
+      "description": "Asset teleported from other blockchains by Blocto"
+    },
     "wrapped-celer": {
       "name": "wrapped-celer",
       "description": "Asset wrapped using celer bridge"
@@ -36,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2022-04-18T15:29:30.058Z",
+  "timestamp": "2022-06-23T01:08:55.103Z",
   "tokens": [
     {
       "address": "0x0f9df91c9121c460",
@@ -310,6 +314,23 @@
       }
     },
     {
+      "address": "0x475755d2c9dccc3a",
+      "contractName": "TeleportedSportiumToken",
+      "path": {
+        "vault": "/storage/TeleportedSportiumTokenVault",
+        "balance": "/public/TeleportedSportiumTokenBalance",
+        "receiver": "/public/TeleportedSportiumTokenReceiver"
+      },
+      "symbol": "SPRT",
+      "name": "Teleported Sportium Token",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.475755d2c9dccc3a.TeleportedSportiumToken/logo.png",
+      "tags": ["teleported-token"],
+      "extensions": {
+        "coingeckoId": "sportium"
+      }
+    },
+    {
       "address": "0xb19436aae4d94622",
       "contractName": "FiatToken",
       "path": {
@@ -328,6 +349,23 @@
       }
     },
     {
+      "address": "0xc8c340cebd11f690",
+      "contractName": "SdmToken",
+      "path": {
+        "vault": "/storage/sdmTokenVault",
+        "balance": "/public/sdmTokenBalance",
+        "receiver": "/public/sdmTokenReceiver"
+      },
+      "symbol": "SDM",
+      "name": "Sdm Token",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.c8c340cebd11f690.SdmToken/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://flow.darkcountry.io/"
+      }
+    },
+    {
       "address": "0xcfdd90d4a00f7b5b",
       "contractName": "TeleportedTetherToken",
       "path": {
@@ -339,7 +377,7 @@
       "name": "Teleported Tether Token",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cfdd90d4a00f7b5b.TeleportedTetherToken/logo.png",
-      "tags": ["stablecoin"],
+      "tags": ["teleported-token", "stablecoin"],
       "extensions": {
         "website": "https://blocto.app/"
       }
@@ -360,11 +398,47 @@
       "extensions": {
         "website": "https://revvmotorsport.com/"
       }
+    },
+    {
+      "address": "0xd6f80565193ad727",
+      "contractName": "stFlowToken",
+      "path": {
+        "vault": "/storage/stFlowTokenVault",
+        "balance": "/public/stFlowTokenBalance",
+        "receiver": "/public/stFlowTokenReceiver"
+      },
+      "symbol": "stFlow",
+      "name": "Liquid Staked Flow",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d6f80565193ad727.stFlowToken/logo.svg",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://app.increment.fi/staking",
+        "twitter": "https://twitter.com/incrementfi",
+        "discord": "https://discord.gg/r2keKxuKqX"
+      }
+    },
+    {
+      "address": "0xd756450f386fb4ac",
+      "contractName": "OzoneToken",
+      "path": {
+        "vault": "/storage/ozonetokenVault",
+        "balance": "/public/ozonetokenBalance",
+        "receiver": "/public/ozonetokenReceiver"
+      },
+      "symbol": "Ozone",
+      "name": "Ozone Token",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d756450f386fb4ac.OzoneToken/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://ozoneuniverse.com/"
+      }
     }
   ],
   "version": {
     "major": 0,
-    "minor": 4,
-    "patch": 0
+    "minor": 5,
+    "patch": 1
   }
 }

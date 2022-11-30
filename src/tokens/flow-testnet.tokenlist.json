@@ -11,6 +11,10 @@
       "name": "ethereum",
       "description": "Asset bridged from ethereum"
     },
+    "teleported-token": {
+      "name": "teleported-token",
+      "description": "Asset teleported from other blockchains by Blocto"
+    },
     "wrapped-celer": {
       "name": "wrapped-celer",
       "description": "Asset wrapped using celer bridge"
@@ -36,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2022-04-18T15:29:30.059Z",
+  "timestamp": "2022-04-19T13:47:30.003Z",
   "tokens": [
     {
       "address": "0x7e60df042a9c0868",
@@ -79,6 +83,6 @@
   "version": {
     "major": 2,
     "minor": 0,
-    "patch": 2
+    "patch": 3
   }
 }

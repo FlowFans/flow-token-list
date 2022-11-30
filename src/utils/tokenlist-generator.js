@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const REGISTRY = 'token-registry';
+const TEMPLATE_TOKEN_LIST_PATH = 'token-registry/template.tokenlist.json';
 const MAINNET_TOKEN_LIST_PATH = 'src/tokens/flow-mainnet.tokenlist.json';
 const TESTNET_TOKEN_LIST_PATH = 'src/tokens/flow-testnet.tokenlist.json';
 
@@ -31,14 +32,17 @@ if (testnetTokenList) {
 
 function generateTokenList(tokenDirs, network) {
   let tokenFile = 'token.json';
-  let baseListPath = MAINNET_TOKEN_LIST_PATH;
+  let templateListPath = TEMPLATE_TOKEN_LIST_PATH;
+  let originListPath = MAINNET_TOKEN_LIST_PATH;
   if (network == 'testnet') {
     tokenFile = 'testnet.token.json';
-    baseListPath = TESTNET_TOKEN_LIST_PATH;
+    originListPath = TESTNET_TOKEN_LIST_PATH;
   }
-  let baseList = JSON.parse(fs.readFileSync(baseListPath));
-  let originList = Object.assign({}, baseList);
+  let baseList = JSON.parse(fs.readFileSync(templateListPath));
+  let originList = JSON.parse(fs.readFileSync(originListPath));
   baseList.tokens = [];
+  baseList.version = originList.version;
+  baseList.timestamp = originList.timestamp;
 
   const newList = tokenDirs.sort().reduce((acc, file) => {
     const tokenPath = path.join(REGISTRY, file);
