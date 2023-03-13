@@ -95,6 +95,23 @@
       "extensions": {
         "website": "http://testnet.origin30.com/"
       }
+    },
+    {
+      "address": "0x9392a4a7c3f49a0b",
+      "contractName": "FlovatarDustToken",
+      "path": {
+        "vault": "/storage/FlovatarDustTokenVault",
+        "balance": "/public/FlovatarDustTokenBalance",
+        "receiver": "/public/FlovatarDustTokenReceiver"
+      },
+      "symbol": "DUST",
+      "name": "Flovatar ÐUST",
+      "decimals": 8,
+      "logoURI": "http://images.flovatar.com/logo-round.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://flovatar.com/"
+      }
     }
   ],
   "version": {
