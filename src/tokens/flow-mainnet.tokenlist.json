@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2022-06-23T01:08:55.103Z",
+  "timestamp": "2023-05-29T09:45:48.415Z",
   "tokens": [
     {
       "address": "0x0f9df91c9121c460",
@@ -331,6 +331,24 @@
       }
     },
     {
+      "address": "0x4ea047c3e73ca460",
+      "contractName": "BallerzFC",
+      "path": {
+        "vault": "/storage/BallerzFCVault",
+        "balance": "/public/BallerzFCMetadata",
+        "receiver": "/public/BallerzFCReceiver"
+      },
+      "symbol": "BFC",
+      "name": "Ballerz FC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/FlowFans/flow-token-list/main/token-registry/A.4ea047c3e73ca460.BallerzFC/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "twitter": "https://twitter.com/Ballerz__FC",
+        "discord": "https://discord.com/invite/sDBp8YdH"
+      }
+    },
+    {
       "address": "0xb19436aae4d94622",
       "contractName": "FiatToken",
       "path": {
@@ -438,7 +456,7 @@
   ],
   "version": {
     "major": 0,
-    "minor": 5,
-    "patch": 1
+    "minor": 6,
+    "patch": 0
   }
 }
