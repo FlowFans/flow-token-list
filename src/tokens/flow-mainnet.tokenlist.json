@@ -43,6 +43,25 @@
   "timestamp": "2023-05-29T09:45:48.415Z",
   "tokens": [
     {
+      "address": "0x078a8129525775dd",
+      "contractName": "GreenBitcoin",
+      "path": {
+        "vault": "/storage/GreenBitcoinVault",
+        "balance": "/public/GreenBitcoinMetadata",
+        "receiver": "/public/GreenBitcoinReceiver"
+      },
+      "symbol": "GBTC",
+      "name": "Green Bitcoin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.078a8129525775dd.GreenBitcoin/logo.png",
+      "tags": ["governance-token"],
+      "extensions": {
+        "website": "https://toucans.ecdao.org/p/GreenBitcoin",
+        "twitter": "https://twitter.com/flowblockc50141",
+        "discord": "https://discord.gg/vY8pK9x8"
+      }
+    },
+    {
       "address": "0x0f9df91c9121c460",
       "contractName": "BloctoToken",
       "path": {
@@ -341,7 +360,7 @@
       "symbol": "BFC",
       "name": "Ballerz FC",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/FlowFans/flow-token-list/main/token-registry/A.4ea047c3e73ca460.BallerzFC/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.4ea047c3e73ca460.BallerzFC/logo.png",
       "tags": ["utility-token"],
       "extensions": {
         "twitter": "https://twitter.com/Ballerz__FC",
