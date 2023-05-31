@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2023-05-29T09:45:48.415Z",
+  "timestamp": "2023-05-31T01:30:41.384Z",
   "tokens": [
     {
       "address": "0x078a8129525775dd",
@@ -368,6 +368,25 @@
       }
     },
     {
+      "address": "0x7bf07d719dcb8480",
+      "contractName": "brasil",
+      "path": {
+        "vault": "/storage/brasilVault",
+        "balance": "/public/brasilMetadata",
+        "receiver": "/public/brasilReceiver"
+      },
+      "symbol": "BR",
+      "name": "brasil",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.7bf07d719dcb8480.brasil/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://toucans.ecdao.org/p/brasil",
+        "twitter": "https://twitter.com/flowbrasilchain",
+        "discord": "https://discord.gg/hT8EpC5mUN"
+      }
+    },
+    {
       "address": "0xb19436aae4d94622",
       "contractName": "FiatToken",
       "path": {
@@ -475,7 +494,7 @@
   ],
   "version": {
     "major": 0,
-    "minor": 6,
+    "minor": 7,
     "patch": 0
   }
 }
