@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2023-06-02T10:56:00.494Z",
+  "timestamp": "2023-07-12T03:01:06.446Z",
   "tokens": [
     {
       "address": "0x078a8129525775dd",
@@ -423,6 +423,24 @@
       }
     },
     {
+      "address": "0x921ea449dffec68a",
+      "contractName": "FlovatarDustToken",
+      "path": {
+        "vault": "/storage/FlovatarDustTokenVault",
+        "balance": "/public/FlovatarDustTokenBalance",
+        "receiver": "/public/FlovatarDustTokenReceiver"
+      },
+      "symbol": "DUST",
+      "name": "Flovatar ÐUST",
+      "decimals": 8,
+      "logoURI": "http://images.flovatar.com/logo-round.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://flovatar.com/",
+        "coingeckoId": "flovatar-dust-token"
+      }
+    },
+    {
       "address": "0xb19436aae4d94622",
       "contractName": "FiatToken",
       "path": {
@@ -545,28 +563,11 @@
       "extensions": {
         "website": "https://ozoneuniverse.com/"
       }
-    },
-    {
-      "address": "0x921ea449dffec68a",
-      "contractName": "FlovatarDustToken",
-      "path": {
-        "vault": "/storage/FlovatarDustTokenVault",
-        "balance": "/public/FlovatarDustTokenBalance",
-        "receiver": "/public/FlovatarDustTokenReceiver"
-      },
-      "symbol": "DUST",
-      "name": "Flovatar ÐUST",
-      "decimals": 8,
-      "logoURI": "http://images.flovatar.com/logo-round.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://flovatar.com/"
-      }
     }
   ],
   "version": {
     "major": 0,
     "minor": 8,
-    "patch": 0
+    "patch": 1
   }
 }
