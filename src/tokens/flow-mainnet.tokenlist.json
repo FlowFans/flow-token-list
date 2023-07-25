@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2023-05-31T01:30:41.384Z",
+  "timestamp": "2023-07-12T03:01:06.446Z",
   "tokens": [
     {
       "address": "0x078a8129525775dd",
@@ -350,6 +350,24 @@
       }
     },
     {
+      "address": "0x48ff88b4ccb47359",
+      "contractName": "Duckcoin",
+      "path": {
+        "vault": "/storage/DuckcoinVault",
+        "balance": "/public/DuckcoinMetadata",
+        "receiver": "/public/DuckcoinReceiver"
+      },
+      "symbol": "Duck",
+      "name": "Duckcoin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.48ff88b4ccb47359.Duckcoin/logo.png",
+      "tags": ["governance-token"],
+      "extensions": {
+        "website": "https://duck-coin.vip",
+        "twitter": "https://twitter.com/Duck_coin_flow"
+      }
+    },
+    {
       "address": "0x4ea047c3e73ca460",
       "contractName": "BallerzFC",
       "path": {
@@ -365,6 +383,24 @@
       "extensions": {
         "twitter": "https://twitter.com/Ballerz__FC",
         "discord": "https://discord.com/invite/sDBp8YdH"
+      }
+    },
+    {
+      "address": "0x53f389d96fb4ce5e",
+      "contractName": "SloppyStakes",
+      "path": {
+        "vault": "/storage/SloppyStakesVault",
+        "balance": "/public/SloppyStakesMetadata",
+        "receiver": "/public/SloppyStakesReceiver"
+      },
+      "symbol": "LOPPY",
+      "name": "Sloppy Stakes",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.53f389d96fb4ce5e.SloppyStakes/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "twitter": "https://twitter.com/alxocity",
+        "discord": "https://discord.com/invite/GYV8JRR"
       }
     },
     {
@@ -384,6 +420,24 @@
         "website": "https://toucans.ecdao.org/p/brasil",
         "twitter": "https://twitter.com/flowbrasilchain",
         "discord": "https://discord.gg/hT8EpC5mUN"
+      }
+    },
+    {
+      "address": "0x921ea449dffec68a",
+      "contractName": "FlovatarDustToken",
+      "path": {
+        "vault": "/storage/FlovatarDustTokenVault",
+        "balance": "/public/FlovatarDustTokenBalance",
+        "receiver": "/public/FlovatarDustTokenReceiver"
+      },
+      "symbol": "DUST",
+      "name": "Flovatar ÐUST",
+      "decimals": 8,
+      "logoURI": "http://images.flovatar.com/logo-round.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://flovatar.com/",
+        "coingeckoId": "flovatar-dust-token"
       }
     },
     {
@@ -456,6 +510,25 @@
       }
     },
     {
+      "address": "0xd5dab99b4e7301ce",
+      "contractName": "PublishedNFTDAO",
+      "path": {
+        "vault": "/storage/PublishedNFTDAOVault",
+        "balance": "/public/PublishedNFTDAOMetadata",
+        "receiver": "/public/PublishedNFTDAOReceiver"
+      },
+      "symbol": "PAGE",
+      "name": "PublishedNFTDAO",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d5dab99b4e7301ce.PublishedNFTDAO/logo.png",
+      "tags": ["governance-token"],
+      "extensions": {
+        "website": "https://publishednft.io",
+        "twitter": "https://twitter.com/publishednft",
+        "discord": "https://discord.gg/RHH5aH44k9"
+      }
+    },
+    {
       "address": "0xd6f80565193ad727",
       "contractName": "stFlowToken",
       "path": {
@@ -494,7 +567,7 @@
   ],
   "version": {
     "major": 0,
-    "minor": 7,
-    "patch": 0
+    "minor": 8,
+    "patch": 1
   }
 }
