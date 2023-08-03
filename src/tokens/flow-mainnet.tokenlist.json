@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2023-07-12T03:01:06.446Z",
+  "timestamp": "2023-08-03T14:18:07.225Z",
   "tokens": [
     {
       "address": "0x078a8129525775dd",
@@ -404,6 +404,21 @@
       }
     },
     {
+      "address": "0x7120ab3fbf74ea9e",
+      "contractName": "NCTRDAO",
+      "path": {
+        "vault": "/storage/NCTRDAOVault",
+        "balance": "/public/NCTRDAOMetadata",
+        "receiver": "/public/NCTRDAOReceiver"
+      },
+      "symbol": "NCTR",
+      "name": "NCTR DAO",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.7120ab3fbf74ea9e.NCTRDAO/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
+    },
+    {
       "address": "0x7bf07d719dcb8480",
       "contractName": "brasil",
       "path": {
@@ -567,7 +582,7 @@
   ],
   "version": {
     "major": 0,
-    "minor": 8,
-    "patch": 1
+    "minor": 9,
+    "patch": 0
   }
 }
