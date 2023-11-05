@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2023-08-03T14:18:07.225Z",
+  "timestamp": "2023-11-05T13:43:33.590Z",
   "tokens": [
     {
       "address": "0x078a8129525775dd",
@@ -114,7 +114,9 @@
         "coingeckoId": "flow",
         "website": "https://www.onflow.org",
         "twitter": "https://twitter.com/flow_blockchain",
-        "discord": "http://discord.gg/flow"
+        "discord": "http://discord.gg/flow",
+        "github": "https://github.com/onflow/flow-core-contracts",
+        "documentation": "https://developers.flow.com/references/core-contracts/flow-token"
       }
     },
     {
@@ -469,8 +471,10 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.b19436aae4d94622.FiatToken/logo.svg",
       "tags": ["stablecoin"],
       "extensions": {
-        "website": "https://www.circle.com/",
-        "coingeckoId": "usd-coin"
+        "website": "https://www.circle.com/en/usdc-multichain/flow",
+        "coingeckoId": "usd-coin",
+        "documentation": "https://developers.circle.com/stablecoins/docs",
+        "twitter": "https://twitter.com/circle"
       }
     },
     {
@@ -583,6 +587,6 @@
   "version": {
     "major": 0,
     "minor": 9,
-    "patch": 0
+    "patch": 1
   }
 }
