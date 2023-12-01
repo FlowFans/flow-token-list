@@ -29,6 +29,7 @@ export interface PathDetail {
 
 export interface TokenExtensions {
   readonly website?: string;
+  readonly documentation?: string;
   readonly bridgeContract?: string;
   readonly assetContract?: string;
   readonly address?: string;
