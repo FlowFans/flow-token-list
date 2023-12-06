@@ -126,6 +126,14 @@ testnet.token.json
 - Please link the commit or PR where the token was originally added. If the token was added by someone else, they will be asked to confirm that this change is authorized
 - Please squash commits into a single commit for cleanliness
 
+## Generate token list
+
+Run the following command to generate token list:
+
+```bash
+./generate.sh
+```
+
 ## Semantic versioning
 
 Lists include a version field, which follows semantic versioning.
