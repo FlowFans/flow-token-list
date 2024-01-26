@@ -597,6 +597,21 @@
       "extensions": {
         "website": "https://ozoneuniverse.com/"
       }
+    },
+    {
+      "address": "0xe452a2f5665728f5",
+      "contractName": "ADUToken",
+      "path": {
+        "vault": "/storage/ADUTokenVault",
+        "balance": "/public/ADUTokenMetadata",
+        "receiver": "/public/ADUTokenReceiver"
+      },
+      "symbol": "ADU",
+      "name": "All Day Unlimited",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e452a2f5665728f5.ADUToken/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
     }
   ],
   "version": {
