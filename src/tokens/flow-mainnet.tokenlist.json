@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2023-11-05T13:43:33.590Z",
+  "timestamp": "2023-12-06T07:45:55.320Z",
   "tokens": [
     {
       "address": "0x078a8129525775dd",
@@ -421,6 +421,21 @@
       "extensions": {}
     },
     {
+      "address": "0x71e661cc981985c4",
+      "contractName": "Freely",
+      "path": {
+        "vault": "/storage/FreelyVault",
+        "balance": "/public/FreelyMetadata",
+        "receiver": "/public/FreelyReceiver"
+      },
+      "symbol": "FRLY",
+      "name": "Freely",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.71e661cc981985c4.Freely/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
+    },
+    {
       "address": "0x7bf07d719dcb8480",
       "contractName": "brasil",
       "path": {
@@ -586,7 +601,7 @@
   ],
   "version": {
     "major": 0,
-    "minor": 9,
-    "patch": 1
+    "minor": 10,
+    "patch": 0
   }
 }
