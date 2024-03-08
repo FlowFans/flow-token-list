@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2023-12-06T07:45:55.320Z",
+  "timestamp": "2024-03-08T14:10:03.500Z",
   "tokens": [
     {
       "address": "0x078a8129525775dd",
@@ -469,7 +469,7 @@
       "tags": ["utility-token"],
       "extensions": {
         "website": "https://flovatar.com/",
-        "coingeckoId": "flovatar-dust-token"
+        "coingeckoId": "flovatar-dust"
       }
     },
     {
@@ -617,6 +617,6 @@
   "version": {
     "major": 0,
     "minor": 10,
-    "patch": 0
+    "patch": 1
   }
 }
