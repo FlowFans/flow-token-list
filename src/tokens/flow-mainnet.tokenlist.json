@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2024-03-08T14:10:03.500Z",
+  "timestamp": "2024-03-19T07:24:33.779Z",
   "tokens": [
     {
       "address": "0x078a8129525775dd",
@@ -406,6 +406,21 @@
       }
     },
     {
+      "address": "0x687e1a7aef17b78b",
+      "contractName": "Beaver",
+      "path": {
+        "vault": "/storage/BeaverVault",
+        "balance": "/public/BeaverMetadata",
+        "receiver": "/public/BeaverReceiver"
+      },
+      "symbol": "PUSS",
+      "name": "Beaver Coin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.687e1a7aef17b78b.Beaver/logo.png",
+      "tags": ["meme-coin"],
+      "extensions": {}
+    },
+    {
       "address": "0x7120ab3fbf74ea9e",
       "contractName": "NCTRDAO",
       "path": {
@@ -616,7 +631,7 @@
   ],
   "version": {
     "major": 0,
-    "minor": 10,
-    "patch": 1
+    "minor": 11,
+    "patch": 0
   }
 }
