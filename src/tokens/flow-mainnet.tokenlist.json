@@ -612,6 +612,21 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e452a2f5665728f5.ADUToken/logo.png",
       "tags": ["utility-token"],
       "extensions": {}
+    },
+    {
+      "address": "0x5207737ccdc76d11",
+      "contractName": "StudentsofTheGame",
+      "path": {
+        "vault": "/storage/StudentsofTheGameVault",
+        "balance": "/public/StudentsofTheGameMetadata",
+        "receiver": "/public/StudentsofTheGameReceiver"
+      },
+      "symbol": "GAME",
+      "name": "Students of The Game",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.5207737ccdc76d11.StudentsofTheGame/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
     }
   ],
   "version": {
