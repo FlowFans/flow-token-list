@@ -642,6 +642,23 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.5207737ccdc76d11.StudentsofTheGame/logo.png",
       "tags": ["utility-token"],
       "extensions": {}
+    },
+    {
+      "address": "0xcbba4d41aef83fe3",
+      "contractName": "UtahJazzLegendsClub",
+      "path": {
+        "vault": "/storage/UtahJazzLegendsClubVault",
+        "balance": "/public/UtahJazzLegendsClubMetadata",
+        "receiver": "/public/UtahJazzLegendsClubReceiver"
+      },
+      "symbol": "UJLC",
+      "name": "Utah Jazz Legends Club",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cbba4d41aef83fe3.UtahJazzLegendsClub/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {}
     }
   ],
   "version": {
