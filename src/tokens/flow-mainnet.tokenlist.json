@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2023-12-06T07:45:55.320Z",
+  "timestamp": "2024-03-19T07:24:33.779Z",
   "tokens": [
     {
       "address": "0x078a8129525775dd",
@@ -406,6 +406,21 @@
       }
     },
     {
+      "address": "0x687e1a7aef17b78b",
+      "contractName": "Beaver",
+      "path": {
+        "vault": "/storage/BeaverVault",
+        "balance": "/public/BeaverMetadata",
+        "receiver": "/public/BeaverReceiver"
+      },
+      "symbol": "PUSS",
+      "name": "Beaver Coin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.687e1a7aef17b78b.Beaver/logo.png",
+      "tags": ["meme-coin"],
+      "extensions": {}
+    },
+    {
       "address": "0x7120ab3fbf74ea9e",
       "contractName": "NCTRDAO",
       "path": {
@@ -469,7 +484,7 @@
       "tags": ["utility-token"],
       "extensions": {
         "website": "https://flovatar.com/",
-        "coingeckoId": "flovatar-dust-token"
+        "coingeckoId": "flovatar-dust"
       }
     },
     {
@@ -644,11 +659,28 @@
         "utility-token"
       ],
       "extensions": {}
+    },
+    {
+      "address": "0x2de1bd4794003663",
+      "contractName": "SwimDAO",
+      "path": {
+        "vault": "/storage/SwimDAOVault",
+        "balance": "/public/SwimDAOMetadata",
+        "receiver": "/public/SwimDAOReceiver"
+      },
+      "symbol": "SWIM",
+      "name": "SwimDAO",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.2de1bd4794003663.SwimDAO/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {}
     }
   ],
   "version": {
     "major": 0,
-    "minor": 10,
+    "minor": 11,
     "patch": 0
   }
 }
