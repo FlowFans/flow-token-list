@@ -693,7 +693,25 @@
           "utility-token"
       ],
       "extensions": {}
-  }
+  },
+    {
+      "address": "0x66b60643244a7738",
+      "contractName": "TitToken",
+      "path": {
+          "vault": "/storage/TitTokenVault",
+          "balance": "/public/TitTokenBalance",
+          "receiver": "/public/TitTokenReceiver"
+      },
+      "symbol": "TIT",
+      "name": "TIT Token",
+      "decimals": 8,
+      "logoURI": "http://titpalace.xyz/static/media/logoNew3.08bbce85ec4eaf4c043f.png",
+      "tags": ["fun-token", "tit-palace"],
+      "extensions": {
+        "website": "https://titpalace.xyz",
+        "twitter": "https://twitter.com/vertico_defi"
+      }
+    }
   ],
   "version": {
     "major": 0,
