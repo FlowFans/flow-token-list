@@ -676,7 +676,24 @@
         "utility-token"
       ],
       "extensions": {}
-    }
+    },
+    {
+      "address": "0xf887ece39166906e",
+      "contractName": "VroomToken",
+      "path": {
+          "vault": "/storage/VroomTokenVault",
+          "balance": "/public/VroomTokenBalance",
+          "receiver": "/public/VroomTokenReceiver"
+      },
+      "symbol": "VROOM",
+      "name": "Vroom",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.f887ece39166906e.VroomToken/logo.png",
+      "tags": [
+          "utility-token"
+      ],
+      "extensions": {}
+  }
   ],
   "version": {
     "major": 0,
