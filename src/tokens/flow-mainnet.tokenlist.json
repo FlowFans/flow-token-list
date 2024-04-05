@@ -693,7 +693,24 @@
           "utility-token"
       ],
       "extensions": {}
-  }
+    },
+    {
+      "address": "0xd4d745fab74785c5",
+      "contractName": "WERFWERF",
+      "path": {
+          "vault": "/storage/WERFWERFVault",
+          "balance": "/public/WERFWERFMetadata",
+          "receiver": "/public/WERFWERFReceiver"
+      },
+      "symbol": "WERF",
+      "name": "WERFWERF",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d4d745fab74785c5.WERFWERF/logo.png",
+      "tags": [
+          "utility-token"
+      ],
+      "extensions": {}
+    }
   ],
   "version": {
     "major": 0,
