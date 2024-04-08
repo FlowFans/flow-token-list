@@ -710,7 +710,24 @@
           "utility-token"
       ],
       "extensions": {}
-    }
+    },
+    {
+      "address": "0xd3b62ffbbc632f5a",
+      "contractName": "FlowBlockchainhitCoin",
+      "path": {
+          "vault": "/storage/FlowBlockchainhitCoinVault",
+          "balance": "/public/FlowBlockchainhitCoinMetadata",
+          "receiver": "/public/FlowBlockchainhitCoinReceiver"
+      },
+      "symbol": "HIT",
+      "name": "Flow Blockchain $HIT Coin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d3b62ffbbc632f5a.FlowBlockchainhitCoin/logo.png",
+      "tags": [
+          "utility-token"
+      ],
+      "extensions": {}
+  }
   ],
   "version": {
     "major": 0,
