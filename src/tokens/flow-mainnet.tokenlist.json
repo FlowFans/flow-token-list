@@ -120,6 +120,23 @@
       }
     },
     {
+      "address": "0x67daad91e3782c80",
+      "contractName": "Vampire",
+      "path": {
+        "vault": "/storage/VampireVault",
+        "balance": "/public/VampireMetadata",
+        "receiver": "/public/VampireReceiver"
+      },
+      "symbol": "SUCK",
+      "name": "Vampire Coin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.67daad91e3782c80.Vampire/logo.png",
+      "tags": [
+        "memecoin"
+      ],
+      "extensions": {}
+    },
+    {
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "RLY",
       "path": {
@@ -727,7 +744,24 @@
           "utility-token"
       ],
       "extensions": {}
-    }
+    },
+    {
+      "address": "0x88b469471cfe5535",
+      "contractName": "LBJDAO",
+      "path": {
+          "vault": "/storage/LBJDAOVault",
+          "balance": "/public/LBJDAOMetadata",
+          "receiver": "/public/LBJDAOReceiver"
+      },
+      "symbol": "LBJ",
+      "name": "LBJ DAO",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.88b469471cfe5535.LBJDAO/logo.png",
+      "tags": [
+          "utility-token"
+      ],
+      "extensions": {}
+  }
   ],
   "version": {
     "major": 0,
