@@ -778,6 +778,21 @@
           "utility-token"
       ],
       "extensions": {}
+    },
+    {
+    "address": "A.e78f40fdacb5ff8f",
+    "contractName": "JollyRoger",
+    "path": {
+      "vault": "/storage/JollyRogerVault",
+      "balance": "/public/JollyRogerMetadata",
+      "receiver": "/public/JollyRogerReceiver"
+    },
+    "symbol": "JOLLY",
+    "name": "Jolly Roger",
+    "decimals": 8,
+    "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e78f40fdacb5ff8f.JollyRoger/logo.png",
+    "tags": ["meme-coin"],
+    "extensions": {}
     }
   ],
   "version": {
