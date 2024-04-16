@@ -66,7 +66,7 @@
       "contractName": "Mainledger",
       "path": {
           "vault": "/storage/MainledgerVault",
-          "balance": "/public/MainledgerBalance",
+          "balance": "/public/MainledgerMetadata",
           "receiver": "/public/MainledgerReceiver"
       },
       "symbol": "MLC",
