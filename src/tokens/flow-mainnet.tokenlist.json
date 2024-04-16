@@ -62,6 +62,23 @@
       }
     },
     {
+      "address": "0xfd1ccaaae39d0e79",
+      "contractName": "Mainledger",
+      "path": {
+          "vault": "/storage/MainledgerVault",
+          "balance": "/public/MainledgerBalance",
+          "receiver": "/public/MainledgerReceiver"
+      },
+      "symbol": "MLC",
+      "name": "Mainledger coin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Mainledger/logo.png",
+      "tags": [
+          "utility-token"
+      ],
+      "extensions": {}
+  },
+    {
       "address": "0x0f9df91c9121c460",
       "contractName": "BloctoToken",
       "path": {
