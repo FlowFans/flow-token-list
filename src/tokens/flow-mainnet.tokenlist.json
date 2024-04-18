@@ -810,7 +810,27 @@
     "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e78f40fdacb5ff8f.JollyRoger/logo.png",
     "tags": ["meme-coin"],
     "extensions": {}
+    },
+    {
+      "address": "0x9db94c9564243ba7",
+      "contractName": "aiSportsJuice",
+      "path": {
+        "vault": "/storage/aiSportsJuiceVault",
+        "balance": "/public/aiSportsJuiceMetadata",
+        "receiver": "/public/aiSportsJuiceReceiver"
+      },
+      "symbol": "JUICE",
+      "name": "aiSportsJuice",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.9db94c9564243ba7.aiSportsJuice/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://www.aisportspro.com/",
+        "twitter": "https://twitter.com/aisportspro",
+        "discord": "https://discord.gg/VKvUxMwu5r"
+      }
     }
+    
   ],
   "version": {
     "major": 0,
