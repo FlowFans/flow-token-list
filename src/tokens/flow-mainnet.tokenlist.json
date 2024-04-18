@@ -62,6 +62,23 @@
       }
     },
     {
+      "address": "0xfd1ccaaae39d0e79",
+      "contractName": "Mainledger",
+      "path": {
+          "vault": "/storage/MainledgerVault",
+          "balance": "/public/MainledgerMetadata",
+          "receiver": "/public/MainledgerReceiver"
+      },
+      "symbol": "MLC",
+      "name": "Mainledger coin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Mainledger/logo.png",
+      "tags": [
+          "utility-token"
+      ],
+      "extensions": {}
+  },
+    {
       "address": "0x0f9df91c9121c460",
       "contractName": "BloctoToken",
       "path": {
@@ -778,6 +795,21 @@
           "utility-token"
       ],
       "extensions": {}
+    },
+    {
+    "address": "0xe78f40fdacb5ff8f",
+    "contractName": "JollyRoger",
+    "path": {
+      "vault": "/storage/JollyRogerVault",
+      "balance": "/public/JollyRogerMetadata",
+      "receiver": "/public/JollyRogerReceiver"
+    },
+    "symbol": "JOLLY",
+    "name": "Jolly Roger",
+    "decimals": 8,
+    "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e78f40fdacb5ff8f.JollyRoger/logo.png",
+    "tags": ["meme-coin"],
+    "extensions": {}
     }
   ],
   "version": {
