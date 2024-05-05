@@ -829,8 +829,24 @@
         "twitter": "https://twitter.com/aisportspro",
         "discord": "https://discord.gg/VKvUxMwu5r"
       }
-    }
-    
+    },
+    {
+      "address": "0x1a494f704432b4bf",
+      "contractName": "FrugDAO",
+      "path": {
+        "vault": "/storage/FrugDAOVault",
+        "balance": "/public/FrugDAOMetadata",
+        "receiver": "/public/FrugDAOReceiver"
+      },
+      "symbol": "FRUG",
+      "name": "Frug",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1a494f704432b4bf.FrugDAO/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "twitter": "https://twitter.com/frugcoin"
+      }
+    }    
   ],
   "version": {
     "major": 0,
