@@ -154,6 +154,23 @@
       "extensions": {}
     },
     {
+      "address": "0xfd1ccaaae39d0e79",
+      "contractName": "Pokertime",
+      "path": {
+          "vault": "/storage/PokertimeVault",
+          "balance": "/public/PokertimeMetadata",
+          "receiver": "/public/PokertimeReceiver"
+      },
+      "symbol": "PKR",
+      "name": "Poker chip",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Pokertime/logo.png",
+      "tags": [
+          "utility-token"
+      ],
+      "extensions": {}
+  },
+    {
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "RLY",
       "path": {
