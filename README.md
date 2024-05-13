@@ -1,4 +1,5 @@
-> Deprecated after crescendo upgrade, please use https://token-list.fixes.world/ (https://github.com/fixes-world/token-list) instead.
+> ## Deprecated after crescendo upgrade.
+> please use <https://token-list.fixes.world/> (<https://github.com/fixes-world/token-list>) instead.
 
 
 # Flow Native Token List
