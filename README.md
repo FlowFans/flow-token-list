@@ -1,3 +1,7 @@
+> ## Deprecated after crescendo upgrade.
+> please use <https://token-list.fixes.world/> (JSON files <https://github.com/fixes-world/token-list-jsons>) instead.
+
+
 # Flow Native Token List
 
 The community maintained Flow native token registry.
