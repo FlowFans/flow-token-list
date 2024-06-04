@@ -863,7 +863,25 @@
       "extensions": {
         "twitter": "https://twitter.com/frugcoin"
       }
-    }    
+    },
+    {
+      "address": "0xb055bef687cfca82",
+      "contractName": "TrollDAO",
+      "path": {
+        "vault": "/storage/TrollDAOVault",
+        "balance": "/public/TrollDAOMetadata",
+        "receiver": "/public/TrollDAOReceiver"
+      },
+      "symbol": "TROLL",
+      "name": "Troll DAO",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.b055bef687cfca82.TrollDAO/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "twitter": "https://www.twitter.com/trollonflow"
+      }
+    }
+    
   ],
   "version": {
     "major": 0,
