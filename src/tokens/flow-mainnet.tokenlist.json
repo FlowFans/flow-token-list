@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2024-03-19T07:24:33.779Z",
+  "timestamp": "2024-06-09T02:47:10.055Z",
   "tokens": [
     {
       "address": "0x078a8129525775dd",
@@ -61,23 +61,6 @@
         "discord": "https://discord.gg/vY8pK9x8"
       }
     },
-    {
-      "address": "0xfd1ccaaae39d0e79",
-      "contractName": "Mainledger",
-      "path": {
-          "vault": "/storage/MainledgerVault",
-          "balance": "/public/MainledgerMetadata",
-          "receiver": "/public/MainledgerReceiver"
-      },
-      "symbol": "MLC",
-      "name": "Mainledger coin",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Mainledger/logo.png",
-      "tags": [
-          "utility-token"
-      ],
-      "extensions": {}
-  },
     {
       "address": "0x0f9df91c9121c460",
       "contractName": "BloctoToken",
@@ -137,39 +120,22 @@
       }
     },
     {
-      "address": "0x67daad91e3782c80",
-      "contractName": "Vampire",
+      "address": "0x1a494f704432b4bf",
+      "contractName": "FrugDAO",
       "path": {
-        "vault": "/storage/VampireVault",
-        "balance": "/public/VampireMetadata",
-        "receiver": "/public/VampireReceiver"
+        "vault": "/storage/FrugDAOVault",
+        "balance": "/public/FrugDAOMetadata",
+        "receiver": "/public/FrugDAOReceiver"
       },
-      "symbol": "SUCK",
-      "name": "Vampire Coin",
+      "symbol": "FRUG",
+      "name": "Frug",
       "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.67daad91e3782c80.Vampire/logo.png",
-      "tags": [
-        "memecoin"
-      ],
-      "extensions": {}
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1a494f704432b4bf.FrugDAO/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "twitter": "https://twitter.com/frugcoin"
+      }
     },
-    {
-      "address": "0xfd1ccaaae39d0e79",
-      "contractName": "Pokertime",
-      "path": {
-          "vault": "/storage/PokertimeVault",
-          "balance": "/public/PokertimeMetadata",
-          "receiver": "/public/PokertimeReceiver"
-      },
-      "symbol": "PKR",
-      "name": "Poker chip",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Pokertime/logo.png",
-      "tags": [
-          "utility-token"
-      ],
-      "extensions": {}
-  },
     {
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "RLY",
@@ -352,6 +318,36 @@
       }
     },
     {
+      "address": "0x2de1bd4794003663",
+      "contractName": "SwimDAO",
+      "path": {
+        "vault": "/storage/SwimDAOVault",
+        "balance": "/public/SwimDAOMetadata",
+        "receiver": "/public/SwimDAOReceiver"
+      },
+      "symbol": "SWIM",
+      "name": "SwimDAO",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.2de1bd4794003663.SwimDAO/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
+    },
+    {
+      "address": "0x3399d7c6c609b7e5",
+      "contractName": "DAMO420",
+      "path": {
+        "vault": "/storage/DAMO420Vault",
+        "balance": "/public/DAMO420Metadata",
+        "receiver": "/public/DAMO420Receiver"
+      },
+      "symbol": "DAMO",
+      "name": "DA.Marijuana.O",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.3399d7c6c609b7e5.DAMO420/logo.png",
+      "tags": ["memecoin", "governance-token"],
+      "extensions": {}
+    },
+    {
       "address": "0x348fe2042c8a70d8",
       "contractName": "MyToken",
       "path": {
@@ -439,6 +435,21 @@
       }
     },
     {
+      "address": "0x5207737ccdc76d11",
+      "contractName": "StudentsofTheGame",
+      "path": {
+        "vault": "/storage/StudentsofTheGameVault",
+        "balance": "/public/StudentsofTheGameMetadata",
+        "receiver": "/public/StudentsofTheGameReceiver"
+      },
+      "symbol": "GAME",
+      "name": "Students of The Game",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.5207737ccdc76d11.StudentsofTheGame/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
+    },
+    {
       "address": "0x53f389d96fb4ce5e",
       "contractName": "SloppyStakes",
       "path": {
@@ -455,6 +466,21 @@
         "twitter": "https://twitter.com/alxocity",
         "discord": "https://discord.com/invite/GYV8JRR"
       }
+    },
+    {
+      "address": "0x67daad91e3782c80",
+      "contractName": "Vampire",
+      "path": {
+        "vault": "/storage/VampireVault",
+        "balance": "/public/VampireMetadata",
+        "receiver": "/public/VampireReceiver"
+      },
+      "symbol": "SUCK",
+      "name": "Vampire Coin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.67daad91e3782c80.Vampire/logo.png",
+      "tags": ["memecoin"],
+      "extensions": {}
     },
     {
       "address": "0x687e1a7aef17b78b",
@@ -521,6 +547,36 @@
       }
     },
     {
+      "address": "0x8259c73e487422d7",
+      "contractName": "TheWolfofFlow",
+      "path": {
+        "vault": "/storage/TheWolfofFlowVault",
+        "balance": "/public/TheWolfofFlowMetadata",
+        "receiver": "/public/TheWolfofFlowReceiver"
+      },
+      "symbol": "WOLF",
+      "name": "The Wolf of Flow",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.8259c73e487422d7.TheWolfofFlow/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
+    },
+    {
+      "address": "0x88b469471cfe5535",
+      "contractName": "LBJDAO",
+      "path": {
+        "vault": "/storage/LBJDAOVault",
+        "balance": "/public/LBJDAOMetadata",
+        "receiver": "/public/LBJDAOReceiver"
+      },
+      "symbol": "LBJ",
+      "name": "LBJ DAO",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.88b469471cfe5535.LBJDAO/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
+    },
+    {
       "address": "0x921ea449dffec68a",
       "contractName": "FlovatarDustToken",
       "path": {
@@ -536,6 +592,42 @@
       "extensions": {
         "website": "https://flovatar.com/",
         "coingeckoId": "flovatar-dust"
+      }
+    },
+    {
+      "address": "0x9db94c9564243ba7",
+      "contractName": "aiSportsJuice",
+      "path": {
+        "vault": "/storage/aiSportsJuiceVault",
+        "balance": "/public/aiSportsJuiceMetadata",
+        "receiver": "/public/aiSportsJuiceReceiver"
+      },
+      "symbol": "JUICE",
+      "name": "aiSportsJuice",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.9db94c9564243ba7.aiSportsJuice/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "website": "https://www.aisportspro.com/",
+        "twitter": "https://twitter.com/aisportspro",
+        "discord": "https://discord.gg/VKvUxMwu5r"
+      }
+    },
+    {
+      "address": "0xb055bef687cfca82",
+      "contractName": "TrollDAO",
+      "path": {
+        "vault": "/storage/TrollDAOVault",
+        "balance": "/public/TrollDAOMetadata",
+        "receiver": "/public/TrollDAOReceiver"
+      },
+      "symbol": "TROLL",
+      "name": "Troll DAO",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.b055bef687cfca82.TrollDAO/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {
+        "twitter": "https://www.twitter.com/trollonflow"
       }
     },
     {
@@ -576,6 +668,21 @@
       }
     },
     {
+      "address": "0xcbba4d41aef83fe3",
+      "contractName": "UtahJazzLegendsClub",
+      "path": {
+        "vault": "/storage/UtahJazzLegendsClubVault",
+        "balance": "/public/UtahJazzLegendsClubMetadata",
+        "receiver": "/public/UtahJazzLegendsClubReceiver"
+      },
+      "symbol": "UJLC",
+      "name": "Utah Jazz Legends Club",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cbba4d41aef83fe3.UtahJazzLegendsClub/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
+    },
+    {
       "address": "0xcfdd90d4a00f7b5b",
       "contractName": "TeleportedTetherToken",
       "path": {
@@ -608,6 +715,36 @@
       "extensions": {
         "website": "https://revvmotorsport.com/"
       }
+    },
+    {
+      "address": "0xd3b62ffbbc632f5a",
+      "contractName": "FlowBlockchainhitCoin",
+      "path": {
+        "vault": "/storage/FlowBlockchainhitCoinVault",
+        "balance": "/public/FlowBlockchainhitCoinMetadata",
+        "receiver": "/public/FlowBlockchainhitCoinReceiver"
+      },
+      "symbol": "HIT",
+      "name": "Flow Blockchain $HIT Coin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d3b62ffbbc632f5a.FlowBlockchainhitCoin/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
+    },
+    {
+      "address": "0xd4d745fab74785c5",
+      "contractName": "WERFWERF",
+      "path": {
+        "vault": "/storage/WERFWERFVault",
+        "balance": "/public/WERFWERFMetadata",
+        "receiver": "/public/WERFWERFReceiver"
+      },
+      "symbol": "WERF",
+      "name": "WERFWERF",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d4d745fab74785c5.WERFWERF/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
     },
     {
       "address": "0xd5dab99b4e7301ce",
@@ -680,212 +817,69 @@
       "extensions": {}
     },
     {
-      "address": "0x5207737ccdc76d11",
-      "contractName": "StudentsofTheGame",
+      "address": "0xe78f40fdacb5ff8f",
+      "contractName": "JollyRoger",
       "path": {
-        "vault": "/storage/StudentsofTheGameVault",
-        "balance": "/public/StudentsofTheGameMetadata",
-        "receiver": "/public/StudentsofTheGameReceiver"
+        "vault": "/storage/JollyRogerVault",
+        "balance": "/public/JollyRogerMetadata",
+        "receiver": "/public/JollyRogerReceiver"
       },
-      "symbol": "GAME",
-      "name": "Students of The Game",
+      "symbol": "JOLLY",
+      "name": "Jolly Roger",
       "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.5207737ccdc76d11.StudentsofTheGame/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0xcbba4d41aef83fe3",
-      "contractName": "UtahJazzLegendsClub",
-      "path": {
-        "vault": "/storage/UtahJazzLegendsClubVault",
-        "balance": "/public/UtahJazzLegendsClubMetadata",
-        "receiver": "/public/UtahJazzLegendsClubReceiver"
-      },
-      "symbol": "UJLC",
-      "name": "Utah Jazz Legends Club",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cbba4d41aef83fe3.UtahJazzLegendsClub/logo.png",
-      "tags": [
-        "utility-token"
-      ],
-      "extensions": {}
-    },
-    {
-      "address": "0x2de1bd4794003663",
-      "contractName": "SwimDAO",
-      "path": {
-        "vault": "/storage/SwimDAOVault",
-        "balance": "/public/SwimDAOMetadata",
-        "receiver": "/public/SwimDAOReceiver"
-      },
-      "symbol": "SWIM",
-      "name": "SwimDAO",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.2de1bd4794003663.SwimDAO/logo.png",
-      "tags": [
-        "utility-token"
-      ],
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e78f40fdacb5ff8f.JollyRoger/logo.png",
+      "tags": ["meme-coin"],
       "extensions": {}
     },
     {
       "address": "0xf887ece39166906e",
       "contractName": "VroomToken",
       "path": {
-          "vault": "/storage/VroomTokenVault",
-          "balance": "/public/VroomTokenBalance",
-          "receiver": "/public/VroomTokenReceiver"
+        "vault": "/storage/VroomTokenVault",
+        "balance": "/public/VroomTokenBalance",
+        "receiver": "/public/VroomTokenReceiver"
       },
       "symbol": "VROOM",
       "name": "Vroom",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.f887ece39166906e.VroomToken/logo.png",
-      "tags": [
-          "utility-token"
-      ],
-      "extensions": {}
-    },
-    {
-      "address": "0xd4d745fab74785c5",
-      "contractName": "WERFWERF",
-      "path": {
-          "vault": "/storage/WERFWERFVault",
-          "balance": "/public/WERFWERFMetadata",
-          "receiver": "/public/WERFWERFReceiver"
-      },
-      "symbol": "WERF",
-      "name": "WERFWERF",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d4d745fab74785c5.WERFWERF/logo.png",
-      "tags": [
-          "utility-token"
-      ],
-      "extensions": {}
-    },
-    {
-      "address": "0xd3b62ffbbc632f5a",
-      "contractName": "FlowBlockchainhitCoin",
-      "path": {
-          "vault": "/storage/FlowBlockchainhitCoinVault",
-          "balance": "/public/FlowBlockchainhitCoinMetadata",
-          "receiver": "/public/FlowBlockchainhitCoinReceiver"
-      },
-      "symbol": "HIT",
-      "name": "Flow Blockchain $HIT Coin",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d3b62ffbbc632f5a.FlowBlockchainhitCoin/logo.png",
-      "tags": [
-          "utility-token"
-      ],
-      "extensions": {}
-    },
-    {
-      "address": "0x88b469471cfe5535",
-      "contractName": "LBJDAO",
-      "path": {
-          "vault": "/storage/LBJDAOVault",
-          "balance": "/public/LBJDAOMetadata",
-          "receiver": "/public/LBJDAOReceiver"
-      },
-      "symbol": "LBJ",
-      "name": "LBJ DAO",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.88b469471cfe5535.LBJDAO/logo.png",
-      "tags": [
-          "utility-token"
-      ],
-      "extensions": {}
-    },
-    {
-      "address": "0x8259c73e487422d7",
-      "contractName": "TheWolfofFlow",
-      "path": {
-          "vault": "/storage/TheWolfofFlowVault",
-          "balance": "/public/TheWolfofFlowMetadata",
-          "receiver": "/public/TheWolfofFlowReceiver"
-      },
-      "symbol": "WOLF",
-      "name": "The Wolf of Flow",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.8259c73e487422d7.TheWolfofFlow/logo.png",
-      "tags": [
-          "utility-token"
-      ],
-      "extensions": {}
-    },
-    {
-    "address": "0xe78f40fdacb5ff8f",
-    "contractName": "JollyRoger",
-    "path": {
-      "vault": "/storage/JollyRogerVault",
-      "balance": "/public/JollyRogerMetadata",
-      "receiver": "/public/JollyRogerReceiver"
-    },
-    "symbol": "JOLLY",
-    "name": "Jolly Roger",
-    "decimals": 8,
-    "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e78f40fdacb5ff8f.JollyRoger/logo.png",
-    "tags": ["meme-coin"],
-    "extensions": {}
-    },
-    {
-      "address": "0x9db94c9564243ba7",
-      "contractName": "aiSportsJuice",
-      "path": {
-        "vault": "/storage/aiSportsJuiceVault",
-        "balance": "/public/aiSportsJuiceMetadata",
-        "receiver": "/public/aiSportsJuiceReceiver"
-      },
-      "symbol": "JUICE",
-      "name": "aiSportsJuice",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.9db94c9564243ba7.aiSportsJuice/logo.png",
       "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://www.aisportspro.com/",
-        "twitter": "https://twitter.com/aisportspro",
-        "discord": "https://discord.gg/VKvUxMwu5r"
-      }
+      "extensions": {}
     },
     {
-      "address": "0x1a494f704432b4bf",
-      "contractName": "FrugDAO",
+      "address": "0xfd1ccaaae39d0e79",
+      "contractName": "Mainledger",
       "path": {
-        "vault": "/storage/FrugDAOVault",
-        "balance": "/public/FrugDAOMetadata",
-        "receiver": "/public/FrugDAOReceiver"
+        "vault": "/storage/MainledgerVault",
+        "balance": "/public/MainledgerMetadata",
+        "receiver": "/public/MainledgerReceiver"
       },
-      "symbol": "FRUG",
-      "name": "Frug",
+      "symbol": "MLC",
+      "name": "Mainledger coin",
       "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1a494f704432b4bf.FrugDAO/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Mainledger/logo.png",
       "tags": ["utility-token"],
-      "extensions": {
-        "twitter": "https://twitter.com/frugcoin"
-      }
+      "extensions": {}
     },
     {
-      "address": "0xb055bef687cfca82",
-      "contractName": "TrollDAO",
+      "address": "0xfd1ccaaae39d0e79",
+      "contractName": "Pokertime",
       "path": {
-        "vault": "/storage/TrollDAOVault",
-        "balance": "/public/TrollDAOMetadata",
-        "receiver": "/public/TrollDAOReceiver"
+        "vault": "/storage/PokertimeVault",
+        "balance": "/public/PokertimeMetadata",
+        "receiver": "/public/PokertimeReceiver"
       },
-      "symbol": "TROLL",
-      "name": "Troll DAO",
+      "symbol": "PKR",
+      "name": "Poker chip",
       "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.b055bef687cfca82.TrollDAO/logo.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Pokertime/logo.png",
       "tags": ["utility-token"],
-      "extensions": {
-        "twitter": "https://www.twitter.com/trollonflow"
-      }
+      "extensions": {}
     }
-    
   ],
   "version": {
     "major": 0,
-    "minor": 11,
+    "minor": 12,
     "patch": 0
   }
 }
