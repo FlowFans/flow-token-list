@@ -6,17 +6,6 @@ on:
     types: [opened, reopened, labeled, synchronize, edited, ready_for_review]
 
 jobs:
-  label:
-    name: Add Label to PR
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-    steps:
-      - uses: LanfordCai/ftl-labeler@v0.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
   validate:
     needs: label
     name: Validate PR Files
