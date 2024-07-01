@@ -1,8 +1,15 @@
 name: FTL-LIST-GENERATOR
 on:
-  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
+  # Allow manual triggering of the workflow
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Reason for sync'
+        required: true
+        default: 'Manual sync'
+        type: string
 
 permissions:
   contents: write
@@ -13,12 +20,14 @@ jobs:
     name: Generate Token List
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '18'
       - run: yarn
       - run: node src/utils/tokenlist-generator.js
       - run: yarn prettier --write src/tokens/*.json
