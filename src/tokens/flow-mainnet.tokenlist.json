@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2024-06-09T02:47:10.055Z",
+  "timestamp": "2024-07-02T00:35:27.812Z",
   "tokens": [
     {
       "address": "0x078a8129525775dd",
@@ -802,6 +802,21 @@
       }
     },
     {
+      "address": "0xe39082fc08c1cd13",
+      "contractName": "THEBEARDAO",
+      "path": {
+        "vault": "/storage/THEBEARDAOVault",
+        "balance": "/public/THEBEARDAOMetadata",
+        "receiver": "/public/THEBEARDAOReceiver"
+      },
+      "symbol": "BEAR",
+      "name": "THE BEAR DAO",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e39082fc08c1cd13.THEBEARDAO/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
+    },
+    {
       "address": "0xe452a2f5665728f5",
       "contractName": "ADUToken",
       "path": {
@@ -875,28 +890,11 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Pokertime/logo.png",
       "tags": ["utility-token"],
       "extensions": {}
-    },
-    {
-      "address": "0xe39082fc08c1cd13",
-      "contractName": "THEBEARDAO",
-      "path": {
-          "vault": "/storage/THEBEARDAOVault",
-          "balance": "/public/THEBEARDAOMetadata",
-          "receiver": "/public/THEBEARDAOReceiver"
-      },
-      "symbol": "BEAR",
-      "name": "THE BEAR DAO",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e39082fc08c1cd13.THEBEARDAO/logo.png",
-      "tags": [
-          "utility-token"
-      ],
-      "extensions": {}
     }
   ],
   "version": {
     "major": 0,
     "minor": 12,
-    "patch": 0
+    "patch": 1
   }
 }
