@@ -892,23 +892,6 @@
           "utility-token"
       ],
       "extensions": {}
-    },
-    {
-      "address": "0xee09029f1dbcd9d1",
-      "contractName": "TopShotBETA",
-      "path": {
-        "vault": "/storage/TopShotBETAVault",
-        "balance": "/public/TopShotBETAMetadata",
-        "receiver": "/public/TopShotBETAReceiver"
-      },
-      "symbol": "BETA",
-      "name": "Top Shot BETA",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.ee09029f1dbcd9d1.TopShotBETA/logo.png",
-      "tags": [
-        "utility-token"
-      ],
-      "extensions": {}
     }
   ],
   "version": {
