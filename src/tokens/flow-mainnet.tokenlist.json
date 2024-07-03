@@ -40,7 +40,7 @@
       "description": "Tokens that are designed to be use in community governance and maintenance"
     }
   },
-  "timestamp": "2024-07-02T00:35:27.812Z",
+  "timestamp": "2024-07-03T00:35:23.548Z",
   "tokens": [
     {
       "address": "0x078a8129525775dd",
@@ -847,6 +847,21 @@
       "extensions": {}
     },
     {
+      "address": "0xee09029f1dbcd9d1",
+      "contractName": "TopShotBETA",
+      "path": {
+        "vault": "/storage/TopShotBETAVault",
+        "balance": "/public/TopShotBETAMetadata",
+        "receiver": "/public/TopShotBETAReceiver"
+      },
+      "symbol": "BETA",
+      "name": "Top Shot BETA",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.ee09029f1dbcd9d1.TopShotBETA/logo.png",
+      "tags": ["utility-token"],
+      "extensions": {}
+    },
+    {
       "address": "0xf887ece39166906e",
       "contractName": "VroomToken",
       "path": {
@@ -890,28 +905,11 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Pokertime/logo.png",
       "tags": ["utility-token"],
       "extensions": {}
-    },
-    {
-      "address": "0xee09029f1dbcd9d1",
-      "contractName": "TopShotBETA",
-      "path": {
-        "vault": "/storage/TopShotBETAVault",
-        "balance": "/public/TopShotBETAMetadata",
-        "receiver": "/public/TopShotBETAReceiver"
-      },
-      "symbol": "BETA",
-      "name": "Top Shot BETA",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.ee09029f1dbcd9d1.TopShotBETA/logo.png",
-      "tags": [
-        "utility-token"
-      ],
-      "extensions": {}
     }
   ],
   "version": {
     "major": 0,
     "minor": 12,
-    "patch": 1
+    "patch": 2
   }
 }
