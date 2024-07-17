@@ -1,7 +1,1389 @@
 {
   "name": "Flow Token List",
+  "network": "mainnet",
+  "chainId": 747,
+  "tokens": [
+    {
+      "chainId": 747,
+      "address": "0xe452a2f5665728f5",
+      "contractName": "ADUToken",
+      "path": {
+        "vault": "/storage/ADUTokenVault",
+        "receiver": "/public/ADUTokenReceiver",
+        "balance": "/public/ADUTokenMetadata"
+      },
+      "symbol": "ADU",
+      "name": "All Day Unlimited",
+      "description": "All Day Unlimited community DAO.",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e452a2f5665728f5.ADUToken/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "alldayunlimited",
+        "twitter": "",
+        "website": "https://toucans.ecdao.org/p/ADUToken",
+        "displaySource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x9db94c9564243ba7",
+      "contractName": "aiSportsJuice",
+      "path": {
+        "vault": "/storage/aiSportsJuiceVault",
+        "receiver": "/public/aiSportsJuiceReceiver",
+        "balance": "/public/aiSportsJuiceMetadata"
+      },
+      "symbol": "JUICE",
+      "name": "aiSports",
+      "description": "This is the aiSports DAO, here we manage the $JUICE token and aiSports treasury. We will also utilize this platform to support community votes.",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.9db94c9564243ba7.aiSportsJuice/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "https://twitter.com/aisportspro",
+        "discord": "https://discord.gg/VKvUxMwu5r",
+        "website": "https://www.aisportspro.com/"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x4ea047c3e73ca460",
+      "contractName": "BallerzFC",
+      "path": {
+        "vault": "/storage/BallerzFCVault",
+        "receiver": "/public/BallerzFCReceiver",
+        "balance": "/public/BallerzFCMetadata"
+      },
+      "symbol": "BFC",
+      "name": "Ballerz FC",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.4ea047c3e73ca460.BallerzFC/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "https://discord.com/invite/sDBp8YdH",
+        "twitter": "https://twitter.com/Ballerz__FC",
+        "website": "https://twitter.com/Ballerz__FC",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x687e1a7aef17b78b",
+      "contractName": "Beaver",
+      "path": {
+        "vault": "/storage/BeaverVault",
+        "receiver": "/public/BeaverReceiver",
+        "balance": "/public/BeaverMetadata"
+      },
+      "symbol": "PUSS",
+      "name": "Beaver",
+      "description": "Hey, nice beaver",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.687e1a7aef17b78b.Beaver/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "",
+        "twitter": "beavercoinflow",
+        "website": "beavercoin.io"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x0f9df91c9121c460",
+      "contractName": "BloctoToken",
+      "path": {
+        "vault": "/storage/bloctoTokenVault",
+        "receiver": "/public/bloctoTokenReceiver",
+        "balance": "/public/bloctoTokenBalance"
+      },
+      "symbol": "BLT",
+      "name": "Blocto Token",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0f9df91c9121c460.BloctoToken/logo.png",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "blocto-token",
+        "website": "https://blocto.app/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x7bf07d719dcb8480",
+      "contractName": "brasil",
+      "path": {
+        "vault": "/storage/brasilVault",
+        "receiver": "/public/brasilReceiver",
+        "balance": "/public/brasilMetadata"
+      },
+      "symbol": "BR",
+      "name": "Brasil",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.7bf07d719dcb8480.brasil/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "https://discord.gg/hT8EpC5mUN",
+        "twitter": "https://twitter.com/flowbrasilchain",
+        "website": "https://toucans.ecdao.org/p/brasil",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x231cc0dbbcffc4b7",
+      "contractName": "ceAVAX",
+      "path": {
+        "vault": "/storage/ceAVAXVault",
+        "receiver": "/public/ceAVAXReceiver",
+        "balance": "/public/ceAVAXBalance"
+      },
+      "symbol": "ceAVAX",
+      "name": "Avalanche (Celer)",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceAVAX/logo.png",
+      "tags": ["wrapped-celer"],
+      "extensions": {
+        "bridgeContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+        "coingeckoId": "avalanche-2",
+        "website": "https://cbridge.celer.network/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73",
+        "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+        "assetContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x231cc0dbbcffc4b7",
+      "contractName": "ceBNB",
+      "path": {
+        "vault": "/storage/ceBNBVault",
+        "receiver": "/public/ceBNBReceiver",
+        "balance": "/public/ceBNBBalance"
+      },
+      "symbol": "ceBNB",
+      "name": "Binance Coin (Celer)",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceBNB/logo.png",
+      "tags": ["wrapped-celer"],
+      "extensions": {
+        "bridgeContract": "https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "coingeckoId": "binancecoin",
+        "website": "https://cbridge.celer.network/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73",
+        "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "assetContract": "https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x231cc0dbbcffc4b7",
+      "contractName": "ceBUSD",
+      "path": {
+        "vault": "/storage/ceBUSDVault",
+        "receiver": "/public/ceBUSDReceiver",
+        "balance": "/public/ceBUSDBalance"
+      },
+      "symbol": "ceBUSD",
+      "name": "Binance USD (Celer)",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceBUSD/logo.png",
+      "tags": ["wrapped-celer"],
+      "extensions": {
+        "bridgeContract": "https://bscscan.com/address/0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "coingeckoId": "binance-usd",
+        "website": "https://cbridge.celer.network/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73",
+        "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "assetContract": "https://bscscan.com/address/0xe9e7cea3dedca5984780bafc599bd69add087d56"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x231cc0dbbcffc4b7",
+      "contractName": "ceDAI",
+      "path": {
+        "vault": "/storage/ceDAIVault",
+        "receiver": "/public/ceDAIReceiver",
+        "balance": "/public/ceDAIBalance"
+      },
+      "symbol": "ceDAI",
+      "name": "Dai Stablecoin (Celer)",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceDAI/logo.png",
+      "tags": ["wrapped-celer", "stablecoin"],
+      "extensions": {
+        "coingeckoId": "dai",
+        "bridgeContract": "https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f",
+        "website": "https://cbridge.celer.network/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73",
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "assetContract": "https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x231cc0dbbcffc4b7",
+      "contractName": "ceFTM",
+      "path": {
+        "vault": "/storage/ceFTMVault",
+        "receiver": "/public/ceFTMReceiver",
+        "balance": "/public/ceFTMBalance"
+      },
+      "symbol": "ceFTM",
+      "name": "Fantom (Celer)",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceFTM/logo.png",
+      "tags": ["wrapped-celer"],
+      "extensions": {
+        "coingeckoId": "fantom",
+        "website": "https://cbridge.celer.network/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x231cc0dbbcffc4b7",
+      "contractName": "ceMATIC",
+      "path": {
+        "vault": "/storage/ceMATICVault",
+        "receiver": "/public/ceMATICReceiver",
+        "balance": "/public/ceMATICBalance"
+      },
+      "symbol": "ceMATIC",
+      "name": "Matic Token (Celer)",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceMATIC/logo.png",
+      "tags": ["wrapped-celer"],
+      "extensions": {
+        "coingeckoId": "matic-network",
+        "website": "https://cbridge.celer.network/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x231cc0dbbcffc4b7",
+      "contractName": "ceUSDT",
+      "path": {
+        "vault": "/storage/ceUSDTVault",
+        "receiver": "/public/ceUSDTReceiver",
+        "balance": "/public/ceUSDTBalance"
+      },
+      "symbol": "ceUSDT",
+      "name": "Tether USD (Celer)",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceUSDT/logo.png",
+      "tags": ["wrapped-celer", "stablecoin"],
+      "extensions": {
+        "coingeckoId": "tether",
+        "website": "https://tether.to/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x231cc0dbbcffc4b7",
+      "contractName": "ceWBTC",
+      "path": {
+        "vault": "/storage/ceWBTCVault",
+        "receiver": "/public/ceWBTCReceiver",
+        "balance": "/public/ceWBTCBalance"
+      },
+      "symbol": "ceWBTC",
+      "name": "Wrapped BTC (Celer)",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceWBTC/logo.png",
+      "tags": ["wrapped-celer"],
+      "extensions": {
+        "bridgeContract": "https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "coingeckoId": "wrapped-bitcoin",
+        "website": "https://cbridge.celer.network/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73",
+        "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "assetContract": "https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x231cc0dbbcffc4b7",
+      "contractName": "ceWETH",
+      "path": {
+        "vault": "/storage/ceWETHVault",
+        "receiver": "/public/ceWETHReceiver",
+        "balance": "/public/ceWETHBalance"
+      },
+      "symbol": "ceWETH",
+      "name": "Wrapped Ether (Celer)",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceWETH/logo.png",
+      "tags": ["wrapped-celer"],
+      "extensions": {
+        "coingeckoId": "weth",
+        "website": "https://cbridge.celer.network/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x3399d7c6c609b7e5",
+      "contractName": "DAMO420",
+      "path": {
+        "vault": "/storage/DAMO420Vault",
+        "receiver": "/public/DAMO420Receiver",
+        "balance": "/public/DAMO420Metadata"
+      },
+      "symbol": "DAMO",
+      "name": "DAMO.",
+      "description": "a DAO for people who like/support marijuana.",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.3399d7c6c609b7e5.DAMO420/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "",
+        "twitter": "",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x48ff88b4ccb47359",
+      "contractName": "Duckcoin",
+      "path": {
+        "vault": "/storage/DuckcoinVault",
+        "receiver": "/public/DuckcoinReceiver",
+        "balance": "/public/DuckcoinMetadata"
+      },
+      "symbol": "DUCK",
+      "name": "Duckcoin",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.48ff88b4ccb47359.Duckcoin/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "https://twitter.com/Duck_coin_flow",
+        "website": "https://duck-coin.vip",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xb19436aae4d94622",
+      "contractName": "FiatToken",
+      "path": {
+        "vault": "/storage/USDCVault",
+        "receiver": "/public/USDCVaultReceiver",
+        "balance": "/public/USDCVaultBalance"
+      },
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.b19436aae4d94622.FiatToken/logo.svg",
+      "tags": ["stablecoin"],
+      "extensions": {
+        "twitter": "https://twitter.com/circle",
+        "documentation": "https://developers.circle.com/stablecoins/docs",
+        "coingeckoId": "usd-coin",
+        "website": "https://www.circle.com/en/usdc-multichain/flow",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x3a15920084d609b9",
+      "contractName": "FixesFungibleToken",
+      "path": {
+        "vault": "/storage/FixsStandardFT_0x3a15920084d609b9OLDO_Vault",
+        "receiver": "/public/FixsStandardFT_0x3a15920084d609b9OLDO_Receiver",
+        "balance": "/public/FixsStandardFT_0x3a15920084d609b9OLDO_Balance"
+      },
+      "symbol": "OLDO",
+      "name": "Seniors of the flow",
+      "description": "The power of old holders flow ",
+      "decimals": 8,
+      "logoURI": "https://static.fixes.world/36SU1HXzIwMj1721128795777",
+      "tags": [],
+      "extensions": {
+        "website": "https://linktr.ee/fixes.world/"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x30c7989ef730601d",
+      "contractName": "FixesFungibleToken",
+      "path": {
+        "vault": "/storage/FixsStandardFT_0x30c7989ef730601dBIFF_Vault",
+        "receiver": "/public/FixsStandardFT_0x30c7989ef730601dBIFF_Receiver",
+        "balance": "/public/FixsStandardFT_0x30c7989ef730601dBIFF_Balance"
+      },
+      "symbol": "BIFF",
+      "name": "BIFF 2 THE FUTURE",
+      "description": "Since you're new here, I'm gonna cut you a break, today. So, why don't you make like a tree and get outta here?",
+      "decimals": 8,
+      "logoURI": "https://static.fixes.world/12QklGRi5qcG1721060623168",
+      "tags": [],
+      "extensions": {
+        "website": "https://linktr.ee/fixes.world/"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x2fc0d080618ee419",
+      "contractName": "FixesFungibleToken",
+      "path": {
+        "vault": "/storage/FixsStandardFT_0x2fc0d080618ee419RUG_Vault",
+        "receiver": "/public/FixsStandardFT_0x2fc0d080618ee419RUG_Receiver",
+        "balance": "/public/FixsStandardFT_0x2fc0d080618ee419RUG_Balance"
+      },
+      "symbol": "RUG",
+      "name": "RUG",
+      "description": "This is a token for RUG projects on the Flow blockchain.",
+      "decimals": 8,
+      "logoURI": "https://static.fixes.world/12UlVHLmpwZw1720687769219",
+      "tags": [],
+      "extensions": {
+        "website": "https://linktr.ee/fixes.world/"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x790b8e6b2fa3760b",
+      "contractName": "FixesFungibleToken",
+      "path": {
+        "vault": "/storage/FixsStandardFT_0x790b8e6b2fa3760bBUCKSY_Vault",
+        "receiver": "/public/FixsStandardFT_0x790b8e6b2fa3760bBUCKSY_Receiver",
+        "balance": "/public/FixsStandardFT_0x790b8e6b2fa3760bBUCKSY_Balance"
+      },
+      "symbol": "BUCKSY",
+      "name": "cryptocat",
+      "description": "Give me flow fish and I'll give you back gold fish, meow🐱🐱🐱",
+      "decimals": 8,
+      "logoURI": "https://static.fixes.world/40UG9saXNoXz1721047112447",
+      "tags": [],
+      "extensions": {
+        "website": "https://x.com/timon4room"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xa9102e56a8b7a680",
+      "contractName": "FixesFungibleToken",
+      "path": {
+        "vault": "/storage/FixsStandardFT_0xa9102e56a8b7a680TRUMP_Vault",
+        "receiver": "/public/FixsStandardFT_0xa9102e56a8b7a680TRUMP_Receiver",
+        "balance": "/public/FixsStandardFT_0xa9102e56a8b7a680TRUMP_Balance"
+      },
+      "symbol": "TRUMP",
+      "name": "Trump 2024",
+      "description": "2024.07.13 @Pennsylvania",
+      "decimals": 8,
+      "logoURI": "https://static.fixes.world/16VFJVTVAuan1720929622589",
+      "tags": [],
+      "extensions": {
+        "twitter": "https://x.com/wallstreetbets/status/1812255169330950218",
+        "website": "https://linktr.ee/fixes.world/"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xb9cd93d3bb31b497",
+      "contractName": "FixesFungibleToken",
+      "path": {
+        "vault": "/storage/FixsStandardFT_0xb9cd93d3bb31b497FIX_Vault",
+        "receiver": "/public/FixsStandardFT_0xb9cd93d3bb31b497FIX_Receiver",
+        "balance": "/public/FixsStandardFT_0xb9cd93d3bb31b497FIX_Balance"
+      },
+      "symbol": "FIX",
+      "name": "Fixes World",
+      "description": "Demo Coin launched by Fixes World.\nFixes World provides multiple fungible token issuance, trading, staking, and governance services.",
+      "decimals": 8,
+      "logoURI": "https://static.fixes.world/24bG9nby01MT1720627439281",
+      "tags": [],
+      "extensions": {
+        "github": "https://github.com/fixes-world",
+        "telegram": "https://t.me/fixes_world",
+        "twitter": "https://x.com/fixesWorld",
+        "website": "https://linktr.ee/fixes.world"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x84509c2a28c0de41",
+      "contractName": "FixesFungibleToken",
+      "path": {
+        "vault": "/storage/FixsStandardFT_0x84509c2a28c0de41RDB_Vault",
+        "receiver": "/public/FixsStandardFT_0x84509c2a28c0de41RDB_Receiver",
+        "balance": "/public/FixsStandardFT_0x84509c2a28c0de41RDB_Balance"
+      },
+      "symbol": "RDB",
+      "name": "Ricky Dragoon on Bitcoin",
+      "description": "The first conceptual-coin on the Fixes token.Based on the $RDB token, the idea of ​​​​how the character of Ricky Spanish Dragoon on Bitcoin will carry out its implementation in the universe will be decided. A Tao will be created that will make decisions on the development of Ricky Spanich character, the Tao's votes will be distributed based on the principle of ownership of the $RDB token.",
+      "decimals": 8,
+      "logoURI": "https://static.fixes.world/20SU1HXzA1MD1721051954174",
+      "tags": [],
+      "extensions": {
+        "website": "https://linktr.ee/fixes.world/"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x0169af3078d4efff",
+      "contractName": "FixesFungibleToken",
+      "path": {
+        "vault": "/storage/FixsStandardFT_0x0169af3078d4efffRND_Vault",
+        "receiver": "/public/FixsStandardFT_0x0169af3078d4efffRND_Receiver",
+        "balance": "/public/FixsStandardFT_0x0169af3078d4efffRND_Balance"
+      },
+      "symbol": "RND",
+      "name": "Random Coin",
+      "description": "Worthless, just a random coin.",
+      "decimals": 8,
+      "logoURI": "https://static.fixes.world/16cmFuZG9tLn1720670911873",
+      "tags": [],
+      "extensions": {
+        "website": "https://linktr.ee/fixes.world/"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xce0ebd3df46ea037",
+      "contractName": "FixesFungibleToken",
+      "path": {
+        "vault": "/storage/FixsStandardFT_0xce0ebd3df46ea037CAM_Vault",
+        "receiver": "/public/FixsStandardFT_0xce0ebd3df46ea037CAM_Receiver",
+        "balance": "/public/FixsStandardFT_0xce0ebd3df46ea037CAM_Balance"
+      },
+      "symbol": "CAM",
+      "name": "Scammy coin",
+      "description": "Not doing anything with this",
+      "decimals": 8,
+      "logoURI": "https://static.fixes.world/16UG9vXzI5Lm1720730336857",
+      "tags": [],
+      "extensions": {
+        "website": "https://linktr.ee/fixes.world/"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x282cd67844f046cf",
+      "contractName": "FixesFungibleToken",
+      "path": {
+        "vault": "/storage/FixsStandardFT_0x282cd67844f046cfVENUS_Vault",
+        "receiver": "/public/FixsStandardFT_0x282cd67844f046cfVENUS_Receiver",
+        "balance": "/public/FixsStandardFT_0x282cd67844f046cfVENUS_Balance"
+      },
+      "symbol": "VENUS",
+      "name": "Venus",
+      "description": "Lifes good here. Come join",
+      "decimals": 8,
+      "logoURI": "https://static.fixes.world/16cmVzdWx0Ln1721059951002",
+      "tags": [],
+      "extensions": {
+        "website": "https://linktr.ee/fixes.world/"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x921ea449dffec68a",
+      "contractName": "FlovatarDustToken",
+      "path": {
+        "vault": "/storage/FlovatarDustTokenVault",
+        "receiver": "/public/FlovatarDustTokenReceiver",
+        "balance": "/public/FlovatarDustTokenBalance"
+      },
+      "symbol": "DUST",
+      "name": "Flovatar DUST",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "http://images.flovatar.com/logo-round.png",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "flovatar-dust",
+        "website": "https://flovatar.com/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xd3b62ffbbc632f5a",
+      "contractName": "FlowBlockchainhitCoin",
+      "path": {
+        "vault": "/storage/FlowBlockchainhitCoinVault",
+        "receiver": "/public/FlowBlockchainhitCoinReceiver",
+        "balance": "/public/FlowBlockchainhitCoinMetadata"
+      },
+      "symbol": "HIT",
+      "name": "Flow Blockchain $hit Coin",
+      "description": "Just an original shitcoin, powered by the FLOW blockchain",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d3b62ffbbc632f5a.FlowBlockchainhitCoin/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "",
+        "discord": "",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x1654653399040a61",
+      "contractName": "FlowToken",
+      "path": {
+        "vault": "/storage/flowTokenVault",
+        "receiver": "/public/flowTokenReceiver",
+        "balance": "/public/flowTokenBalance"
+      },
+      "symbol": "FLOW",
+      "name": "Flow",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
+      "tags": ["utility-token"],
+      "extensions": {
+        "github": "https://github.com/onflow/flow-core-contracts",
+        "coingeckoId": "flow",
+        "discord": "http://discord.gg/flow",
+        "twitter": "https://twitter.com/flow_blockchain",
+        "documentation": "https://developers.flow.com/references/core-contracts/flow-token",
+        "website": "https://www.onflow.org",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x71e661cc981985c4",
+      "contractName": "Freely",
+      "path": {
+        "vault": "/storage/FreelyVault",
+        "receiver": "/public/FreelyReceiver",
+        "balance": "/public/FreelyMetadata"
+      },
+      "symbol": "FRLY",
+      "name": "Freely",
+      "description": "A DAO for Christians",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.71e661cc981985c4.Freely/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "q2maASKC",
+        "twitter": "freely",
+        "website": "freely.com",
+        "displaySource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x1a494f704432b4bf",
+      "contractName": "FrugDAO",
+      "path": {
+        "vault": "/storage/FrugDAOVault",
+        "receiver": "/public/FrugDAOReceiver",
+        "balance": "/public/FrugDAOMetadata"
+      },
+      "symbol": "FRUG",
+      "name": "Frug DAO",
+      "description": "A community driven DAO powered by $FRUG",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1a494f704432b4bf.FrugDAO/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "https://twitter.com/frugcoin",
+        "discord": "",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x3c5959b568896393",
+      "contractName": "FUSD",
+      "path": {
+        "vault": "/storage/fusdVault",
+        "receiver": "/public/fusdReceiver",
+        "balance": "/public/fusdBalance"
+      },
+      "symbol": "FUSD",
+      "name": "FUSD(Deprecated)",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.3c5959b568896393.FUSD/logo.svg",
+      "tags": ["Deprecated"],
+      "extensions": {
+        "website": "https://docs.onflow.org/fusd/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x078a8129525775dd",
+      "contractName": "GreenBitcoin",
+      "path": {
+        "vault": "/storage/GreenBitcoinVault",
+        "receiver": "/public/GreenBitcoinReceiver",
+        "balance": "/public/GreenBitcoinMetadata"
+      },
+      "symbol": "GBTC",
+      "name": "Green Bitcoin",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.078a8129525775dd.GreenBitcoin/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "https://twitter.com/_GreenBitcoin",
+        "discord": "https://discord.gg/vY8pK9x8",
+        "website": "https://toucans.ecdao.org/p/GreenBitcoin",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xe78f40fdacb5ff8f",
+      "contractName": "JollyRoger",
+      "path": {
+        "vault": "/storage/JollyRogerVault",
+        "receiver": "/public/JollyRogerReceiver",
+        "balance": "/public/JollyRogerMetadata"
+      },
+      "symbol": "JOLLY",
+      "name": "Jolly Roger",
+      "description": "Hoist the flag! Doubloons for all... ",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e78f40fdacb5ff8f.JollyRoger/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "",
+        "twitter": "",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x88b469471cfe5535",
+      "contractName": "LBJDAO",
+      "path": {
+        "vault": "/storage/LBJDAOVault",
+        "receiver": "/public/LBJDAOReceiver",
+        "balance": "/public/LBJDAOMetadata"
+      },
+      "symbol": "LBJ",
+      "name": "LBJ DAO",
+      "description": "An unofficial DAO for everyone who saw LBJ's gorgeous play.",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.88b469471cfe5535.LBJDAO/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "",
+        "twitter": "",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xfd1ccaaae39d0e79",
+      "contractName": "Mainledger",
+      "path": {
+        "vault": "/storage/MainledgerVault",
+        "receiver": "/public/MainledgerReceiver",
+        "balance": "/public/MainledgerMetadata"
+      },
+      "symbol": "MLC",
+      "name": "Mainledger",
+      "description": "A way to reward our followers",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Mainledger/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "",
+        "discord": "",
+        "website": "mainledger.net/",
+        "displaySource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x348fe2042c8a70d8",
+      "contractName": "MyToken",
+      "path": {
+        "vault": "/storage/mytokenVault",
+        "receiver": "/public/mytokenReceiver",
+        "balance": "/public/mytokenBalance"
+      },
+      "symbol": "MY",
+      "name": "My Token",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.348fe2042c8a70d8.MyToken/logo.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://mynft.io/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x7120ab3fbf74ea9e",
+      "contractName": "NCTRDAO",
+      "path": {
+        "vault": "/storage/NCTRDAOVault",
+        "receiver": "/public/NCTRDAOReceiver",
+        "balance": "/public/NCTRDAOMetadata"
+      },
+      "symbol": "NCTR",
+      "name": "NCTR DAO",
+      "description": "The NCTR DAO is committed to support NCTR, the world's first global loyalty point.",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.7120ab3fbf74ea9e.NCTRDAO/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "",
+        "twitter": "",
+        "website": "",
+        "displaySource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xd756450f386fb4ac",
+      "contractName": "OzoneToken",
+      "path": {
+        "vault": "/storage/ozonetokenVault",
+        "receiver": "/public/ozonetokenReceiver",
+        "balance": "/public/ozonetokenBalance"
+      },
+      "symbol": "Ozone",
+      "name": "Ozone Token",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d756450f386fb4ac.OzoneToken/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://ozoneuniverse.com/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x6fd2465f3a22e34c",
+      "contractName": "PetJokicsHorses",
+      "path": {
+        "vault": "/storage/PetJokicsHorsesVault",
+        "receiver": "/public/PetJokicsHorsesReceiver",
+        "balance": "/public/PetJokicsHorsesMetadata"
+      },
+      "symbol": "MVP",
+      "name": "Pet Jokic's Horses",
+      "description": "Nikola Jokic has been the best player in the world for years. As such, he has a lot of moments minted on NBA Top Shot. His horses are sad about the oversupply, which impacts their results. Let's make his horses happy.",
+      "decimals": 8,
+      "logoURI": "https://nftstorage.link/ipfs/bafkreif54ujjuwa2xewkgy5wje3qos7mk77rjxfdwl3a47qsj6sxv3kzi4",
+      "tags": [],
+      "extensions": {
+        "discord": "",
+        "twitter": "",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xfd1ccaaae39d0e79",
+      "contractName": "Pokertime",
+      "path": {
+        "vault": "/storage/PokertimeVault",
+        "receiver": "/public/PokertimeReceiver",
+        "balance": "/public/PokertimeMetadata"
+      },
+      "symbol": "PKR",
+      "name": "Poker time",
+      "description": "Poker chip on flow blockchain",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Pokertime/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "",
+        "discord": "dMQfs3WA",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xd5dab99b4e7301ce",
+      "contractName": "PublishedNFTDAO",
+      "path": {
+        "vault": "/storage/PublishedNFTDAOVault",
+        "receiver": "/public/PublishedNFTDAOReceiver",
+        "balance": "/public/PublishedNFTDAOMetadata"
+      },
+      "symbol": "PAGE",
+      "name": "PublishedNFTDAO",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d5dab99b4e7301ce.PublishedNFTDAO/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "https://discord.gg/RHH5aH44k9",
+        "twitter": "https://twitter.com/publishednft",
+        "website": "https://publishednft.io",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xd01e482eb680ec9f",
+      "contractName": "REVV",
+      "path": {
+        "vault": "/storage/revvVault",
+        "receiver": "/public/revvReceiver",
+        "balance": "/public/revvBalance"
+      },
+      "symbol": "REVV",
+      "name": "REVV",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d01e482eb680ec9f.REVV/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://revvmotorsport.com/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x231cc0dbbcffc4b7",
+      "contractName": "RLY",
+      "path": {
+        "vault": "/storage/RLYVault",
+        "receiver": "/public/RLYReceiver",
+        "balance": "/public/RLYBalance"
+      },
+      "symbol": "RLY",
+      "name": "Rally",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.RLY/logo.png",
+      "tags": ["wrapped-celer"],
+      "extensions": {
+        "coingeckoId": "rally-2",
+        "website": "https://rly.network/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xc8c340cebd11f690",
+      "contractName": "SdmToken",
+      "path": {
+        "vault": "/storage/sdmTokenVault",
+        "receiver": "/public/sdmTokenReceiver",
+        "balance": "/public/sdmTokenBalance"
+      },
+      "symbol": "SDM",
+      "name": "Sdm Token",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.c8c340cebd11f690.SdmToken/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://flow.darkcountry.io/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x53f389d96fb4ce5e",
+      "contractName": "SloppyStakes",
+      "path": {
+        "vault": "/storage/SloppyStakesVault",
+        "receiver": "/public/SloppyStakesReceiver",
+        "balance": "/public/SloppyStakesMetadata"
+      },
+      "symbol": "LOPPY",
+      "name": "Sloppy Stakes",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.53f389d96fb4ce5e.SloppyStakes/logo.png",
+      "tags": ["memecoin"],
+      "extensions": {
+        "telegram": "https://t.co/E8FzKLuMnH",
+        "discord": "https://discord.com/invite/GYV8JRR",
+        "twitter": "https://twitter.com/alxocity",
+        "website": "http://sloppystakes.com/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x142fa6570b62fd97",
+      "contractName": "StarlyToken",
+      "path": {
+        "vault": "/storage/starlyTokenVault",
+        "receiver": "/public/starlyTokenReceiver",
+        "balance": "/public/starlyTokenBalance"
+      },
+      "symbol": "STARLY",
+      "name": "Starly Token",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.142fa6570b62fd97.StarlyToken/logo.png",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "starly",
+        "website": "https://starly.io/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xd6f80565193ad727",
+      "contractName": "stFlowToken",
+      "path": {
+        "vault": "/storage/stFlowTokenVault",
+        "receiver": "/public/stFlowTokenReceiver",
+        "balance": "/public/stFlowTokenBalance"
+      },
+      "symbol": "stFLOW",
+      "name": "Liquid Staked Flow",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d6f80565193ad727.stFlowToken/logo.svg",
+      "tags": ["utility-token"],
+      "extensions": {
+        "discord": "https://discord.gg/r2keKxuKqX",
+        "twitter": "https://twitter.com/incrementfi",
+        "website": "https://app.increment.fi/staking",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x5207737ccdc76d11",
+      "contractName": "StudentsofTheGame",
+      "path": {
+        "vault": "/storage/StudentsofTheGameVault",
+        "receiver": "/public/StudentsofTheGameReceiver",
+        "balance": "/public/StudentsofTheGameMetadata"
+      },
+      "symbol": "GAME",
+      "name": "Students of The Game",
+      "description": "The Students of The Game",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.5207737ccdc76d11.StudentsofTheGame/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "https://discord.com/invite/Z49V8ky2Jb",
+        "twitter": "https://twitter.com/StudentsoftGame",
+        "website": "https://toucans.ecdao.org/p/StudentsofTheGame",
+        "displaySource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x2de1bd4794003663",
+      "contractName": "SwimDAO",
+      "path": {
+        "vault": "/storage/SwimDAOVault",
+        "receiver": "/public/SwimDAOReceiver",
+        "balance": "/public/SwimDAOMetadata"
+      },
+      "symbol": "SWIM",
+      "name": "SwimDAO",
+      "description": "A  Scalable Entrepreneurship Ecosystem ",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.2de1bd4794003663.SwimDAO/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "swimdao",
+        "discord": "swimdao",
+        "website": "swimdao.org"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x475755d2c9dccc3a",
+      "contractName": "TeleportedSportiumToken",
+      "path": {
+        "vault": "/storage/TeleportedSportiumTokenVault",
+        "receiver": "/public/TeleportedSportiumTokenReceiver",
+        "balance": "/public/TeleportedSportiumTokenBalance"
+      },
+      "symbol": "SPRT",
+      "name": "Teleported Sportium Token",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.475755d2c9dccc3a.TeleportedSportiumToken/logo.png",
+      "tags": ["teleported-token"],
+      "extensions": {
+        "coingeckoId": "sportium",
+        "website": "https://www.sportium.fan/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xcfdd90d4a00f7b5b",
+      "contractName": "TeleportedTetherToken",
+      "path": {
+        "vault": "/storage/teleportedTetherTokenVault",
+        "receiver": "/public/teleportedTetherTokenReceiver",
+        "balance": "/public/teleportedTetherTokenBalance"
+      },
+      "symbol": "tUSDT",
+      "name": "Teleported Tether Token",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cfdd90d4a00f7b5b.TeleportedTetherToken/logo.png",
+      "tags": ["teleported-token", "stablecoin"],
+      "extensions": {
+        "website": "https://blocto.app/",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xe39082fc08c1cd13",
+      "contractName": "THEBEARDAO",
+      "path": {
+        "vault": "/storage/THEBEARDAOVault",
+        "receiver": "/public/THEBEARDAOReceiver",
+        "balance": "/public/THEBEARDAOMetadata"
+      },
+      "symbol": "BEAR",
+      "name": "THE BEAR DAO",
+      "description": "DAO for people that are still here. If you're bearish on flow then we're bearish on you.",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e39082fc08c1cd13.THEBEARDAO/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "flow_bear_token",
+        "discord": "",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x8259c73e487422d7",
+      "contractName": "TheWolfofFlow",
+      "path": {
+        "vault": "/storage/TheWolfofFlowVault",
+        "receiver": "/public/TheWolfofFlowReceiver",
+        "balance": "/public/TheWolfofFlowMetadata"
+      },
+      "symbol": "WOLF",
+      "name": "The Wolf of Flow",
+      "description": "$WOLF a fair launch meme coin on @flow_blockchain",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.8259c73e487422d7.TheWolfofFlow/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "thewolfofflow",
+        "discord": "",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x66b60643244a7738",
+      "contractName": "TitToken",
+      "path": {
+        "vault": "/storage/TitTokenVault",
+        "receiver": "/public/TitTokenReceiver",
+        "balance": "/public/TitTokenBalance"
+      },
+      "symbol": "TIT",
+      "name": "TIT Token",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://pbs.twimg.com/profile_images/1775300465405636608/2Lyf_CaB_400x400.jpg",
+      "tags": [],
+      "extensions": {
+        "twitter": "https://twitter.com/vertico_defi",
+        "website": "https://titpalace.xyz",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xee09029f1dbcd9d1",
+      "contractName": "TopShotBETA",
+      "path": {
+        "vault": "/storage/TopShotBETAVault",
+        "receiver": "/public/TopShotBETAReceiver",
+        "balance": "/public/TopShotBETAMetadata"
+      },
+      "symbol": "BETA",
+      "name": "Top Shot $BETA",
+      "description": "Top Shots Rookie Debut Meme Coin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.ee09029f1dbcd9d1.TopShotBETA/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "TopShotBETA",
+        "discord": "",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xb055bef687cfca82",
+      "contractName": "TrollDAO",
+      "path": {
+        "vault": "/storage/TrollDAOVault",
+        "receiver": "/public/TrollDAOReceiver",
+        "balance": "/public/TrollDAOMetadata"
+      },
+      "symbol": "TROLL",
+      "name": "Troll DAO",
+      "description": "a dao fir the trolls on flew bluckchin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.b055bef687cfca82.TrollDAO/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "",
+        "twitter": "https://www.twitter.com/trollonflow",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xcbba4d41aef83fe3",
+      "contractName": "UtahJazzLegendsClub",
+      "path": {
+        "vault": "/storage/UtahJazzLegendsClubVault",
+        "receiver": "/public/UtahJazzLegendsClubReceiver",
+        "balance": "/public/UtahJazzLegendsClubMetadata"
+      },
+      "symbol": "UJLC",
+      "name": "Utah Jazz Legends Club",
+      "description": "Utah Jazz Legnends Club DAO",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cbba4d41aef83fe3.UtahJazzLegendsClub/logo.png",
+      "tags": [],
+      "extensions": {
+        "twitter": "UtahJazzLegends",
+        "discord": "wGjBcsGjcG",
+        "website": "https://toucans.ecdao.org/p/UtahJazzLegendsClub",
+        "displaySource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x67daad91e3782c80",
+      "contractName": "Vampire",
+      "path": {
+        "vault": "/storage/VampireVault",
+        "receiver": "/public/VampireReceiver",
+        "balance": "/public/VampireMetadata"
+      },
+      "symbol": "SUCK",
+      "name": "Vampire",
+      "description": "Stake it to make it!",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.67daad91e3782c80.Vampire/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "",
+        "twitter": "",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xf887ece39166906e",
+      "contractName": "VroomToken",
+      "path": {
+        "vault": "/storage/VroomTokenVault",
+        "receiver": "/public/VroomTokenReceiver",
+        "balance": "/public/VroomTokenBalance"
+      },
+      "symbol": "VROOM",
+      "name": "Vroom",
+      "description": "",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.f887ece39166906e.VroomToken/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "",
+        "displaySource": "0xa2de93114bae3e73",
+        "pathSource": "0xa2de93114bae3e73"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0xd4d745fab74785c5",
+      "contractName": "WERFWERF",
+      "path": {
+        "vault": "/storage/WERFWERFVault",
+        "receiver": "/public/WERFWERFReceiver",
+        "balance": "/public/WERFWERFMetadata"
+      },
+      "symbol": "WERF",
+      "name": "WERFWERF",
+      "description": "Fuck $BEAVER, choose $WERF instead.@werfonflow",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d4d745fab74785c5.WERFWERF/logo.png",
+      "tags": [],
+      "extensions": {
+        "discord": "",
+        "twitter": "",
+        "website": ""
+      }
+    }
+  ],
+  "totalAmount": 63,
+  "filterType": "ALL",
+  "timestamp": "2024-07-17T13:21:24.411Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
-  "keywords": ["flow", "fnt"],
+  "keywords": [
+    "Flow",
+    "Cadence",
+    "EVM",
+    "DeFi",
+    "NFT",
+    "FT",
+    "Dapp",
+    "Blockchain",
+    "Crypto"
+  ],
   "tags": {
     "stablecoin": {
       "name": "stablecoin",
@@ -11,10 +1393,6 @@
       "name": "ethereum",
       "description": "Asset bridged from ethereum"
     },
-    "teleported-token": {
-      "name": "teleported-token",
-      "description": "Asset teleported from other blockchains by Blocto"
-    },
     "wrapped-celer": {
       "name": "wrapped-celer",
       "description": "Asset wrapped using celer bridge"
@@ -23,14 +1401,6 @@
       "name": "lp-token",
       "description": "Asset representing liquidity provider token"
     },
-    "nft": {
-      "name": "nft",
-      "description": "Non-fungible token"
-    },
-    "security-token": {
-      "name": "security-token",
-      "description": "Tokens that are used to gain access to an electronically restricted resource"
-    },
     "utility-token": {
       "name": "utility-token",
       "description": "Tokens that are designed to be spent within a certain blockchain ecosystem"
@@ -38,878 +1408,15 @@
     "governance-token": {
       "name": "governance-token",
       "description": "Tokens that are designed to be use in community governance and maintenance"
+    },
+    "memecoin": {
+      "name": "memecoin",
+      "description": "Tokens that are created for fun and meme"
     }
   },
-  "timestamp": "2024-07-03T00:35:23.548Z",
-  "tokens": [
-    {
-      "address": "0x078a8129525775dd",
-      "contractName": "GreenBitcoin",
-      "path": {
-        "vault": "/storage/GreenBitcoinVault",
-        "balance": "/public/GreenBitcoinMetadata",
-        "receiver": "/public/GreenBitcoinReceiver"
-      },
-      "symbol": "GBTC",
-      "name": "Green Bitcoin",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.078a8129525775dd.GreenBitcoin/logo.png",
-      "tags": ["governance-token"],
-      "extensions": {
-        "website": "https://toucans.ecdao.org/p/GreenBitcoin",
-        "twitter": "https://twitter.com/_GreenBitcoin",
-        "discord": "https://discord.gg/vY8pK9x8"
-      }
-    },
-    {
-      "address": "0x0f9df91c9121c460",
-      "contractName": "BloctoToken",
-      "path": {
-        "vault": "/storage/bloctoTokenVault",
-        "balance": "/public/bloctoTokenBalance",
-        "receiver": "/public/bloctoTokenReceiver"
-      },
-      "symbol": "BLT",
-      "name": "Blocto Token",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.0f9df91c9121c460.BloctoToken/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://blocto.app/",
-        "coingeckoId": "blocto-token"
-      }
-    },
-    {
-      "address": "0x142fa6570b62fd97",
-      "contractName": "StarlyToken",
-      "path": {
-        "vault": "/storage/starlyTokenVault",
-        "balance": "/public/starlyTokenBalance",
-        "receiver": "/public/starlyTokenReceiver"
-      },
-      "symbol": "STARLY",
-      "name": "Starly Token",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.142fa6570b62fd97.StarlyToken/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "coingeckoId": "starly",
-        "website": "https://starly.io/"
-      }
-    },
-    {
-      "address": "0x1654653399040a61",
-      "contractName": "FlowToken",
-      "path": {
-        "vault": "/storage/flowTokenVault",
-        "balance": "/public/flowTokenBalance",
-        "receiver": "/public/flowTokenReceiver"
-      },
-      "symbol": "FLOW",
-      "name": "Flow",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
-      "tags": ["utility-token"],
-      "extensions": {
-        "coingeckoId": "flow",
-        "website": "https://www.onflow.org",
-        "twitter": "https://twitter.com/flow_blockchain",
-        "discord": "http://discord.gg/flow",
-        "github": "https://github.com/onflow/flow-core-contracts",
-        "documentation": "https://developers.flow.com/references/core-contracts/flow-token"
-      }
-    },
-    {
-      "address": "0x1a494f704432b4bf",
-      "contractName": "FrugDAO",
-      "path": {
-        "vault": "/storage/FrugDAOVault",
-        "balance": "/public/FrugDAOMetadata",
-        "receiver": "/public/FrugDAOReceiver"
-      },
-      "symbol": "FRUG",
-      "name": "Frug",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1a494f704432b4bf.FrugDAO/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "twitter": "https://twitter.com/frugcoin"
-      }
-    },
-    {
-      "address": "0x231cc0dbbcffc4b7",
-      "contractName": "RLY",
-      "path": {
-        "vault": "/storage/RLYVault",
-        "balance": "/public/RLYBalance",
-        "receiver": "/public/RLYReceiver"
-      },
-      "symbol": "RLY",
-      "name": "Rally",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.RLY/logo.png",
-      "tags": ["wrapped-celer"],
-      "extensions": {
-        "coingeckoId": "rally-2"
-      }
-    },
-    {
-      "address": "0x231cc0dbbcffc4b7",
-      "contractName": "ceAVAX",
-      "path": {
-        "vault": "/storage/ceAVAXVault",
-        "balance": "/public/ceAVAXBalance",
-        "receiver": "/public/ceAVAXReceiver"
-      },
-      "symbol": "ceAVAX",
-      "name": "Avalanche (Celer)",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceAVAX/logo.png",
-      "tags": ["wrapped-celer"],
-      "extensions": {
-        "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
-        "assetContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
-        "coingeckoId": "avalanche-2"
-      }
-    },
-    {
-      "address": "0x231cc0dbbcffc4b7",
-      "contractName": "ceBNB",
-      "path": {
-        "vault": "/storage/ceBNBVault",
-        "balance": "/public/ceBNBBalance",
-        "receiver": "/public/ceBNBReceiver"
-      },
-      "symbol": "ceBNB",
-      "name": "Binance Coin (Celer)",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceBNB/logo.png",
-      "tags": ["wrapped-celer"],
-      "extensions": {
-        "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "assetContract": "https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
-        "coingeckoId": "binancecoin"
-      }
-    },
-    {
-      "address": "0x231cc0dbbcffc4b7",
-      "contractName": "ceBUSD",
-      "path": {
-        "vault": "/storage/ceBUSDVault",
-        "balance": "/public/ceBUSDBalance",
-        "receiver": "/public/ceBUSDReceiver"
-      },
-      "symbol": "ceBUSD",
-      "name": "Binance USD (Celer)",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceBUSD/logo.png",
-      "tags": ["wrapped-celer"],
-      "extensions": {
-        "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "assetContract": "https://bscscan.com/address/0xe9e7cea3dedca5984780bafc599bd69add087d56",
-        "coingeckoId": "binance-usd"
-      }
-    },
-    {
-      "address": "0x231cc0dbbcffc4b7",
-      "contractName": "ceDAI",
-      "path": {
-        "vault": "/storage/ceDAIVault",
-        "balance": "/public/ceDAIBalance",
-        "receiver": "/public/ceDAIReceiver"
-      },
-      "symbol": "ceDAI",
-      "name": "Dai Stablecoin (Celer)",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceDAI/logo.png",
-      "tags": ["wrapped-celer"],
-      "extensions": {
-        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
-        "assetContract": "https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f",
-        "coingeckoId": "dai"
-      }
-    },
-    {
-      "address": "0x231cc0dbbcffc4b7",
-      "contractName": "ceFTM",
-      "path": {
-        "vault": "/storage/ceFTMVault",
-        "balance": "/public/ceFTMBalance",
-        "receiver": "/public/ceFTMReceiver"
-      },
-      "symbol": "ceFTM",
-      "name": "Fantom (Celer)",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceFTM/logo.png",
-      "tags": ["wrapped-celer"],
-      "extensions": {
-        "coingeckoId": "fantom"
-      }
-    },
-    {
-      "address": "0x231cc0dbbcffc4b7",
-      "contractName": "ceMATIC",
-      "path": {
-        "vault": "/storage/ceMATICVault",
-        "balance": "/public/ceMATICBalance",
-        "receiver": "/public/ceMATICReceiver"
-      },
-      "symbol": "ceMATIC",
-      "name": "Matic Token (Celer)",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceMATIC/logo.png",
-      "tags": ["wrapped-celer"],
-      "extensions": {
-        "coingeckoId": "matic-network"
-      }
-    },
-    {
-      "address": "0x231cc0dbbcffc4b7",
-      "contractName": "ceUSDT",
-      "path": {
-        "vault": "/storage/ceUSDTVault",
-        "balance": "/public/ceUSDTBalance",
-        "receiver": "/public/ceUSDTReceiver"
-      },
-      "symbol": "ceUSDT",
-      "name": "Tether USD (Celer)",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceUSDT/logo.png",
-      "tags": ["wrapped-celer"],
-      "extensions": {
-        "coingeckoId": "tether",
-        "website": "https://tether.to/"
-      }
-    },
-    {
-      "address": "0x231cc0dbbcffc4b7",
-      "contractName": "ceWBTC",
-      "path": {
-        "vault": "/storage/ceWBTCVault",
-        "balance": "/public/ceWBTCBalance",
-        "receiver": "/public/ceWBTCReceiver"
-      },
-      "symbol": "ceWBTC",
-      "name": "Wrapped BTC (Celer)",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceWBTC/logo.png",
-      "tags": ["wrapped-celer"],
-      "extensions": {
-        "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-        "assetContract": "https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-        "coingeckoId": "wrapped-bitcoin"
-      }
-    },
-    {
-      "address": "0x231cc0dbbcffc4b7",
-      "contractName": "ceWETH",
-      "path": {
-        "vault": "/storage/ceWETHVault",
-        "balance": "/public/ceWETHBalance",
-        "receiver": "/public/ceWETHReceiver"
-      },
-      "symbol": "ceWETH",
-      "name": "Wrapped Ether (Celer)",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceWETH/logo.png",
-      "tags": ["wrapped-celer"],
-      "extensions": {
-        "coingeckoId": "weth"
-      }
-    },
-    {
-      "address": "0x2de1bd4794003663",
-      "contractName": "SwimDAO",
-      "path": {
-        "vault": "/storage/SwimDAOVault",
-        "balance": "/public/SwimDAOMetadata",
-        "receiver": "/public/SwimDAOReceiver"
-      },
-      "symbol": "SWIM",
-      "name": "SwimDAO",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.2de1bd4794003663.SwimDAO/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0x3399d7c6c609b7e5",
-      "contractName": "DAMO420",
-      "path": {
-        "vault": "/storage/DAMO420Vault",
-        "balance": "/public/DAMO420Metadata",
-        "receiver": "/public/DAMO420Receiver"
-      },
-      "symbol": "DAMO",
-      "name": "DA.Marijuana.O",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.3399d7c6c609b7e5.DAMO420/logo.png",
-      "tags": ["memecoin", "governance-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0x348fe2042c8a70d8",
-      "contractName": "MyToken",
-      "path": {
-        "vault": "/storage/mytokenVault",
-        "balance": "/public/mytokenBalance",
-        "receiver": "/public/mytokenReceiver"
-      },
-      "symbol": "MY",
-      "name": "My Token",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.348fe2042c8a70d8.MyToken/logo.svg",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://mynft.io/"
-      }
-    },
-    {
-      "address": "0x3c5959b568896393",
-      "contractName": "FUSD",
-      "path": {
-        "vault": "/storage/fusdVault",
-        "balance": "/public/fusdBalance",
-        "receiver": "/public/fusdReceiver"
-      },
-      "symbol": "FUSD",
-      "name": "Flow USD",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.3c5959b568896393.FUSD/logo.svg",
-      "tags": ["stablecoin"],
-      "extensions": {
-        "website": "https://docs.onflow.org/fusd/"
-      }
-    },
-    {
-      "address": "0x475755d2c9dccc3a",
-      "contractName": "TeleportedSportiumToken",
-      "path": {
-        "vault": "/storage/TeleportedSportiumTokenVault",
-        "balance": "/public/TeleportedSportiumTokenBalance",
-        "receiver": "/public/TeleportedSportiumTokenReceiver"
-      },
-      "symbol": "SPRT",
-      "name": "Teleported Sportium Token",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.475755d2c9dccc3a.TeleportedSportiumToken/logo.png",
-      "tags": ["teleported-token"],
-      "extensions": {
-        "coingeckoId": "sportium"
-      }
-    },
-    {
-      "address": "0x48ff88b4ccb47359",
-      "contractName": "Duckcoin",
-      "path": {
-        "vault": "/storage/DuckcoinVault",
-        "balance": "/public/DuckcoinMetadata",
-        "receiver": "/public/DuckcoinReceiver"
-      },
-      "symbol": "Duck",
-      "name": "Duckcoin",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.48ff88b4ccb47359.Duckcoin/logo.png",
-      "tags": ["governance-token"],
-      "extensions": {
-        "website": "https://duck-coin.vip",
-        "twitter": "https://twitter.com/Duck_coin_flow"
-      }
-    },
-    {
-      "address": "0x4ea047c3e73ca460",
-      "contractName": "BallerzFC",
-      "path": {
-        "vault": "/storage/BallerzFCVault",
-        "balance": "/public/BallerzFCMetadata",
-        "receiver": "/public/BallerzFCReceiver"
-      },
-      "symbol": "BFC",
-      "name": "Ballerz FC",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.4ea047c3e73ca460.BallerzFC/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "twitter": "https://twitter.com/Ballerz__FC",
-        "discord": "https://discord.com/invite/sDBp8YdH"
-      }
-    },
-    {
-      "address": "0x5207737ccdc76d11",
-      "contractName": "StudentsofTheGame",
-      "path": {
-        "vault": "/storage/StudentsofTheGameVault",
-        "balance": "/public/StudentsofTheGameMetadata",
-        "receiver": "/public/StudentsofTheGameReceiver"
-      },
-      "symbol": "GAME",
-      "name": "Students of The Game",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.5207737ccdc76d11.StudentsofTheGame/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0x53f389d96fb4ce5e",
-      "contractName": "SloppyStakes",
-      "path": {
-        "vault": "/storage/SloppyStakesVault",
-        "balance": "/public/SloppyStakesMetadata",
-        "receiver": "/public/SloppyStakesReceiver"
-      },
-      "symbol": "LOPPY",
-      "name": "Sloppy Stakes",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.53f389d96fb4ce5e.SloppyStakes/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "twitter": "https://twitter.com/alxocity",
-        "discord": "https://discord.com/invite/GYV8JRR"
-      }
-    },
-    {
-      "address": "0x67daad91e3782c80",
-      "contractName": "Vampire",
-      "path": {
-        "vault": "/storage/VampireVault",
-        "balance": "/public/VampireMetadata",
-        "receiver": "/public/VampireReceiver"
-      },
-      "symbol": "SUCK",
-      "name": "Vampire Coin",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.67daad91e3782c80.Vampire/logo.png",
-      "tags": ["memecoin"],
-      "extensions": {}
-    },
-    {
-      "address": "0x687e1a7aef17b78b",
-      "contractName": "Beaver",
-      "path": {
-        "vault": "/storage/BeaverVault",
-        "balance": "/public/BeaverMetadata",
-        "receiver": "/public/BeaverReceiver"
-      },
-      "symbol": "PUSS",
-      "name": "Beaver Coin",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.687e1a7aef17b78b.Beaver/logo.png",
-      "tags": ["meme-coin"],
-      "extensions": {}
-    },
-    {
-      "address": "0x7120ab3fbf74ea9e",
-      "contractName": "NCTRDAO",
-      "path": {
-        "vault": "/storage/NCTRDAOVault",
-        "balance": "/public/NCTRDAOMetadata",
-        "receiver": "/public/NCTRDAOReceiver"
-      },
-      "symbol": "NCTR",
-      "name": "NCTR DAO",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.7120ab3fbf74ea9e.NCTRDAO/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0x71e661cc981985c4",
-      "contractName": "Freely",
-      "path": {
-        "vault": "/storage/FreelyVault",
-        "balance": "/public/FreelyMetadata",
-        "receiver": "/public/FreelyReceiver"
-      },
-      "symbol": "FRLY",
-      "name": "Freely",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.71e661cc981985c4.Freely/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0x7bf07d719dcb8480",
-      "contractName": "brasil",
-      "path": {
-        "vault": "/storage/brasilVault",
-        "balance": "/public/brasilMetadata",
-        "receiver": "/public/brasilReceiver"
-      },
-      "symbol": "BR",
-      "name": "brasil",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.7bf07d719dcb8480.brasil/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://toucans.ecdao.org/p/brasil",
-        "twitter": "https://twitter.com/flowbrasilchain",
-        "discord": "https://discord.gg/hT8EpC5mUN"
-      }
-    },
-    {
-      "address": "0x8259c73e487422d7",
-      "contractName": "TheWolfofFlow",
-      "path": {
-        "vault": "/storage/TheWolfofFlowVault",
-        "balance": "/public/TheWolfofFlowMetadata",
-        "receiver": "/public/TheWolfofFlowReceiver"
-      },
-      "symbol": "WOLF",
-      "name": "The Wolf of Flow",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.8259c73e487422d7.TheWolfofFlow/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0x88b469471cfe5535",
-      "contractName": "LBJDAO",
-      "path": {
-        "vault": "/storage/LBJDAOVault",
-        "balance": "/public/LBJDAOMetadata",
-        "receiver": "/public/LBJDAOReceiver"
-      },
-      "symbol": "LBJ",
-      "name": "LBJ DAO",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.88b469471cfe5535.LBJDAO/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0x921ea449dffec68a",
-      "contractName": "FlovatarDustToken",
-      "path": {
-        "vault": "/storage/FlovatarDustTokenVault",
-        "balance": "/public/FlovatarDustTokenBalance",
-        "receiver": "/public/FlovatarDustTokenReceiver"
-      },
-      "symbol": "DUST",
-      "name": "Flovatar ÐUST",
-      "decimals": 8,
-      "logoURI": "http://images.flovatar.com/logo-round.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://flovatar.com/",
-        "coingeckoId": "flovatar-dust"
-      }
-    },
-    {
-      "address": "0x9db94c9564243ba7",
-      "contractName": "aiSportsJuice",
-      "path": {
-        "vault": "/storage/aiSportsJuiceVault",
-        "balance": "/public/aiSportsJuiceMetadata",
-        "receiver": "/public/aiSportsJuiceReceiver"
-      },
-      "symbol": "JUICE",
-      "name": "aiSportsJuice",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.9db94c9564243ba7.aiSportsJuice/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://www.aisportspro.com/",
-        "twitter": "https://twitter.com/aisportspro",
-        "discord": "https://discord.gg/VKvUxMwu5r"
-      }
-    },
-    {
-      "address": "0xb055bef687cfca82",
-      "contractName": "TrollDAO",
-      "path": {
-        "vault": "/storage/TrollDAOVault",
-        "balance": "/public/TrollDAOMetadata",
-        "receiver": "/public/TrollDAOReceiver"
-      },
-      "symbol": "TROLL",
-      "name": "Troll DAO",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.b055bef687cfca82.TrollDAO/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "twitter": "https://www.twitter.com/trollonflow"
-      }
-    },
-    {
-      "address": "0xb19436aae4d94622",
-      "contractName": "FiatToken",
-      "path": {
-        "vault": "/storage/USDCVault",
-        "balance": "/public/USDCVaultBalance",
-        "receiver": "/public/USDCVaultReceiver"
-      },
-      "symbol": "USDC",
-      "name": "USD Coin",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.b19436aae4d94622.FiatToken/logo.svg",
-      "tags": ["stablecoin"],
-      "extensions": {
-        "website": "https://www.circle.com/en/usdc-multichain/flow",
-        "coingeckoId": "usd-coin",
-        "documentation": "https://developers.circle.com/stablecoins/docs",
-        "twitter": "https://twitter.com/circle"
-      }
-    },
-    {
-      "address": "0xc8c340cebd11f690",
-      "contractName": "SdmToken",
-      "path": {
-        "vault": "/storage/sdmTokenVault",
-        "balance": "/public/sdmTokenBalance",
-        "receiver": "/public/sdmTokenReceiver"
-      },
-      "symbol": "SDM",
-      "name": "Sdm Token",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.c8c340cebd11f690.SdmToken/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://flow.darkcountry.io/"
-      }
-    },
-    {
-      "address": "0xcbba4d41aef83fe3",
-      "contractName": "UtahJazzLegendsClub",
-      "path": {
-        "vault": "/storage/UtahJazzLegendsClubVault",
-        "balance": "/public/UtahJazzLegendsClubMetadata",
-        "receiver": "/public/UtahJazzLegendsClubReceiver"
-      },
-      "symbol": "UJLC",
-      "name": "Utah Jazz Legends Club",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cbba4d41aef83fe3.UtahJazzLegendsClub/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0xcfdd90d4a00f7b5b",
-      "contractName": "TeleportedTetherToken",
-      "path": {
-        "vault": "/storage/teleportedTetherTokenVault",
-        "balance": "/public/teleportedTetherTokenBalance",
-        "receiver": "/public/teleportedTetherTokenReceiver"
-      },
-      "symbol": "tUSDT",
-      "name": "Teleported Tether Token",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cfdd90d4a00f7b5b.TeleportedTetherToken/logo.png",
-      "tags": ["teleported-token", "stablecoin"],
-      "extensions": {
-        "website": "https://blocto.app/"
-      }
-    },
-    {
-      "address": "0xd01e482eb680ec9f",
-      "contractName": "REVV",
-      "path": {
-        "vault": "/storage/revvVault",
-        "balance": "/public/revvBalance",
-        "receiver": "/public/revvReceiver"
-      },
-      "symbol": "REVV",
-      "name": "REVV",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d01e482eb680ec9f.REVV/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://revvmotorsport.com/"
-      }
-    },
-    {
-      "address": "0xd3b62ffbbc632f5a",
-      "contractName": "FlowBlockchainhitCoin",
-      "path": {
-        "vault": "/storage/FlowBlockchainhitCoinVault",
-        "balance": "/public/FlowBlockchainhitCoinMetadata",
-        "receiver": "/public/FlowBlockchainhitCoinReceiver"
-      },
-      "symbol": "HIT",
-      "name": "Flow Blockchain $HIT Coin",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d3b62ffbbc632f5a.FlowBlockchainhitCoin/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0xd4d745fab74785c5",
-      "contractName": "WERFWERF",
-      "path": {
-        "vault": "/storage/WERFWERFVault",
-        "balance": "/public/WERFWERFMetadata",
-        "receiver": "/public/WERFWERFReceiver"
-      },
-      "symbol": "WERF",
-      "name": "WERFWERF",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d4d745fab74785c5.WERFWERF/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0xd5dab99b4e7301ce",
-      "contractName": "PublishedNFTDAO",
-      "path": {
-        "vault": "/storage/PublishedNFTDAOVault",
-        "balance": "/public/PublishedNFTDAOMetadata",
-        "receiver": "/public/PublishedNFTDAOReceiver"
-      },
-      "symbol": "PAGE",
-      "name": "PublishedNFTDAO",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d5dab99b4e7301ce.PublishedNFTDAO/logo.png",
-      "tags": ["governance-token"],
-      "extensions": {
-        "website": "https://publishednft.io",
-        "twitter": "https://twitter.com/publishednft",
-        "discord": "https://discord.gg/RHH5aH44k9"
-      }
-    },
-    {
-      "address": "0xd6f80565193ad727",
-      "contractName": "stFlowToken",
-      "path": {
-        "vault": "/storage/stFlowTokenVault",
-        "balance": "/public/stFlowTokenBalance",
-        "receiver": "/public/stFlowTokenReceiver"
-      },
-      "symbol": "stFlow",
-      "name": "Liquid Staked Flow",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d6f80565193ad727.stFlowToken/logo.svg",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://app.increment.fi/staking",
-        "twitter": "https://twitter.com/incrementfi",
-        "discord": "https://discord.gg/r2keKxuKqX"
-      }
-    },
-    {
-      "address": "0xd756450f386fb4ac",
-      "contractName": "OzoneToken",
-      "path": {
-        "vault": "/storage/ozonetokenVault",
-        "balance": "/public/ozonetokenBalance",
-        "receiver": "/public/ozonetokenReceiver"
-      },
-      "symbol": "Ozone",
-      "name": "Ozone Token",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d756450f386fb4ac.OzoneToken/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {
-        "website": "https://ozoneuniverse.com/"
-      }
-    },
-    {
-      "address": "0xe39082fc08c1cd13",
-      "contractName": "THEBEARDAO",
-      "path": {
-        "vault": "/storage/THEBEARDAOVault",
-        "balance": "/public/THEBEARDAOMetadata",
-        "receiver": "/public/THEBEARDAOReceiver"
-      },
-      "symbol": "BEAR",
-      "name": "THE BEAR DAO",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e39082fc08c1cd13.THEBEARDAO/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0xe452a2f5665728f5",
-      "contractName": "ADUToken",
-      "path": {
-        "vault": "/storage/ADUTokenVault",
-        "balance": "/public/ADUTokenMetadata",
-        "receiver": "/public/ADUTokenReceiver"
-      },
-      "symbol": "ADU",
-      "name": "All Day Unlimited",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e452a2f5665728f5.ADUToken/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0xe78f40fdacb5ff8f",
-      "contractName": "JollyRoger",
-      "path": {
-        "vault": "/storage/JollyRogerVault",
-        "balance": "/public/JollyRogerMetadata",
-        "receiver": "/public/JollyRogerReceiver"
-      },
-      "symbol": "JOLLY",
-      "name": "Jolly Roger",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e78f40fdacb5ff8f.JollyRoger/logo.png",
-      "tags": ["meme-coin"],
-      "extensions": {}
-    },
-    {
-      "address": "0xee09029f1dbcd9d1",
-      "contractName": "TopShotBETA",
-      "path": {
-        "vault": "/storage/TopShotBETAVault",
-        "balance": "/public/TopShotBETAMetadata",
-        "receiver": "/public/TopShotBETAReceiver"
-      },
-      "symbol": "BETA",
-      "name": "Top Shot BETA",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.ee09029f1dbcd9d1.TopShotBETA/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0xf887ece39166906e",
-      "contractName": "VroomToken",
-      "path": {
-        "vault": "/storage/VroomTokenVault",
-        "balance": "/public/VroomTokenBalance",
-        "receiver": "/public/VroomTokenReceiver"
-      },
-      "symbol": "VROOM",
-      "name": "Vroom",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.f887ece39166906e.VroomToken/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0xfd1ccaaae39d0e79",
-      "contractName": "Mainledger",
-      "path": {
-        "vault": "/storage/MainledgerVault",
-        "balance": "/public/MainledgerMetadata",
-        "receiver": "/public/MainledgerReceiver"
-      },
-      "symbol": "MLC",
-      "name": "Mainledger coin",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Mainledger/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    },
-    {
-      "address": "0xfd1ccaaae39d0e79",
-      "contractName": "Pokertime",
-      "path": {
-        "vault": "/storage/PokertimeVault",
-        "balance": "/public/PokertimeMetadata",
-        "receiver": "/public/PokertimeReceiver"
-      },
-      "symbol": "PKR",
-      "name": "Poker chip",
-      "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Pokertime/logo.png",
-      "tags": ["utility-token"],
-      "extensions": {}
-    }
-  ],
   "version": {
-    "major": 0,
-    "minor": 12,
-    "patch": 2
+    "major": 1,
+    "minor": 7,
+    "patch": 1
   }
 }
