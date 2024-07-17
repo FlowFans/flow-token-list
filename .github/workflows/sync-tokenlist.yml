@@ -1,0 +1,59 @@
+name: SYNC-TOKENLIST
+run-name: Daily Sync Token Lists
+on:
+  # Schedule the workflow to run every 24 hours
+  schedule:
+    - cron: "0 0 * * *"
+  # Allow manual triggering of the workflow
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Reason for sync'
+        required: true
+        default: 'Manual sync'
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  daily-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      - name: Checkout Fixes Tokenlist
+        uses: actions/checkout@v4
+        with:
+          repository: 'fixes-world/token-list-jsons'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: 'deps/fixes-token-list-jsons'
+          fetch-depth: 0
+          ref: 'main'
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'yarn'
+      - name: Configure Git
+        run: |
+          git config --local user.name "GitHub Actions [Bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+      - run: yarn
+      - run: node src/utils/tokenlist-generator.js
+      - run: yarn prettier --write src/tokens/*.json
+      - name: Check Git Status and Commit
+      # if any changes are made, we will commit and push them
+        run: |
+          git add ./src/tokens/*.json
+          git status
+          if git diff --staged --exit-code --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync Token Lists at $(date)"
+            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/flowFans/flow-token-list.git
+          fi

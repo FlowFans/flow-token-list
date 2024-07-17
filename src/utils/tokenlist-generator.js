@@ -6,6 +6,9 @@ const TEMPLATE_TOKEN_LIST_PATH = 'token-registry/template.tokenlist.json';
 const MAINNET_TOKEN_LIST_PATH = 'src/tokens/flow-mainnet.tokenlist.json';
 const TESTNET_TOKEN_LIST_PATH = 'src/tokens/flow-testnet.tokenlist.json';
 
+const FIX_MAINNET_JSON_PATH =
+  'deps/fixes-token-list-jsons/jsons/mainnet/flow/default.json';
+
 const tokenDirs = fs.readdirSync(REGISTRY);
 
 const mainnetTokenList = generateTokenList(tokenDirs, 'mainnet');
@@ -38,13 +41,25 @@ function generateTokenList(tokenDirs, network) {
     tokenFile = 'testnet.token.json';
     originListPath = TESTNET_TOKEN_LIST_PATH;
   }
-  let baseList = JSON.parse(fs.readFileSync(templateListPath));
-  let originList = JSON.parse(fs.readFileSync(originListPath));
+
+  // read origin list
+  const originList = JSON.parse(fs.readFileSync(originListPath));
+
+  let fixesJson = undefined;
+  // merge with fix json
+  if (network == 'mainnet') {
+    // check if FIX_MAINNET_JSON exists
+    if (fs.existsSync(FIX_MAINNET_JSON_PATH)) {
+      fixesJson = JSON.parse(fs.readFileSync(FIX_MAINNET_JSON_PATH));
+    }
+  }
+
+  const baseList = JSON.parse(fs.readFileSync(templateListPath));
   baseList.tokens = [];
   baseList.version = originList.version;
   baseList.timestamp = originList.timestamp;
 
-  const newList = tokenDirs.sort().reduce((acc, file) => {
+  const localList = tokenDirs.sort().reduce((acc, file) => {
     const tokenPath = path.join(REGISTRY, file);
     if (fs.existsSync(tokenPath) && fs.lstatSync(tokenPath).isDirectory()) {
       const listPath = path.join(tokenPath, tokenFile);
@@ -55,6 +70,29 @@ function generateTokenList(tokenDirs, network) {
     }
     return acc;
   }, baseList);
+
+  if (!fixesJson) {
+    newList = localList;
+  } else {
+    newList = fixesJson;
+    newList.tokens = fixesJson.tokens.map((fixToken) => {
+      const localToken = localList.tokens.find((token) => {
+        return (
+          token.address.toLowerCase() == fixToken.address.toLowerCase() &&
+          token.contractName == fixToken.contractName
+        );
+      });
+      if (localToken) {
+        fixToken.logoURI = localToken.logoURI;
+        fixToken.extensions = Object.assign(
+          {},
+          fixToken.extensions,
+          localToken.extensions
+        );
+      }
+      return fixToken;
+    });
+  }
 
   if (JSON.stringify(newList) == JSON.stringify(originList)) {
     // No change
