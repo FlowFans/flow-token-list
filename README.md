@@ -1,9 +1,11 @@
-> ## Deprecated after crescendo upgrade.
-> please use <https://token-list.fixes.world/> (JSON files <https://github.com/fixes-world/token-list-jsons>) instead.
+> # Deprecated
+> ## please use <https://token-list.fixes.world/> instead.
+> ### The JSON files repo of TokoenList is <https://github.com/fixes-world/token-list-jsons>
 > The JSON files of this project will also automatically synchronize the JSON data from <https://github.com/fixes-world/token-list-jsons> to ensure that projects previously using this repo can obtain the latest token updates correctly.
 
+---
 
-# Flow Native Token List
+# Flow Native Token List (Deprecated)
 
 The community maintained Flow native token registry.
 
