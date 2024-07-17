@@ -94,7 +94,7 @@ function generateTokenList(tokenDirs, network) {
     });
   }
 
-  if (JSON.stringify(newList) == JSON.stringify(originList)) {
+  if (JSON.stringify(newList.tokens) == JSON.stringify(originList.tokens)) {
     // No change
     return null;
   }
@@ -116,9 +116,12 @@ function generateTokenList(tokenDirs, network) {
     newList.version.minor = 0;
     newList.version.patch = 0;
   } else if (newTokenAdded) {
+    newList.version.major = originList.version.major;
     newList.version.minor = originList.version.minor + 1;
     newList.version.patch = 0;
   } else {
+    newList.version.major = originList.version.major;
+    newList.version.minor = originList.version.minor;
     newList.version.patch = originList.version.patch + 1;
   }
 
