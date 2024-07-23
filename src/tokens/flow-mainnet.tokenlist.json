@@ -446,7 +446,7 @@
       },
       "symbol": "TBH",
       "name": "Bohao Token",
-      "description": "Hey, buy me",
+      "description": "Hey! My friends!",
       "decimals": 8,
       "logoURI": "https://static.fixes.world/12SEVBRC5qcG1720669462541",
       "tags": [],
@@ -1395,7 +1395,7 @@
   ],
   "totalAmount": 64,
   "filterType": "ALL",
-  "timestamp": "2024-07-20T01:09:22.533Z",
+  "timestamp": "2024-07-23T01:11:21.690Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
   "keywords": [
     "Flow",
@@ -1441,6 +1441,6 @@
   "version": {
     "major": 1,
     "minor": 8,
-    "patch": 1
+    "patch": 2
   }
 }
