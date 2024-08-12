@@ -106,8 +106,8 @@
       "logoURI": "https://ipfs.io/ipfs/QmXVDnuYmjRd5LgBX5XonRm5qBhvZfj6thnL57xyX9iU7E",
       "tags": [],
       "extensions": {
-        "discord": "",
         "twitter": "",
+        "discord": "",
         "website": "pinknft.shop"
       }
     },
@@ -172,8 +172,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceAVAX/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "coingeckoId": "avalanche-2",
         "bridgeContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+        "coingeckoId": "avalanche-2",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73",
@@ -338,8 +338,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceWBTC/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "coingeckoId": "wrapped-bitcoin",
         "bridgeContract": "https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "coingeckoId": "wrapped-bitcoin",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73",
@@ -385,8 +385,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.3399d7c6c609b7e5.DAMO420/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "",
         "discord": "",
+        "twitter": "",
         "website": ""
       }
     },
@@ -428,9 +428,9 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.b19436aae4d94622.FiatToken/logo.svg",
       "tags": ["stablecoin"],
       "extensions": {
-        "documentation": "https://developers.circle.com/stablecoins/docs",
-        "coingeckoId": "usd-coin",
         "twitter": "https://twitter.com/circle",
+        "coingeckoId": "usd-coin",
+        "documentation": "https://developers.circle.com/stablecoins/docs",
         "website": "https://www.circle.com/en/usdc-multichain/flow",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -609,9 +609,9 @@
       "logoURI": "https://static.fixes.world/24bG9nby01MT1720627439281",
       "tags": [],
       "extensions": {
-        "github": "https://github.com/fixes-world",
         "twitter": "https://x.com/fixesWorld",
         "telegram": "https://t.me/fixes_world",
+        "github": "https://github.com/fixes-world",
         "website": "https://linktr.ee/fixes.world"
       }
     },
@@ -631,8 +631,8 @@
       "logoURI": "https://static.fixes.world/20SU1HXzA1MD1721051954174",
       "tags": [],
       "extensions": {
-        "twitter": "https://x.com/rickyspanichone",
         "telegram": "https://t.me/Ricky_Spenish_Roger",
+        "twitter": "https://x.com/rickyspanichone",
         "website": "https://linktr.ee/fixes.world/"
       }
     },
@@ -731,8 +731,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d3b62ffbbc632f5a.FlowBlockchainhitCoin/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "",
         "discord": "",
+        "twitter": "",
         "website": ""
       }
     },
@@ -752,11 +752,11 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
       "tags": ["utility-token"],
       "extensions": {
-        "twitter": "https://twitter.com/flow_blockchain",
         "documentation": "https://developers.flow.com/references/core-contracts/flow-token",
-        "github": "https://github.com/onflow/flow-core-contracts",
         "coingeckoId": "flow",
+        "twitter": "https://twitter.com/flow_blockchain",
         "discord": "http://discord.gg/flow",
+        "github": "https://github.com/onflow/flow-core-contracts",
         "website": "https://www.onflow.org",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -800,8 +800,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1a494f704432b4bf.FrugDAO/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "https://twitter.com/frugcoin",
         "discord": "",
+        "twitter": "https://twitter.com/frugcoin",
         "website": ""
       }
     },
@@ -842,8 +842,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.078a8129525775dd.GreenBitcoin/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "https://twitter.com/_GreenBitcoin",
         "discord": "https://discord.gg/vY8pK9x8",
+        "twitter": "https://twitter.com/_GreenBitcoin",
         "website": "https://toucans.ecdao.org/p/GreenBitcoin",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -865,8 +865,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e78f40fdacb5ff8f.JollyRoger/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "",
         "twitter": "",
+        "discord": "",
         "website": ""
       }
     },
@@ -907,8 +907,8 @@
       "logoURI": "https://ipfs.io/ipfs/QmQWiE4Vu1GDd8EexqbJSbRCww8pA5x54XUjkZd5BLMnWh",
       "tags": [],
       "extensions": {
-        "twitter": "",
         "discord": "",
+        "twitter": "",
         "website": "wellnests.co.uk/blog/"
       }
     },
@@ -1100,8 +1100,8 @@
       "logoURI": "https://nftstorage.link/ipfs/bafybeic24hbznfwsmknsci7kqmt6n2xzu4veui7lzke2bueidthbs5vmb4",
       "tags": [],
       "extensions": {
-        "twitter": "https://x.com/PuffPalz",
         "discord": "https://discord.gg/gB4fvMVDMW",
+        "twitter": "https://x.com/PuffPalz",
         "website": "puffpalz.io"
       }
     },
@@ -1206,8 +1206,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.53f389d96fb4ce5e.SloppyStakes/logo.png",
       "tags": ["memecoin"],
       "extensions": {
-        "discord": "https://discord.com/invite/GYV8JRR",
         "telegram": "https://t.co/E8FzKLuMnH",
+        "discord": "https://discord.com/invite/GYV8JRR",
         "twitter": "https://twitter.com/alxocity",
         "website": "http://sloppystakes.com/",
         "displaySource": "0xa2de93114bae3e73",
@@ -1275,8 +1275,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.5207737ccdc76d11.StudentsofTheGame/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "https://twitter.com/StudentsoftGame",
         "discord": "https://discord.com/invite/Z49V8ky2Jb",
+        "twitter": "https://twitter.com/StudentsoftGame",
         "website": "https://toucans.ecdao.org/p/StudentsofTheGame",
         "displaySource": "0xa2de93114bae3e73"
       }
@@ -1382,8 +1382,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.e39082fc08c1cd13.THEBEARDAO/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "",
         "twitter": "flow_bear_token",
+        "discord": "",
         "website": ""
       }
     },
@@ -1446,8 +1446,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.ee09029f1dbcd9d1.TopShotBETA/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "",
         "twitter": "TopShotBETA",
+        "discord": "",
         "website": ""
       }
     },
@@ -1510,8 +1510,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.67daad91e3782c80.Vampire/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "",
         "discord": "",
+        "twitter": "",
         "website": ""
       }
     },
@@ -1573,15 +1573,36 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d4d745fab74785c5.WERFWERF/logo.png",
       "tags": [],
       "extensions": {
+        "discord": "",
+        "twitter": "",
+        "website": ""
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x728ff3131b18cb34",
+      "contractName": "ZDptOT",
+      "path": {
+        "vault": "/storage/ZDptOTVault",
+        "receiver": "/public/ZDptOTReceiver",
+        "balance": "/public/ZDptOTMetadata"
+      },
+      "symbol": "ZWYZ",
+      "name": "Zwyzvanian Dept. of Treasury",
+      "description": "One nation, Under Snard.",
+      "decimals": 8,
+      "logoURI": "https://ipfs.io/ipfs/QmSqyqEdkkJKbyB1rV6H5XUGvNGD6woyiuNEigsqj5Veis",
+      "tags": [],
+      "extensions": {
         "twitter": "",
         "discord": "",
         "website": ""
       }
     }
   ],
-  "totalAmount": 73,
+  "totalAmount": 74,
   "filterType": "ALL",
-  "timestamp": "2024-08-10T01:12:49.594Z",
+  "timestamp": "2024-08-12T01:14:18.673Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
   "keywords": [
     "Flow",
@@ -1626,7 +1647,7 @@
   },
   "version": {
     "major": 1,
-    "minor": 11,
+    "minor": 12,
     "patch": 0
   }
 }
