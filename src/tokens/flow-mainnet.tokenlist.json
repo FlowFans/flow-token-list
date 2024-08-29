@@ -157,6 +157,25 @@
       }
     },
     {
+      "address": "0x4767b11059818832",
+      "contractName": "weareliga",
+      "path": {
+        "vault": "/storage/weareligaVault",
+        "balance": "/public/weareligaMetadata",
+        "receiver": "/public/weareligaReceiver"
+      },
+      "symbol": "LIGA",
+      "name": "Liga coin",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.4767b11059818832.weareliga/logo.png",
+      "tags": [
+        "utility-token"
+      ],
+      "extensions": {
+        "twitter": "https://x.com/Liga_TopShot"
+      }
+    },
+    {
       "chainId": 747,
       "address": "0x231cc0dbbcffc4b7",
       "contractName": "ceAVAX",
