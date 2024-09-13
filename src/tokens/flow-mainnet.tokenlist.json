@@ -12,6 +12,7 @@
         "receiver": "/public/ADUTokenReceiver",
         "balance": "/public/ADUTokenMetadata"
       },
+      "evmAddress": "0xe6ffc15a5bde7dd33c127670ba2b9fcb82db971a",
       "symbol": "ADU",
       "name": "All Day Unlimited",
       "description": "All Day Unlimited community DAO.",
@@ -34,6 +35,7 @@
         "receiver": "/public/aiSportsJuiceReceiver",
         "balance": "/public/aiSportsJuiceMetadata"
       },
+      "evmAddress": "0x3a33c904c132822ce01948ce318c15988727d1db",
       "symbol": "JUICE",
       "name": "JUICE by aiSports",
       "description": "This is the aiSports DAO, here we manage the $JUICE token and aiSports treasury. We will also utilize this platform to support community votes.",
@@ -55,6 +57,7 @@
         "receiver": "/public/BallerzFCReceiver",
         "balance": "/public/BallerzFCMetadata"
       },
+      "evmAddress": "0xd2bff0d1afc88849c012d08d16906065303977af",
       "symbol": "BFC",
       "name": "Ballerz FC",
       "description": "",
@@ -62,8 +65,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.4ea047c3e73ca460.BallerzFC/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "https://discord.com/invite/sDBp8YdH",
         "twitter": "https://twitter.com/Ballerz__FC",
+        "discord": "https://discord.com/invite/sDBp8YdH",
         "website": "https://twitter.com/Ballerz__FC",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -78,6 +81,7 @@
         "receiver": "/public/BeaverReceiver",
         "balance": "/public/BeaverMetadata"
       },
+      "evmAddress": "0xcd2336c1a78662c1302eb916ff3d49a073af2056",
       "symbol": "PUSS",
       "name": "Beaver",
       "description": "Hey, nice beaverTelegram: @beavercoinflow",
@@ -99,6 +103,7 @@
         "receiver": "/public/bloctoTokenReceiver",
         "balance": "/public/bloctoTokenBalance"
       },
+      "evmAddress": "0x439b028e1de93f41d1aed6b6caf4b5900497105c",
       "symbol": "BLT",
       "name": "Blocto Token",
       "description": "",
@@ -121,6 +126,7 @@
         "receiver": "/public/brasilReceiver",
         "balance": "/public/brasilMetadata"
       },
+      "evmAddress": "0x76a56657d20f572872a81b75530c905fd9f845e5",
       "symbol": "BR",
       "name": "Brasil",
       "description": "",
@@ -176,8 +182,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceBNB/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "bridgeContract": "https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "coingeckoId": "binancecoin",
+        "bridgeContract": "https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73",
@@ -226,8 +232,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceDAI/logo.png",
       "tags": ["wrapped-celer", "stablecoin"],
       "extensions": {
-        "bridgeContract": "https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f",
         "coingeckoId": "dai",
+        "bridgeContract": "https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73",
@@ -317,8 +323,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceWBTC/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "coingeckoId": "wrapped-bitcoin",
         "bridgeContract": "https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "coingeckoId": "wrapped-bitcoin",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73",
@@ -357,6 +363,7 @@
         "receiver": "/public/DAMO420Receiver",
         "balance": "/public/DAMO420Metadata"
       },
+      "evmAddress": "0x7854ed61f74595bdd232e953764d6c9a626b8e9a",
       "symbol": "DAMO",
       "name": "DA.Marijuana.O",
       "description": "Decentralized Autonomous Marijuana Organization (DAMO) is a memecoin and DAO for marijuana supporters; promoting education, advocacy, and collaboration.",
@@ -364,8 +371,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.3399d7c6c609b7e5.DAMO420/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "_damo420",
         "discord": "h6xXUCDqth",
+        "twitter": "_damo420",
         "website": "toucans.ecdao.org/p/DAMO420"
       }
     },
@@ -398,6 +405,7 @@
         "receiver": "/public/FixsStandardFT_0xef4162279c3dabafTBH_Receiver",
         "balance": "/public/FixsStandardFT_0xef4162279c3dabafTBH_Balance"
       },
+      "evmAddress": "0xadb17e4751af7c5c4784275910b1746d268f57e8",
       "symbol": "TBH",
       "name": "Bohao Token",
       "description": "Hey! My friends!",
@@ -496,6 +504,7 @@
         "receiver": "/public/FixsStandardFT_0xa9102e56a8b7a680TRUMP_Receiver",
         "balance": "/public/FixsStandardFT_0xa9102e56a8b7a680TRUMP_Balance"
       },
+      "evmAddress": "0x028be6d9f1df0152b9b8e1caaf88913702802244",
       "symbol": "TRUMP",
       "name": "Trump 2024",
       "description": "2024.07.13 @Pennsylvania",
@@ -535,6 +544,7 @@
         "receiver": "/public/FixsStandardFT_0xb9cd93d3bb31b497FIX_Receiver",
         "balance": "/public/FixsStandardFT_0xb9cd93d3bb31b497FIX_Balance"
       },
+      "evmAddress": "0xcb0febe5211e2abff3a49a87dc81c30e4dd0e87a",
       "symbol": "FIX",
       "name": "Fixes World",
       "description": "A demo coin launched by Fixes World\nFixes World provides multiple fungible token issuance, trading, staking, and governance services.",
@@ -542,8 +552,8 @@
       "logoURI": "https://static.fixes.world/24bG9nby01MT1720627439281",
       "tags": [],
       "extensions": {
-        "twitter": "https://x.com/fixesWorld",
         "telegram": "https://t.me/fixes_world",
+        "twitter": "https://x.com/fixesWorld",
         "github": "https://github.com/fixes-world",
         "website": "https://linktr.ee/fixes.world"
       }
@@ -564,8 +574,8 @@
       "logoURI": "https://static.fixes.world/20SU1HXzA1MD1721051954174",
       "tags": [],
       "extensions": {
-        "telegram": "https://t.me/Ricky_Spenish_Roger",
         "twitter": "https://x.com/rickyspanichone",
+        "telegram": "https://t.me/Ricky_Spenish_Roger",
         "website": "https://linktr.ee/fixes.world/"
       }
     },
@@ -635,6 +645,7 @@
         "receiver": "/public/FlovatarDustTokenReceiver",
         "balance": "/public/FlovatarDustTokenBalance"
       },
+      "evmAddress": "0x6f90cef53868878be7a2edbf41d715de09851b54",
       "symbol": "DUST",
       "name": "Flovatar DUST",
       "description": "",
@@ -657,6 +668,7 @@
         "receiver": "/public/FlowBlockchainhitCoinReceiver",
         "balance": "/public/FlowBlockchainhitCoinMetadata"
       },
+      "evmAddress": "0x59516b9b39fd75f6acc2dcc7bd3d63c4d1fff060",
       "symbol": "HIT",
       "name": "Flow Blockchain $hit Coin",
       "description": "Just an original shitcoin, powered by the FLOW blockchain",
@@ -678,6 +690,7 @@
         "receiver": "/public/flowTokenReceiver",
         "balance": "/public/flowTokenBalance"
       },
+      "evmAddress": "0x0000000000000000000000010000000000000000",
       "symbol": "FLOW",
       "name": "Flow",
       "description": "",
@@ -688,8 +701,8 @@
         "coingeckoId": "flow",
         "discord": "http://discord.gg/flow",
         "github": "https://github.com/onflow/flow-core-contracts",
-        "twitter": "https://twitter.com/flow_blockchain",
         "documentation": "https://developers.flow.com/references/core-contracts/flow-token",
+        "twitter": "https://twitter.com/flow_blockchain",
         "website": "https://www.onflow.org",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -704,6 +717,7 @@
         "receiver": "/public/fusdReceiver",
         "balance": "/public/fusdBalance"
       },
+      "evmAddress": "0x8b968e49ee13bd481d77e48d674c30f862ff5cd8",
       "symbol": "FUSD",
       "name": "FUSD(Deprecated)",
       "description": "",
@@ -725,6 +739,7 @@
         "receiver": "/public/MainledgerReceiver",
         "balance": "/public/MainledgerMetadata"
       },
+      "evmAddress": "0xe1a90d7d9509c2cef116e7c2cd6d4b1ea1e32449",
       "symbol": "MLC",
       "name": "Mainledger",
       "description": "A way to reward our followers",
@@ -747,6 +762,7 @@
         "receiver": "/public/PetJokicsHorsesReceiver",
         "balance": "/public/PetJokicsHorsesMetadata"
       },
+      "evmAddress": "0x4dcdd1b9a5103fa5f13cc4c3b758e05ffaccb4dd",
       "symbol": "MVP",
       "name": "Pet Jokic's Horses",
       "description": "Nikola Jokic has been the best player in the world for years. As such, he has a lot of moments minted on NBA Top Shot. His horses are sad about the oversupply, which impacts their results. Let's make his horses happy.",
@@ -754,8 +770,8 @@
       "logoURI": "https://ipfs.io/ipfs/QmYQ4xQ3nDGvz9ndzoGKTuACj2LaJsLQ8ro8tvamoDcCGd",
       "tags": [],
       "extensions": {
-        "discord": "https://discord.com/invite/3p3ff9PHqW",
         "twitter": "petjokicshorses",
+        "discord": "https://discord.com/invite/3p3ff9PHqW",
         "website": ""
       }
     },
@@ -768,6 +784,7 @@
         "receiver": "/public/PokertimeReceiver",
         "balance": "/public/PokertimeMetadata"
       },
+      "evmAddress": "0xef230c189e5d687377911a3f11ebe4e250d4ac72",
       "symbol": "PKR",
       "name": "Poker time",
       "description": "Poker chip on flow blockchain",
@@ -775,8 +792,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Pokertime/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "",
         "discord": "https://discord.gg/4vuHghbsHA",
+        "twitter": "",
         "website": ""
       }
     },
@@ -796,8 +813,8 @@
       "logoURI": "https://nftstorage.link/ipfs/bafybeic24hbznfwsmknsci7kqmt6n2xzu4veui7lzke2bueidthbs5vmb4",
       "tags": [],
       "extensions": {
-        "discord": "https://discord.gg/gB4fvMVDMW",
         "twitter": "https://x.com/PuffPalz",
+        "discord": "https://discord.gg/gB4fvMVDMW",
         "website": "puffpalz.io"
       }
     },
@@ -810,6 +827,7 @@
         "receiver": "/public/revvReceiver",
         "balance": "/public/revvBalance"
       },
+      "evmAddress": "0x071d786aa0736a8ce1c12d298e35fd53eb9d6a57",
       "symbol": "REVV",
       "name": "REVV",
       "description": "",
@@ -853,6 +871,7 @@
         "receiver": "/public/SloppyStakesReceiver",
         "balance": "/public/SloppyStakesMetadata"
       },
+      "evmAddress": "0xec0f7e75128781c2924ad907a379909ae531d050",
       "symbol": "LOPPY",
       "name": "Sloppy Stakes",
       "description": "",
@@ -860,9 +879,9 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.53f389d96fb4ce5e.SloppyStakes/logo.png",
       "tags": ["memecoin"],
       "extensions": {
-        "twitter": "https://twitter.com/alxocity",
-        "telegram": "https://t.co/E8FzKLuMnH",
         "discord": "https://discord.com/invite/GYV8JRR",
+        "telegram": "https://t.co/E8FzKLuMnH",
+        "twitter": "https://twitter.com/alxocity",
         "website": "http://sloppystakes.com/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -877,6 +896,7 @@
         "receiver": "/public/starlyTokenReceiver",
         "balance": "/public/starlyTokenBalance"
       },
+      "evmAddress": "0xbc22ba2150366a7860f9fd19f5b9ffe3b7b80c51",
       "symbol": "STARLY",
       "name": "Starly Token",
       "description": "",
@@ -899,6 +919,7 @@
         "receiver": "/public/stFlowTokenReceiver",
         "balance": "/public/stFlowTokenBalance"
       },
+      "evmAddress": "0x5598c0652b899eb40f169dd5949bdbe0bf36ffde",
       "symbol": "stFLOW",
       "name": "Liquid Staked Flow",
       "description": "",
@@ -906,8 +927,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d6f80565193ad727.stFlowToken/logo.svg",
       "tags": ["utility-token"],
       "extensions": {
-        "twitter": "https://twitter.com/incrementfi",
         "discord": "https://discord.gg/r2keKxuKqX",
+        "twitter": "https://twitter.com/incrementfi",
         "website": "https://app.increment.fi/staking",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -922,6 +943,7 @@
         "receiver": "/public/teleportedTetherTokenReceiver",
         "balance": "/public/teleportedTetherTokenBalance"
       },
+      "evmAddress": "0x8dcdece0a8f643500cfd7bdb621ca46490dd7874",
       "symbol": "tUSDT",
       "name": "Teleported Tether Token",
       "description": "",
@@ -943,6 +965,7 @@
         "receiver": "/public/TheWolfofFlowReceiver",
         "balance": "/public/TheWolfofFlowMetadata"
       },
+      "evmAddress": "0x42d8962e5e2305367281570f0a8323983e442ae9",
       "symbol": "WOLF",
       "name": "The Wolf of Flow",
       "description": "$WOLF a fair launch alt coin on @flow_blockchain",
@@ -950,8 +973,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.8259c73e487422d7.TheWolfofFlow/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "WolfofFlow",
         "discord": "",
+        "twitter": "WolfofFlow",
         "website": "x.com/WolfofFlow"
       }
     },
@@ -986,6 +1009,7 @@
         "receiver": "/public/TopShotBETAReceiver",
         "balance": "/public/TopShotBETAMetadata"
       },
+      "evmAddress": "0x1eca8e09bc745143824853575b132559cf0b2ed5",
       "symbol": "BETA",
       "name": "Top Shot $BETA",
       "description": "$BETA token is an integral part of the NBA Top Shot and FLOW ecosystem, aiming to enhance user interaction and provide additional value within the digital collectible space.",
@@ -993,8 +1017,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.ee09029f1dbcd9d1.TopShotBETA/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "NkGrRaaUCv",
         "twitter": "TopShotBETA",
+        "discord": "NkGrRaaUCv",
         "website": "topshotbeta.com"
       }
     },
@@ -1014,8 +1038,8 @@
       "logoURI": "https://raw.githubusercontent.com/FlowFans/flow-token-list/main/token-registry/A.f1ab99c82dee3526.USDCFlow/USDCf.png",
       "tags": ["stablecoin"],
       "extensions": {
-        "coingeckoId": "usd-coin",
         "twitter": "https://x.com/axelar",
+        "coingeckoId": "usd-coin",
         "website": "https://docs.axelar.dev/learn/axlusdc",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -1030,6 +1054,7 @@
         "receiver": "/public/UtahJazzLegendsClubReceiver",
         "balance": "/public/UtahJazzLegendsClubMetadata"
       },
+      "evmAddress": "0xff827ae7ce750ef0037aea09f509f9755ae20275",
       "symbol": "UJLC",
       "name": "Utah Jazz Legends Club",
       "description": "Utah Jazz Legnends Club DAO",
@@ -1037,8 +1062,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cbba4d41aef83fe3.UtahJazzLegendsClub/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "wGjBcsGjcG",
         "twitter": "UtahJazzLegends",
+        "discord": "wGjBcsGjcG",
         "website": "https://toucans.ecdao.org/p/UtahJazzLegendsClub",
         "displaySource": "0xa2de93114bae3e73"
       }
@@ -1052,6 +1077,7 @@
         "receiver": "/public/VampireReceiver",
         "balance": "/public/VampireMetadata"
       },
+      "evmAddress": "0x4278b3080d062f4104216d2d5e6e11b367ecfc96",
       "symbol": "SUCK",
       "name": "Vampire",
       "description": "Stake it to make it!",
@@ -1059,8 +1085,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.67daad91e3782c80.Vampire/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "",
         "discord": "",
+        "twitter": "",
         "website": ""
       }
     },
@@ -1073,6 +1099,7 @@
         "receiver": "/public/VroomTokenReceiver",
         "balance": "/public/VroomTokenBalance"
       },
+      "evmAddress": "0xe83b56c8b96d02ac0add53f69267abd231f3c425",
       "symbol": "VROOM",
       "name": "Vroom",
       "description": "",
@@ -1109,7 +1136,7 @@
   ],
   "totalAmount": 51,
   "filterType": "ALL",
-  "timestamp": "2024-09-06T01:15:59.352Z",
+  "timestamp": "2024-09-13T01:16:57.082Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
   "keywords": [
     "Flow",
@@ -1151,6 +1178,6 @@
   "version": {
     "major": 2,
     "minor": 0,
-    "patch": 0
+    "patch": 1
   }
 }
