@@ -134,8 +134,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.7bf07d719dcb8480.brasil/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "https://twitter.com/flowbrasilchain",
         "discord": "https://discord.gg/hT8EpC5mUN",
+        "twitter": "https://twitter.com/flowbrasilchain",
         "website": "https://toucans.ecdao.org/p/brasil",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -182,8 +182,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceBNB/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "coingeckoId": "binancecoin",
         "bridgeContract": "https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "coingeckoId": "binancecoin",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73",
@@ -207,8 +207,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceBUSD/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "coingeckoId": "binance-usd",
         "bridgeContract": "https://bscscan.com/address/0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "coingeckoId": "binance-usd",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73",
@@ -371,8 +371,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.3399d7c6c609b7e5.DAMO420/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "h6xXUCDqth",
         "twitter": "_damo420",
+        "discord": "h6xXUCDqth",
         "website": "toucans.ecdao.org/p/DAMO420"
       }
     },
@@ -574,8 +574,8 @@
       "logoURI": "https://static.fixes.world/20SU1HXzA1MD1721051954174",
       "tags": [],
       "extensions": {
-        "twitter": "https://x.com/rickyspanichone",
         "telegram": "https://t.me/Ricky_Spenish_Roger",
+        "twitter": "https://x.com/rickyspanichone",
         "website": "https://linktr.ee/fixes.world/"
       }
     },
@@ -676,8 +676,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d3b62ffbbc632f5a.FlowBlockchainhitCoin/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "",
         "twitter": "https://twitter.com/HITonflow",
+        "discord": "",
         "website": ""
       }
     },
@@ -698,10 +698,10 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
       "tags": ["utility-token"],
       "extensions": {
-        "coingeckoId": "flow",
-        "discord": "http://discord.gg/flow",
         "github": "https://github.com/onflow/flow-core-contracts",
         "documentation": "https://developers.flow.com/references/core-contracts/flow-token",
+        "discord": "http://discord.gg/flow",
+        "coingeckoId": "flow",
         "twitter": "https://twitter.com/flow_blockchain",
         "website": "https://www.onflow.org",
         "displaySource": "0xa2de93114bae3e73",
@@ -880,8 +880,8 @@
       "tags": ["memecoin"],
       "extensions": {
         "discord": "https://discord.com/invite/GYV8JRR",
-        "telegram": "https://t.co/E8FzKLuMnH",
         "twitter": "https://twitter.com/alxocity",
+        "telegram": "https://t.co/E8FzKLuMnH",
         "website": "http://sloppystakes.com/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -927,8 +927,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d6f80565193ad727.stFlowToken/logo.svg",
       "tags": ["utility-token"],
       "extensions": {
-        "discord": "https://discord.gg/r2keKxuKqX",
         "twitter": "https://twitter.com/incrementfi",
+        "discord": "https://discord.gg/r2keKxuKqX",
         "website": "https://app.increment.fi/staking",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -1017,8 +1017,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.ee09029f1dbcd9d1.TopShotBETA/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "TopShotBETA",
         "discord": "NkGrRaaUCv",
+        "twitter": "TopShotBETA",
         "website": "topshotbeta.com"
       }
     },
@@ -1031,6 +1031,7 @@
         "receiver": "/public/usdcFlowReceiver",
         "balance": "/public/usdcFlowMetadata"
       },
+      "evmAddress": "0x7f27352d5f83db87a5a3e00f4b07cc2138d8ee52",
       "symbol": "USDCf",
       "name": "USDC (Flow)",
       "description": "This fungible token representation of Axelar USDC is bridged from Flow EVM.",
@@ -1062,8 +1063,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cbba4d41aef83fe3.UtahJazzLegendsClub/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "UtahJazzLegends",
         "discord": "wGjBcsGjcG",
+        "twitter": "UtahJazzLegends",
         "website": "https://toucans.ecdao.org/p/UtahJazzLegendsClub",
         "displaySource": "0xa2de93114bae3e73"
       }
@@ -1085,8 +1086,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.67daad91e3782c80.Vampire/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "",
         "twitter": "",
+        "discord": "",
         "website": ""
       }
     },
@@ -1136,7 +1137,7 @@
   ],
   "totalAmount": 51,
   "filterType": "ALL",
-  "timestamp": "2024-09-13T01:16:57.082Z",
+  "timestamp": "2024-09-17T01:04:23.485Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
   "keywords": [
     "Flow",
@@ -1178,6 +1179,6 @@
   "version": {
     "major": 2,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   }
 }
