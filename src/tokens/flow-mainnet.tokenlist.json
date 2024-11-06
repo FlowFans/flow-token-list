@@ -153,8 +153,8 @@
       "contractName": "ceAVAX",
       "path": {
         "vault": "/storage/ceAVAXVault",
-        "receiver": "/public/ceAVAXReceiver",
-        "balance": "/public/ceAVAXBalance"
+        "receiver": "/public/ceAVAXVault",
+        "balance": "/public/ceAVAXReceiver"
       },
       "flowAddress": "0x231cc0dbbcffc4b7",
       "symbol": "ceAVAX",
@@ -164,11 +164,10 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceAVAX/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "bridgeContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
         "coingeckoId": "avalanche-2",
+        "bridgeContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
-        "pathSource": "0xa2de93114bae3e73",
         "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
         "assetContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
       }
@@ -179,8 +178,8 @@
       "contractName": "ceBNB",
       "path": {
         "vault": "/storage/ceBNBVault",
-        "receiver": "/public/ceBNBReceiver",
-        "balance": "/public/ceBNBBalance"
+        "receiver": "/public/ceBNBVault",
+        "balance": "/public/ceBNBReceiver"
       },
       "flowAddress": "0x231cc0dbbcffc4b7",
       "symbol": "ceBNB",
@@ -190,11 +189,10 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceBNB/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "bridgeContract": "https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "coingeckoId": "binancecoin",
+        "bridgeContract": "https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
-        "pathSource": "0xa2de93114bae3e73",
         "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
         "assetContract": "https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
       }
@@ -205,8 +203,8 @@
       "contractName": "ceBUSD",
       "path": {
         "vault": "/storage/ceBUSDVault",
-        "receiver": "/public/ceBUSDReceiver",
-        "balance": "/public/ceBUSDBalance"
+        "receiver": "/public/ceBUSDVault",
+        "balance": "/public/ceBUSDReceiver"
       },
       "flowAddress": "0x231cc0dbbcffc4b7",
       "symbol": "ceBUSD",
@@ -216,11 +214,10 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceBUSD/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "coingeckoId": "binance-usd",
         "bridgeContract": "https://bscscan.com/address/0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "coingeckoId": "binance-usd",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
-        "pathSource": "0xa2de93114bae3e73",
         "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
         "assetContract": "https://bscscan.com/address/0xe9e7cea3dedca5984780bafc599bd69add087d56"
       }
@@ -231,8 +228,8 @@
       "contractName": "ceDAI",
       "path": {
         "vault": "/storage/ceDAIVault",
-        "receiver": "/public/ceDAIReceiver",
-        "balance": "/public/ceDAIBalance"
+        "receiver": "/public/ceDAIVault",
+        "balance": "/public/ceDAIReceiver"
       },
       "flowAddress": "0x231cc0dbbcffc4b7",
       "symbol": "ceDAI",
@@ -246,7 +243,6 @@
         "coingeckoId": "dai",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
-        "pathSource": "0xa2de93114bae3e73",
         "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
         "assetContract": "https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f"
       }
@@ -257,8 +253,8 @@
       "contractName": "ceFTM",
       "path": {
         "vault": "/storage/ceFTMVault",
-        "receiver": "/public/ceFTMReceiver",
-        "balance": "/public/ceFTMBalance"
+        "receiver": "/public/ceFTMVault",
+        "balance": "/public/ceFTMReceiver"
       },
       "flowAddress": "0x231cc0dbbcffc4b7",
       "symbol": "ceFTM",
@@ -270,8 +266,7 @@
       "extensions": {
         "coingeckoId": "fantom",
         "website": "https://cbridge.celer.network/",
-        "displaySource": "0xa2de93114bae3e73",
-        "pathSource": "0xa2de93114bae3e73"
+        "displaySource": "0xa2de93114bae3e73"
       }
     },
     {
@@ -280,8 +275,8 @@
       "contractName": "ceMATIC",
       "path": {
         "vault": "/storage/ceMATICVault",
-        "receiver": "/public/ceMATICReceiver",
-        "balance": "/public/ceMATICBalance"
+        "receiver": "/public/ceMATICVault",
+        "balance": "/public/ceMATICReceiver"
       },
       "flowAddress": "0x231cc0dbbcffc4b7",
       "symbol": "ceMATIC",
@@ -293,8 +288,7 @@
       "extensions": {
         "coingeckoId": "matic-network",
         "website": "https://cbridge.celer.network/",
-        "displaySource": "0xa2de93114bae3e73",
-        "pathSource": "0xa2de93114bae3e73"
+        "displaySource": "0xa2de93114bae3e73"
       }
     },
     {
@@ -303,8 +297,8 @@
       "contractName": "ceUSDT",
       "path": {
         "vault": "/storage/ceUSDTVault",
-        "receiver": "/public/ceUSDTReceiver",
-        "balance": "/public/ceUSDTBalance"
+        "receiver": "/public/ceUSDTVault",
+        "balance": "/public/ceUSDTReceiver"
       },
       "flowAddress": "0x231cc0dbbcffc4b7",
       "symbol": "ceUSDT",
@@ -316,8 +310,7 @@
       "extensions": {
         "coingeckoId": "tether",
         "website": "https://tether.to/",
-        "displaySource": "0xa2de93114bae3e73",
-        "pathSource": "0xa2de93114bae3e73"
+        "displaySource": "0xa2de93114bae3e73"
       }
     },
     {
@@ -326,8 +319,8 @@
       "contractName": "ceWBTC",
       "path": {
         "vault": "/storage/ceWBTCVault",
-        "receiver": "/public/ceWBTCReceiver",
-        "balance": "/public/ceWBTCBalance"
+        "receiver": "/public/ceWBTCVault",
+        "balance": "/public/ceWBTCReceiver"
       },
       "flowAddress": "0x231cc0dbbcffc4b7",
       "symbol": "ceWBTC",
@@ -337,11 +330,10 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceWBTC/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "bridgeContract": "https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
         "coingeckoId": "wrapped-bitcoin",
+        "bridgeContract": "https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
-        "pathSource": "0xa2de93114bae3e73",
         "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
         "assetContract": "https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
       }
@@ -352,8 +344,8 @@
       "contractName": "ceWETH",
       "path": {
         "vault": "/storage/ceWETHVault",
-        "receiver": "/public/ceWETHReceiver",
-        "balance": "/public/ceWETHBalance"
+        "receiver": "/public/ceWETHVault",
+        "balance": "/public/ceWETHReceiver"
       },
       "flowAddress": "0x231cc0dbbcffc4b7",
       "symbol": "ceWETH",
@@ -365,8 +357,7 @@
       "extensions": {
         "coingeckoId": "weth",
         "website": "https://cbridge.celer.network/",
-        "displaySource": "0xa2de93114bae3e73",
-        "pathSource": "0xa2de93114bae3e73"
+        "displaySource": "0xa2de93114bae3e73"
       }
     },
     {
@@ -642,9 +633,9 @@
       "logoURI": "https://static.fixes.world/24bG9nby01MT1720627439281",
       "tags": [],
       "extensions": {
-        "twitter": "https://x.com/fixesWorld",
         "github": "https://github.com/fixes-world",
         "telegram": "https://t.me/fixes_world",
+        "twitter": "https://x.com/fixesWorld",
         "website": "https://linktr.ee/fixes.world"
       }
     },
@@ -665,8 +656,8 @@
       "logoURI": "https://static.fixes.world/20SU1HXzA1MD1721051954174",
       "tags": [],
       "extensions": {
-        "telegram": "https://t.me/Ricky_Spenish_Roger",
         "twitter": "https://x.com/rickyspanichone",
+        "telegram": "https://t.me/Ricky_Spenish_Roger",
         "website": "https://linktr.ee/fixes.world/"
       }
     },
@@ -796,11 +787,11 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
       "tags": ["utility-token"],
       "extensions": {
-        "twitter": "https://twitter.com/flow_blockchain",
         "github": "https://github.com/onflow/flow-core-contracts",
-        "discord": "http://discord.gg/flow",
-        "coingeckoId": "flow",
         "documentation": "https://developers.flow.com/references/core-contracts/flow-token",
+        "coingeckoId": "flow",
+        "twitter": "https://twitter.com/flow_blockchain",
+        "discord": "http://discord.gg/flow",
         "website": "https://www.onflow.org",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -847,8 +838,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Mainledger/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "",
         "discord": "",
+        "twitter": "",
         "website": "mainledger.net/",
         "displaySource": "0xa2de93114bae3e73"
       }
@@ -894,8 +885,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.fd1ccaaae39d0e79.Pokertime/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "https://discord.gg/4vuHghbsHA",
         "twitter": "",
+        "discord": "https://discord.gg/4vuHghbsHA",
         "website": ""
       }
     },
@@ -916,8 +907,8 @@
       "logoURI": "https://nftstorage.link/ipfs/bafybeic24hbznfwsmknsci7kqmt6n2xzu4veui7lzke2bueidthbs5vmb4",
       "tags": [],
       "extensions": {
-        "discord": "https://discord.gg/gB4fvMVDMW",
         "twitter": "https://x.com/PuffPalz",
+        "discord": "https://discord.gg/gB4fvMVDMW",
         "website": "puffpalz.io"
       }
     },
@@ -950,8 +941,8 @@
       "contractName": "RLY",
       "path": {
         "vault": "/storage/RLYVault",
-        "receiver": "/public/RLYReceiver",
-        "balance": "/public/RLYBalance"
+        "receiver": "/public/RLYVault",
+        "balance": "/public/RLYReceiver"
       },
       "flowAddress": "0x231cc0dbbcffc4b7",
       "symbol": "RLY",
@@ -963,8 +954,7 @@
       "extensions": {
         "coingeckoId": "rally-2",
         "website": "https://rly.network/",
-        "displaySource": "0xa2de93114bae3e73",
-        "pathSource": "0xa2de93114bae3e73"
+        "displaySource": "0xa2de93114bae3e73"
       }
     },
     {
@@ -986,8 +976,8 @@
       "tags": ["memecoin"],
       "extensions": {
         "twitter": "https://twitter.com/alxocity",
-        "discord": "https://discord.com/invite/GYV8JRR",
         "telegram": "https://t.co/E8FzKLuMnH",
+        "discord": "https://discord.com/invite/GYV8JRR",
         "website": "http://sloppystakes.com/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -1129,8 +1119,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.ee09029f1dbcd9d1.TopShotBETA/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "NkGrRaaUCv",
         "twitter": "TopShotBETA",
+        "discord": "NkGrRaaUCv",
         "website": "topshotbeta.com"
       }
     },
@@ -1152,8 +1142,8 @@
       "logoURI": "https://nftstorage.link/ipfs/bafkreid5sova5e3aaratgc2lotv266thsf3xo5cssfj2npknq7wqdm77wq",
       "tags": [],
       "extensions": {
-        "twitter": "TopShotRewards",
         "discord": "Eh5c8k2gUu",
+        "twitter": "TopShotRewards",
         "website": ""
       }
     },
@@ -1277,7 +1267,7 @@
   ],
   "totalAmount": 55,
   "filterType": "ALL",
-  "timestamp": "2024-10-29T01:22:13.688Z",
+  "timestamp": "2024-11-06T01:18:48.246Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
   "keywords": [
     "Flow",
@@ -1319,6 +1309,6 @@
   "version": {
     "major": 2,
     "minor": 4,
-    "patch": 1
+    "patch": 2
   }
 }
