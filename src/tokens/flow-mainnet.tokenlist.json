@@ -330,8 +330,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceWBTC/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "coingeckoId": "wrapped-bitcoin",
         "bridgeContract": "https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "coingeckoId": "wrapped-bitcoin",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
         "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
@@ -402,6 +402,28 @@
       "tags": [],
       "extensions": {
         "website": "https://port.flow.com"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x1e4aa0b87d10b141",
+      "contractName": "EVMVMBridgedToken_b73bf8e6a4477a952e0338e6cc00cc0ce5ad04ba",
+      "path": {
+        "vault": "/storage/EVMVMBridgedToken_b73bf8e6a4477a952e0338e6cc00cc0ce5ad04baVault",
+        "receiver": "/public/EVMVMBridgedToken_b73bf8e6a4477a952e0338e6cc00cc0ce5ad04baReceiver",
+        "balance": "/public/EVMVMBridgedToken_b73bf8e6a4477a952e0338e6cc00cc0ce5ad04baVault"
+      },
+      "evmAddress": "0xb73bf8e6a4477a952e0338e6cc00cc0ce5ad04ba",
+      "flowAddress": "0x1e4aa0b87d10b141",
+      "symbol": "FROTH",
+      "name": "Froth",
+      "description": "This fungible token was bridged from EVM on Flow with the ERC20 contract address of b73bf8e6a4477a952e0338e6cc00cc0ce5ad04ba",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/52318/standard/froth.png?1733077044",
+      "tags": [],
+      "extensions": {
+        "website": "https://port.flow.com",
+        "displaySource": "0xa2de93114bae3e73"
       }
     },
     {
@@ -809,10 +831,10 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
       "tags": ["utility-token"],
       "extensions": {
-        "github": "https://github.com/onflow/flow-core-contracts",
+        "discord": "http://discord.gg/flow",
         "coingeckoId": "flow",
         "twitter": "https://twitter.com/flow_blockchain",
-        "discord": "http://discord.gg/flow",
+        "github": "https://github.com/onflow/flow-core-contracts",
         "documentation": "https://developers.flow.com/references/core-contracts/flow-token",
         "website": "https://www.onflow.org",
         "displaySource": "0xa2de93114bae3e73",
@@ -884,8 +906,8 @@
       "logoURI": "https://ipfs.io/ipfs/QmYQ4xQ3nDGvz9ndzoGKTuACj2LaJsLQ8ro8tvamoDcCGd",
       "tags": [],
       "extensions": {
-        "twitter": "petjokicshorses",
         "discord": "https://discord.com/invite/3p3ff9PHqW",
+        "twitter": "petjokicshorses",
         "website": ""
       }
     },
@@ -997,9 +1019,9 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.53f389d96fb4ce5e.SloppyStakes/logo.png",
       "tags": ["memecoin"],
       "extensions": {
-        "discord": "https://discord.com/invite/GYV8JRR",
         "telegram": "https://t.co/E8FzKLuMnH",
         "twitter": "https://twitter.com/alxocity",
+        "discord": "https://discord.com/invite/GYV8JRR",
         "website": "http://sloppystakes.com/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -1237,8 +1259,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.67daad91e3782c80.Vampire/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "",
         "twitter": "",
+        "discord": "",
         "website": ""
       }
     },
@@ -1288,9 +1310,9 @@
       }
     }
   ],
-  "totalAmount": 56,
+  "totalAmount": 57,
   "filterType": "ALL",
-  "timestamp": "2024-11-19T01:24:45.286Z",
+  "timestamp": "2024-12-04T01:27:45.495Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
   "keywords": [
     "Flow",
@@ -1331,7 +1353,7 @@
   },
   "version": {
     "major": 2,
-    "minor": 5,
-    "patch": 1
+    "minor": 6,
+    "patch": 0
   }
 }
