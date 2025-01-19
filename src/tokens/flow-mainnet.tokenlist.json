@@ -686,7 +686,7 @@
       "flowAddress": "0x84509c2a28c0de41",
       "symbol": "RDB",
       "name": "Ricky Dragoon on Bitcoin",
-      "description": "The first conceptual-coin on the Fixes token.Based on the $RDB token, the idea of ​​​​how the character of Ricky Spanish Dragoon on Bitcoin will carry out its implementation in the universe will be decided. A Tao will be created that will make decisions on the development of Ricky Spanich character, the Tao's votes will be distributed based on the principle of ownership of the $RDB token.",
+      "description": "The first conceptual-coin on the Fixes token.Based on the $RDB token, the idea of ​​​​how the character of Ricky Spanish Dragoon on Bitcoin will carry out its implementation in the universe will be decided. A Dao will be created that will make decisions on the development of Ricky Spanich character, the Dao's votes will be distributed based on the principle of ownership of the $RDB token.",
       "decimals": 8,
       "logoURI": "https://static.fixes.world/20SU1HXzA1MD1721051954174",
       "tags": [],
@@ -1279,6 +1279,26 @@
     },
     {
       "chainId": 747,
+      "address": "0x50a5877cb54ce2fb",
+      "contractName": "FixesFungibleToken",
+      "path": {
+        "vault": "/storage/FixsStandardFT_0x50a5877cb54ce2fbWAVE_Vault",
+        "receiver": "/public/FixsStandardFT_0x50a5877cb54ce2fbWAVE_Receiver",
+        "balance": "/public/FixsStandardFT_0x50a5877cb54ce2fbWAVE_Balance"
+      },
+      "flowAddress": "0x50a5877cb54ce2fb",
+      "symbol": "WAVE",
+      "name": "GO WITH THE FLOW",
+      "description": "Just go with the Flow and ride the WAVE.",
+      "decimals": 8,
+      "logoURI": "https://static.fixes.world/20MTAwMDAxMj1736676820111",
+      "tags": [],
+      "extensions": {
+        "website": "https://linktr.ee/fixes.world/"
+      }
+    },
+    {
+      "chainId": 747,
       "address": "0x282cd67844f046cf",
       "contractName": "FixesFungibleToken",
       "path": {
@@ -1398,9 +1418,9 @@
       }
     }
   ],
-  "totalAmount": 61,
+  "totalAmount": 62,
   "filterType": "ALL",
-  "timestamp": "2025-01-16T01:18:29.600Z",
+  "timestamp": "2025-01-19T01:24:05.381Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
   "keywords": [
     "Flow",
@@ -1441,7 +1461,7 @@
   },
   "version": {
     "major": 2,
-    "minor": 9,
+    "minor": 10,
     "patch": 0
   }
 }
