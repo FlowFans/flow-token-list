@@ -1128,8 +1128,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.7bf07d719dcb8480.brasil/logo.png",
       "tags": [],
       "extensions": {
-        "twitter": "https://twitter.com/flowbrasilchain",
         "discord": "https://discord.gg/hT8EpC5mUN",
+        "twitter": "https://twitter.com/flowbrasilchain",
         "website": "https://toucans.ecdao.org/p/brasil",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -1199,8 +1199,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceBUSD/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "coingeckoId": "binance-usd",
         "bridgeContract": "https://bscscan.com/address/0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "coingeckoId": "binance-usd",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
         "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
@@ -1402,6 +1402,28 @@
       "tags": [],
       "extensions": {
         "website": "https://port.flow.com"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x1e4aa0b87d10b141",
+      "contractName": "EVMVMBridgedToken_7eb4e122c9bbb5cfa3078067a570afe90758d8cc",
+      "path": {
+        "vault": "/storage/EVMVMBridgedToken_7eb4e122c9bbb5cfa3078067a570afe90758d8ccVault",
+        "receiver": "/public/EVMVMBridgedToken_7eb4e122c9bbb5cfa3078067a570afe90758d8ccReceiver",
+        "balance": "/public/EVMVMBridgedToken_7eb4e122c9bbb5cfa3078067a570afe90758d8ccVault"
+      },
+      "evmAddress": "0x7eb4e122c9bbb5cfa3078067a570afe90758d8cc",
+      "flowAddress": "0x1e4aa0b87d10b141",
+      "symbol": "CLIPP",
+      "name": "Clippy",
+      "description": "This fungible token was bridged from EVM on Flow with the ERC20 contract address of 7eb4e122c9bbb5cfa3078067a570afe90758d8cc",
+      "decimals": 18,
+      "logoURI": "https://fcljjsnuzjacwqgiqiib.supabase.co/storage/v1/object/public/token_images/images/8531bc49-9f9b-45cb-8c37-ff07b2597663.jpg",
+      "tags": [],
+      "extensions": {
+        "website": "https://port.flow.com",
+        "displaySource": "0xa2de93114bae3e73"
       }
     },
     {
@@ -1829,10 +1851,10 @@
       "tags": ["utility-token"],
       "extensions": {
         "documentation": "https://developers.flow.com/references/core-contracts/flow-token",
+        "github": "https://github.com/onflow/flow-core-contracts",
+        "coingeckoId": "flow",
         "discord": "http://discord.gg/flow",
         "twitter": "https://twitter.com/flow_blockchain",
-        "coingeckoId": "flow",
-        "github": "https://github.com/onflow/flow-core-contracts",
         "website": "https://www.onflow.org",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -1948,9 +1970,9 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.53f389d96fb4ce5e.SloppyStakes/logo.png",
       "tags": ["memecoin"],
       "extensions": {
-        "telegram": "https://t.co/E8FzKLuMnH",
-        "twitter": "https://twitter.com/alxocity",
         "discord": "https://discord.com/invite/GYV8JRR",
+        "twitter": "https://twitter.com/alxocity",
+        "telegram": "https://t.co/E8FzKLuMnH",
         "website": "http://sloppystakes.com/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -2070,15 +2092,15 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.67daad91e3782c80.Vampire/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "",
         "twitter": "",
+        "discord": "",
         "website": ""
       }
     }
   ],
-  "totalAmount": 93,
+  "totalAmount": 94,
   "filterType": "ALL",
-  "timestamp": "2025-02-13T01:20:38.008Z",
+  "timestamp": "2025-02-15T01:19:31.571Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
   "keywords": [
     "Flow",
@@ -2119,7 +2141,7 @@
   },
   "version": {
     "major": 2,
-    "minor": 16,
+    "minor": 17,
     "patch": 0
   }
 }
