@@ -139,8 +139,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceAVAX/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "coingeckoId": "avalanche-2",
         "bridgeContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+        "coingeckoId": "avalanche-2",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
         "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
@@ -234,6 +234,7 @@
       "logoURI": "https://www.ankr.com/staking/assets/flow.8fd052f2.png",
       "tags": [],
       "extensions": {
+        "coingeckoId": "ankr-staked-flow",
         "website": "https://port.flow.com",
         "displaySource": "0xa2de93114bae3e73"
       }
@@ -317,8 +318,9 @@
       "description": "This fungible token was bridged from EVM on Flow with the ERC20 contract address of 2aabea2058b5ac2d339b163c6ab6f2b6d53aabed",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/fixes-world/token-list-jsons/refs/heads/main/assets/USDF_Logo_250x250.png",
-      "tags": [],
+      "tags": ["bridged-coin", "stablecoin"],
       "extensions": {
+        "coingeckoId": "flow-bridged-pyusd-flow",
         "website": "https://port.flow.com",
         "displaySource": "0xa2de93114bae3e73"
       }
@@ -360,8 +362,9 @@
       "description": "This fungible token was bridged from EVM on Flow with the ERC20 contract address of 2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/2518/standard/weth.png?1696503332",
-      "tags": [],
+      "tags": ["bridged-coin"],
       "extensions": {
+        "coingeckoId": "stargate-bridged-weth-flow",
         "website": "https://port.flow.com",
         "displaySource": "0xa2de93114bae3e73"
       }
@@ -445,8 +448,9 @@
       "description": "This fungible token was bridged from EVM on Flow with the ERC20 contract address of 674843c06ff83502ddb4d37c2e09c01cda38cbc8",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661",
-      "tags": [],
+      "tags": ["stablecoin", "bridged-coin"],
       "extensions": {
+        "coingeckoId": "tether",
         "website": "https://port.flow.com",
         "displaySource": "0xa2de93114bae3e73"
       }
@@ -1035,8 +1039,8 @@
       "logoURI": "https://nftstorage.link/ipfs/bafkreid5sova5e3aaratgc2lotv266thsf3xo5cssfj2npknq7wqdm77wq",
       "tags": [],
       "extensions": {
-        "discord": "Eh5c8k2gUu",
         "twitter": "TopShotRewards",
+        "discord": "Eh5c8k2gUu",
         "website": ""
       }
     },
@@ -1058,8 +1062,8 @@
       "logoURI": "https://raw.githubusercontent.com/FlowFans/flow-token-list/main/token-registry/A.f1ab99c82dee3526.USDCFlow/USDCf.png",
       "tags": ["stablecoin"],
       "extensions": {
+        "coingeckoId": "celer-bridged-usdc-flow-evm",
         "twitter": "https://x.com/flow_blockchain",
-        "coingeckoId": "usd-coin",
         "website": "https://github.com/circlefin/stablecoin-evm/blob/master/doc/bridged_USDC_standard.md",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -1105,8 +1109,8 @@
       "logoURI": "https://ipfs.io/ipfs/QmSkMKUyMfBj8gpMFyRPNPMWXbviiw3Z4Z95yBA5ka72cf",
       "tags": [],
       "extensions": {
-        "discord": "",
         "twitter": "Liga_TopShot",
+        "discord": "",
         "website": ""
       }
     },
@@ -1634,8 +1638,9 @@
       "description": "This fungible token was bridged from EVM on Flow with the ERC20 contract address of f1815bd50389c46847f0bda824ec8da914045d14",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png?1696506694",
-      "tags": [],
+      "tags": ["stablecoin", "bridged-coin"],
       "extensions": {
+        "coingeckoId": "usd-coin",
         "website": "https://port.flow.com",
         "displaySource": "0xa2de93114bae3e73"
       }
@@ -1850,11 +1855,11 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
       "tags": ["utility-token"],
       "extensions": {
-        "documentation": "https://developers.flow.com/references/core-contracts/flow-token",
-        "github": "https://github.com/onflow/flow-core-contracts",
-        "coingeckoId": "flow",
         "discord": "http://discord.gg/flow",
         "twitter": "https://twitter.com/flow_blockchain",
+        "coingeckoId": "flow",
+        "github": "https://github.com/onflow/flow-core-contracts",
+        "documentation": "https://developers.flow.com/references/core-contracts/flow-token",
         "website": "https://www.onflow.org",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -2100,7 +2105,7 @@
   ],
   "totalAmount": 94,
   "filterType": "ALL",
-  "timestamp": "2025-02-15T01:19:31.571Z",
+  "timestamp": "2025-02-18T01:20:19.603Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
   "keywords": [
     "Flow",
@@ -2142,6 +2147,6 @@
   "version": {
     "major": 2,
     "minor": 17,
-    "patch": 0
+    "patch": 1
   }
 }
