@@ -1807,8 +1807,8 @@
       },
       "flowAddress": "0x50a5877cb54ce2fb",
       "symbol": "WAVE",
-      "name": "GO WITH THE FLOW",
-      "description": "Just go with the Flow and ride the WAVE.",
+      "name": "GO WTF 🌊",
+      "description": "Go With The Flow and ride the WAVE 🌊.",
       "decimals": 8,
       "logoURI": "https://static.fixes.world/20MTAwMDAxMj1736676820111",
       "tags": [],
@@ -2128,7 +2128,7 @@
   ],
   "totalAmount": 95,
   "filterType": "ALL",
-  "timestamp": "2025-02-21T01:21:14.639Z",
+  "timestamp": "2025-02-24T01:23:15.311Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
   "keywords": [
     "Flow",
@@ -2170,6 +2170,6 @@
   "version": {
     "major": 2,
     "minor": 18,
-    "patch": 1
+    "patch": 2
   }
 }
