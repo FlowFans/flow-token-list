@@ -139,8 +139,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.231cc0dbbcffc4b7.ceAVAX/logo.png",
       "tags": ["wrapped-celer"],
       "extensions": {
-        "bridgeContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
         "coingeckoId": "avalanche-2",
+        "bridgeContract": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
         "website": "https://cbridge.celer.network/",
         "displaySource": "0xa2de93114bae3e73",
         "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
@@ -745,13 +745,15 @@
       "flowAddress": "0xef4162279c3dabaf",
       "symbol": "TBH",
       "name": "Bohao Token",
-      "description": "Hey! My friends!",
+      "description": "Hey! My friends!!",
       "decimals": 8,
       "logoURI": "https://static.fixes.world/12SEVBRC5qcG1720669462541",
       "tags": [],
       "extensions": {
+        "github": "https://github.com/btspoony",
         "twitter": "https://x.com/btspoony",
-        "website": "https://x.com/btspoony"
+        "website": "https://x.com/btspoony",
+        "displaySource": "0xa2de93114bae3e73"
       }
     },
     {
@@ -856,8 +858,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.d3b62ffbbc632f5a.FlowBlockchainhitCoin/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "",
         "twitter": "https://twitter.com/HITonflow",
+        "discord": "",
         "website": ""
       }
     },
@@ -1062,8 +1064,8 @@
       "logoURI": "https://raw.githubusercontent.com/FlowFans/flow-token-list/main/token-registry/A.f1ab99c82dee3526.USDCFlow/USDCf.png",
       "tags": ["stablecoin"],
       "extensions": {
-        "twitter": "https://x.com/flow_blockchain",
         "coingeckoId": "celer-bridged-usdc-flow-evm",
+        "twitter": "https://x.com/flow_blockchain",
         "website": "https://github.com/circlefin/stablecoin-evm/blob/master/doc/bridged_USDC_standard.md",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -2149,7 +2151,7 @@
   ],
   "totalAmount": 96,
   "filterType": "ALL",
-  "timestamp": "2025-03-11T01:24:32.928Z",
+  "timestamp": "2025-04-01T01:44:42.122Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
   "keywords": [
     "Flow",
@@ -2191,6 +2193,6 @@
   "version": {
     "major": 2,
     "minor": 19,
-    "patch": 0
+    "patch": 1
   }
 }
