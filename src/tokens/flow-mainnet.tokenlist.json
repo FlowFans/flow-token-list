@@ -1158,8 +1158,8 @@
       "logoURI": "https://ipfs.io/ipfs/QmSJGs6JeMK8fiNR6j4Vd7cbuESERZtWf4cXF9muBSHtoZ",
       "tags": [],
       "extensions": {
-        "discord": "",
         "twitter": "",
+        "discord": "",
         "website": "bwendyverse.neocities.org"
       }
     },
@@ -1300,8 +1300,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.3399d7c6c609b7e5.DAMO420/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "h6xXUCDqth",
         "twitter": "_damo420",
+        "discord": "h6xXUCDqth",
         "website": "toucans.ecdao.org/p/DAMO420"
       }
     },
@@ -1726,7 +1726,7 @@
       "name": "Special Flow Fashion ",
       "description": "The token is intended for new clothing brands built on flow...",
       "decimals": 8,
-      "logoURI": "https://static.fixes.world/56M0I0MTIzNj1727860304988",
+      "logoURI": "https://static.fixes.world/20SU1HXzIxMD1745137273880",
       "tags": [],
       "extensions": {
         "website": "https://linktr.ee/fixes.world/"
@@ -1791,11 +1791,11 @@
       "name": "Ricky Dragoon on Bitcoin",
       "description": "The first conceptual-coin on the Fixes token.Based on the $RDB token, the idea of ​​​​how the character of Ricky Spanish Dragoon on Bitcoin will carry out its implementation in the universe will be decided. A Dao will be created that will make decisions on the development of Ricky Spanich character, the Dao's votes will be distributed based on the principle of ownership of the $RDB token.",
       "decimals": 8,
-      "logoURI": "https://static.fixes.world/20SU1HXzA1MD1721051954174",
+      "logoURI": "https://static.fixes.world/16SU1HXzIwNj1745137448781",
       "tags": [],
       "extensions": {
-        "telegram": "https://t.me/Ricky_Spenish_Roger",
         "twitter": "https://x.com/rickyspanichone",
+        "telegram": "https://t.me/Ricky_Spenish_Roger",
         "website": "https://linktr.ee/fixes.world/"
       }
     },
@@ -1922,11 +1922,11 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
       "tags": ["utility-token"],
       "extensions": {
-        "github": "https://github.com/onflow/flow-core-contracts",
         "twitter": "https://twitter.com/flow_blockchain",
-        "coingeckoId": "flow",
         "documentation": "https://developers.flow.com/references/core-contracts/flow-token",
+        "github": "https://github.com/onflow/flow-core-contracts",
         "discord": "http://discord.gg/flow",
+        "coingeckoId": "flow",
         "website": "https://www.onflow.org",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -2043,8 +2043,8 @@
       "tags": ["memecoin"],
       "extensions": {
         "twitter": "https://twitter.com/alxocity",
-        "discord": "https://discord.com/invite/GYV8JRR",
         "telegram": "https://t.co/E8FzKLuMnH",
+        "discord": "https://discord.com/invite/GYV8JRR",
         "website": "http://sloppystakes.com/",
         "displaySource": "0xa2de93114bae3e73",
         "pathSource": "0xa2de93114bae3e73"
@@ -2140,8 +2140,8 @@
       "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.cbba4d41aef83fe3.UtahJazzLegendsClub/logo.png",
       "tags": [],
       "extensions": {
-        "discord": "wGjBcsGjcG",
         "twitter": "UtahJazzLegends",
+        "discord": "wGjBcsGjcG",
         "website": "https://toucans.ecdao.org/p/UtahJazzLegendsClub",
         "displaySource": "0xa2de93114bae3e73"
       }
@@ -2172,7 +2172,7 @@
   ],
   "totalAmount": 97,
   "filterType": "ALL",
-  "timestamp": "2025-04-17T01:36:26.329Z",
+  "timestamp": "2025-04-21T01:41:14.039Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
   "keywords": [
     "Flow",
@@ -2214,6 +2214,6 @@
   "version": {
     "major": 2,
     "minor": 20,
-    "patch": 1
+    "patch": 2
   }
 }
